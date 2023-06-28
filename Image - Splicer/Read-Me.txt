@@ -1,0 +1,38 @@
+How to use:
+
+Need Python, need pathlib, os, pillow, sys, shutil.
+If don't have install using "pip install (name)"
+
+
+
+-Open CMD
+
+-Navigate to directory:  CD C:\Users\"path to folder"
+
+-pyinstaller --onefile "pythonScriptName".py
+
+
+SINGLE:
+- Drag and drop image onto .exe
+- Done
+
+
+MULTI:
+- Open the .exe file in the file with all the images you want splicing.
+- Done
+
+
+
+MASTER: (Master allows for splicing of Overworld Sprites, and Battle Sprites, along with Transparency and resizing)
+- Change the ## SUPER SPECIAL SETTINGS ##
+
+
+
+
+
+
+
+Opitional Check image "python sprite.py 376-Monkey.png"
+
+
+https://datatofish.com/executable-pyinstaller/

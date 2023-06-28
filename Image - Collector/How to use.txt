@@ -1,0 +1,13 @@
+- Place "PokeScape_Monsters" (obtained from PokeScape_Rom Graphics folder) in the same directory as "website_sprites" folder, which also contains folders for "front" & "back".
+- Place the .csv file obtained from the Google Docs into the scripts folder.
+- Run the Script.
+
+
+
+
+
+To do:
+- If folders don't exist make them.
+- Rename things for input / output.
+- Extract images without comparing the ID's.
+- Extract images with Names.

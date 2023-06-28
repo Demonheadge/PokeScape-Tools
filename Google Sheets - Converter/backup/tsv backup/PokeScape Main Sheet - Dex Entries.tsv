@@ -1,0 +1,533 @@
+Creature in RuneScape	NAME *(16 Max)	Dex Entry	Height (dm)	Weight (HG)	Number	CATEGORY	
+Guthix Chick	Guthling	Hatched from a green egg. These birds seek balance in the world.	1	10	1	Small Bird	10
+Guthix Bird	Guthbird	Now a juvenile, the bird flies great horizons in the name of Guthix.	3.6	42.2	2	YoungRaptor	11
+Guthix Raptor	Guthraptor	Known as a bird symbolizing harmony and balance. If it shows up, all is well.	6.3	86.2	3	Balance 	8
+Zamorak Chick	Zamling	Hatched from a red egg. These birds align with Zamorak.	1.5	12.1	4	Small Wing	10
+Zamorak Bird	Zambird	Birds who flies over battlefields.They are known for enjoying chaos.	3.6	43.5	5	Young Hawk	10
+Zamorak Hawk	Zamohawk	During the Third Age these hawks were used by falconers under Zamorak.	6.3	72.6	6	Chaos Hawk	10
+Saradomin Chick	Saraling	Hatched from a blue egg. They possess great wisdom from birth.	1.5	11.4	7	Small Beak	10
+Saradomin Bird	Sarabird	With age these birds gain evermore wisdom of law and order.	3.6	39.9	8	Young Owl	9
+Saradomin Owl	Saraowl	A herald of Saradomin. These owls align themselves to wise individuals who respects law and order above all else.	6.3	91.2	9	Wisdom Owl	10
+Chick	Chick	Newly hatched from an egg, these birds will one day be killed for feathers by adventurers.	1.1	7.6	10	Hatched	7
+Chicken	Chicken_Normal_Form	Gielinor's finest creature and in great abundance. Their feathers make excellent arrows.	5.1	22.4	11*	Chicken	7
+	Chicken_Varrock_Form	Nothing Interesting Happens.	5.1	22.4	11*	Chicken	7
+	Chicken_Karamja_Form	Nothing Interesting Happens.	5.1	22.4	11*	Chicken	7
+	Chicken_Bandosian_Form	Nothing Interesting Happens.	5.1	22.4	11*	Chicken	7
+Dreadfowl	Dreadfowl	While it is unclear how it is connected to the evil chicken. They do share a dreadfull magic attack.	7.6	28.2	12	Dread	5
+Underwater Chicken	Diving_Chicken	This chicken adapted to underwater life after its home was sunken to the bottom of the oceas. 	7.6	28.2	13	Sunken	6
+Rooster	Rooster_Normal_Form	While seemingly unusable due to not laying eggs, they are great for getting up early.	5.1	22.3	14*	Rooster	7
+	Rooster_Varrock_Form	Nothing Interesting Happens.	5.1	22.3	14*	Rooster	7
+	Rooster_Karamja_Form	Nothing Interesting Happens.	5.1	22.3	14*	Rooster	7
+	Rooster_Bandosian_Form	Nothing Interesting Happens.	5.1	22.3	14*	Rooster	7
+Oomlie Bird	Oomlie	Strictly found inside the kharazi jungle, their meat is used in the renowned "oomlie wrap".	17.5	113.2	15	Oomlie	6
+Ernest	Ernest	A coward went inside draynor manor as a dare. Now his shape reflects his spirit.	5.1	21.0	16	Rattled	7
+Undead Chicken	Undead_Chicken	Chickens who died, but became reanimated. They mainly hail fromMorytania.	5.1	11.2	17	Ex Chicken	10
+Lizard Chicken	Lizard_Chicken	It is unclear wether it is a lizard or a chicken. Nor what came first, the egg or the lizard.	5.1	13.5	18	Lizard	6
+Swordchick	Swordchick	With a beak mightier than any others, it faces any opponents on land or sea. One of the homunculus's greatest creations.	5.1	17.9	19	Blade	5
+Newtroost	Newtroost	Pretentious and arrogant. It flexes its muscles and howls in the glory of itself and its creator.	5.4	20.8	20	Roosting	8
+Evil Chicken	Evil_Chicken	A chicken known to eat its fellow chickens. Bad to the bone. It attacks adventurers on sight.	5.7	20.8	21	EvilChicken	11
+Calf	Calf	Unsteady on their feet, they never stray too far from their herd.	7.6	462.1	22	Calf	4
+Cow	Cow	While they produce milk, most adventurers prefer their hide to make clothes.	15.7	7406.4	23	Cow	3
+Bull	Bull	Angry and impatient, these monsters do not like fashionable people in red.	18.0	9865.6	24	Bull	4
+Ox (Norman)	Skeletal_Ox_Male_Form	An undead bovine who has lost its skin. They are great companions for teenage witches.	13.5	6984.9	25*	SkeletalOx 	11
+Ox (Babe)	Skeletal_Ox_Female_Form	Nothing Interesting Happens.	13.5	6984.9	25*	SkeletalCow	11
+Undead Cow	Undead_Cow	A cow who died in the ghastly lands of Morytania. Do not drink it's milk.	15.7	5157.4	26	Zmoombie	8
+Unicow	Unicow	An experiment crossing the purity of a unicorn, with the shape of a cow. It's purity it still in question.	16.5	2607.6	27	Unison	6
+Crayfish	Crayfish	One of the weakest water creatures there is. Very envious of shrimps.	1.8	4.5	28	Clenching	9
+Shrimps	Shrimp	Often one of the first things fished by adventurers, shrimp never stay alone.	0.8	1.8	29	Shrimping	9
+Lobster	Lobster	Praised by some as the best food in the free world. They are mostly found by the Karamja docks.	2.3	13.6	30	Clamping	8
+Rat	Rat	While very small, they are sometimes capable of killing kittens.	1.0	4.1	31	Rat 	4
+Giant Rat	Giant_Rat	Too big for any cat to hunt. These rats lurk about in the wild in search of food.	6.9	97.5	32	Giant Rat	9
+Experiment no 2	Experiment_2	The experiment of a witch. They fling ogleroots as their weapons.	13.5	206.8	33	Ogleroot	8
+Brine rat	Brine_Rat	A rat who lurks in the brine of the sea. They hold on to brine sabres.	4.8	27.7	34	Scurwy	6
+Albino rat	Albino_Rat	A rat that has become white and with red eyes. They can not stop themselves from feasting on cheese.	6.4	42.6	35	Albino Rat	10
+Hell rat	Hell_Rat	Demonic rats, they are MALICIOUSLY CRUEL to anyone and TOTALLY EVIL.	2.0	6.8	36	Infernal	8
+Giant Hell rat	Giant_Hell_Rat	Bigger than before, they are now capable of UNRELENTING MALICIOUSNESS.	7.4	47.2	37	Infernal	8
+Shell rat	Shell_Rat	A being so BRUTALLY ANTAGONISTIC it could not pass the custom. So it entered a coconut.	2.0	8.2	38	Coconut	7
+Dungeon rat	Dungeon_Rat	Rats adapting to the life in the dungeon. Their scars are from many battles with other rats.	8.4	109.8	39	Rat	3
+Crypt rat	Crypt_Rat	The crypts of morytania warped these small rats, hardening their skills and aggresion.	1.0	4.1	40	Crypt  	7
+Giant crypt rat	Giant_Crypt_Rat	Despite living in a crypt, this rat is beyond fat. All rats used to look more like this before.	6.9	97.5	41	Crypt  	7
+Warped rat	Warped_Rat	A rat warped by a necromancer. Opening its mind to psychic powers, but losing the sanity.	6.4	93.0	42	Catacombed	10
+Zombie rat	Zombie_Rat	Arisen from death, they serve as guards to Melzar the Mad.	6.9	99.8	43	Dead Vermin	11
+King rat	King_Rat	A rat so deadly it could kill kittens with a single strike. They are known to form rat courts.	8.4	6.8	44	Rat Master	10
+Giant King rat	Giant_King_Rat	A king rat who lived to become a giant. Its hedonism and cruelty grew correspondingly.	8.4	110.7	45	Majestic	8
+Angry rat	Angry_Rat	Formed by the anger of Tolna, shaped to a rat. It knows only anger. 	7.4	104.3	46	Anger	5
+Blessed rat	Blessed_Rat	Iban, son of zamorak blessed these beings. Making them stronger than regular rats.	7.4	102.5	47	Ibans Vermin	12
+Lamb	Lamb	Woolless and unready for the world. The lamb only hopes to baa with its parents.	6.6	93.4	48	Cute	4
+Sheep	Sheep	The favoured race of Guthix. Mostly sheared illegally by adventurers.	13.5	546.6	49	Wooly	5
+Ram	Ram	Not as easily sheared as sheep, these monsters enjoy to strike back at unprepared adventurers.	13.5	625.1	50	Hardheaded	10
+Pirate Sheep	Pirate_Sheep	When a pirate accidentally said he wanted a 'pirate sheep' his crewmates gave him this. It was accepted into the crew.	13.2	590.1	51	Typo	4
+Sardine	Sardine	A small and otherwise weak fish. But rich in nutrients and purines.	0.7	0.5	52	Nutritious	10
+Herring	Herring	Not to be confused with red herrings from Sinclair Mansion. These fish live their entire lives in water.	1.8	10.0	53	Not Red	7
+Trout	Trout_Normal_Form	Capable of crossing great lengths of water to mate, these fish can swim an entire day without rest.	2.5	73.9	54*	Trout	5
+Tropical Trout	Trout_Tropical_Form	Nothing Interesting Happens.	2.5	73.9	54*	Trout	5
+Leaping trout	Trout_Leaping_Form	Nothing Interesting Happens.	2.5	73.9	54*	Trour	5
+Swordfish	Swordfish	Sporting a sword-like nose, these fish are very territorial over their turf.	5.3	879.5	55	Bladed	6
+Salmon	Salmon_Normal_Form	When it is time to mate, these fish will climb the baxtorian falls, avoiding the whirlpools, to find a mate.	2.5	39.00	56*	Crimson	7
+Leaping salmon	Salmon_Leaping_Form	Nothing Interesting Happens.	2.5	39.00	56*	Crimson	7
+Leaping sturgeon	Sturgeon	Its nose is long for territorial fights, as well as a handy tool for examining areas.	3.3	67.1	57	Waterfall	9
+Sailfish	Sailfish	Their sail allows them to travel at far greater speed than swordfish, making them exceptional hunters.	7.4	97.5	58	Sailing	7
+Thallasus	Thallasus	The beast of the sea, it has been known to drown even the biggest ships and seasoned fishermen on the smallest of whims.	11.4	250.4	59	Aargh	5
+Bass	Bass	Often dropped on the ground by adventurers. These fish often feel lonely and alone.	7.1	136.1	60	Dropped	7
+Shark	Shark	A fish sporting a great number of teeth that can be regrown. Adventurers like to eat these in large numbers cooked.	14.7	2551.9	61	Mouthfull	9
+Tiger shark	Tiger_Shark	A shark only found in the middle of the sea. They sometimes get caught in the fishing trawler, but most expeditions end up a wreck.	13.2	1746.3	62	Prowling	8
+White shark	GreatWhite_Shark	The most dangerous of all sharks, these fish will lash out and bite anything they find or deem edible.	14.7	2678.5	63	Toothed	7
+Mackerel	Mackerel	During the reign of Captain Rabid Jack. A man was filled to the brim with mackerels as punishment.	1.5	145.2	64	Tasty	5
+Catfish	Catfish	Despite it's name, it is not a cat. But rather a fish. The whiskers threw marine biologists off.	2.0	204.1	65	Bearded Fish	12
+Fury shark	Fury_Shark	It is unknown where these shark hail from. Some theorise they can only live inside lava.	10.4	3084.4	66	Furious	7
+Tarpon	Tarpon	A vital ingredient for fish oil, hailing from Waiko.	3.0	77.1	67	Exotic	6
+Seerfish	Seerfish	These fish are apparently distantly related to the mackerel, despite their uppity name.	2.3	59.0	68	Allknowing	10
+Sillago	Sillago	A rare fish from the arc. It scours the reef hiding from predators and looking for food.	1.5	36.3	69	Thick Skin	10
+Wobbegong	Wobbegong	Despite its ferocious look, it is actully not a dangereous shark to humans and prefer to hunt small fish.	3.6	118.0	70	Reef Dweller	12
+Cod	Cod	A fish that often gets the blame for children becoming angry or aggressive to others. It is unknown why.	2.5	86.2	71	Dutyfull	8
+Rainbow fish	Rainbow_Fish	As it shines in every colour conceivable, it was almost fished to extinction at one point.	2.8	104.3	72	Colourfull	10
+Golden shark	Golden_Shark	A rare shark with a seemingly kind grin on its face. They are mostly seen in aquariums.	13.5	2721.6	73	Golden	6
+Baron shark	Baron_Shark	It is so rare and golden that it is sometimes hung up on the walls of houses. A rare prize for fishermen.	13.8	3061.7	74	Sparkling	9
+Desert sole	Desert_Sole	Since it is only found in the desert. It hides along the ocean floor camouflaged.	1.9	195.0	75	Flat Fish	9
+Whitefish	Whitefish	A rare fish that feeds on slimy eels. They can be crushed and used as bleach to decolour clothes.	5.8	344.7	76	Hemensterian	12
+Goblin Fish	Goblin_Fish	A fish that only lives in the caves of the Dorgeshuun. Its taste is said to be very unique.	2.0	154.2	77	Loach	5
+Beltfish	Beltfish	A fish so long it could be used as a belt. Apparently this is how it got it's name.	1.3	122.5	78	Belt	4
+Manta ray	Manta_Ray	A deep sea fish usually only found through fishing trawlers. They taste delicious but are hard to come by.	5.1	476.3	79	Sea Trawling	12
+Karambwanji	Karambwanji	A fish that is hard to catch, only catchable in Karamja. It is very poisonous.	1.0	36.3	80	Poisoneous	10
+Karambwan	Karambwan	An octopus whose method of being caught was a mystery to mostly anyone but the Tai Bwo Wannai. Nowadays everyone knows about it.	2.5	117.9	81	Toxic	5
+Giant carp	Giant_Carp	A carp that could single- handedly win someone a fishing contest. But it's tricky to bait it.	2.5	68.0	82	Big Carp	8
+Pike	Pike	A fish known for its green colour. Only about half the pike fished by adventurers actually get cooked.	2.5	86.2	83	Pike	4
+Monkfish	Monkfish	Only found in the Piscatoris fishing colony, they are sought after by sea trolls who fight humans for the land.	9.1	331.1	84	Fresh	5
+Golden Monkfish	Golden_Monkfish	A monkfish so rare, that it's hardly eaten. Most find their way to aquariums in houses.	9.1	399.2	85	Lumineous	9
+Angler fish	Angler_Fish	A fish that captivates its prey with a shining light. As they adore the light, it bites and swallows them whole.	7.7	435.4	86	Angler	6
+Pet Fish	Pet_Fish	Unable to live beyond their fish bowl container. They become quite discontent with their limited life.	0.8	2.3	87	Fishbowled	10
+Gilbert	Gilbert	A fish who wanted to see more than the ocean... But ironically needed to see the world through the ocean.	2.5	22.7	88	Bubbly	6
+Cavefish	Cavefish	Living its entire life in underground water, it is unknown if they can even see in light.	1.0	33.6	89	Blind Fish	10
+Rocktail	Rocktail	Hard as a rock. Even harder to bite. These fish are tasty treats to most adventurers.	7.7	137.9	90	Rock Toothed	12
+Slimy eel	Slimy_Eel	An eel whose only defensive strategy is to be so slimy it can slip out of any situation.	0.8	43.1	91	Slimy Eel	9
+Cave Eel	Cave_Eel	It prefers the water in caves. It had peace and solitude until the dorgeshuun realized their existence.	0.8	44.9	92	Icky Eel	8
+Sacred eel	Sacred_Eel	An eel that used to be worshipped in the past for its spiritual powers. Nowadays they are eaten like any other eel.	0.8	59.9	93	Sacred	6
+Lava eel	Lava_Eel	This fish can only survive in lava and requires special methods to be caught. One is needed to enter the heroes guild.	0.8	63.5	94	Lava Eel	8
+Infernal eel	Infernal_Eel	An eel once feared as an eel from Infernus, dimension of demons. No one knows or care for that since it tastes delicious these days.	0.8	86.2	95	Demonic	7
+Piglet	Piglet	These small things serve no real purpose to farmer but to grow into mud wrestlers.	7.6	95.3	96	Young Pig	9
+Pig 	Pig	Rumours has it that pigs have a purpose beyond merely mud wrestling. But the farmer who spread the rumour refused to tell.	13.7	816.5	97	Ham	3
+Puppy (Cute)	Puppy_Pup_Form	A cute little pupper that would die for you. Whenever you leave home, it will stay by your door until you come back.	4.1	158.8	98*	Licking	7
+Puppy (Mean)	Puppy_Mutt_Form	Nothing Interesting Happens.	4.1	158.8	98*	Barking	7
+Terrier	Terrier	In ancient times, these were used for hunting and detective work.	7.1	204.1	99	Terrier	7
+Sheepdog	Sheepdog	Used to guard sheep. These dogs will bark at anyone out of line, or run them down a cliff.	9.1	356.5	100	Shepherding	11
+Dalmatian	Dalmatian	It is unknown how many spots a dalmation can truly have. The only thing we know is that some are brown and without any.	7.1	301.6	101	Spotted Dog	11
+Greyhound	Greyhound	Known for their excellent speed, people use them for gambling in races.	7.4	191	102	Lapdog	6
+Bulldog	Bulldog	Ready to fight at any moment. These dogs often get breathing problems.	6.5	324.3	103	Bully	5
+Labrador	Labrador	Genetically engineered to emotionally love everyone. Loves head pats too.	8.6	282.1	104	Fluffy	6
+Corgi	Corgi	Dogs that faithfully serve their queen, as long as they get lots of treats in the process.	6.2	99.8	105	Queens Pet	10
+Terror Dog	Terror_Dog	A dog warped by Tarn in order to find the salve stone, he never succeeded.	18.3	771.1	106	Terrifying	10
+Stray Dog	Stray_Dog	A mangy mutt who wanders the street, looking for the occasional bone and adventurers to follow.	7.1	181.4	107	Mangy Mutt	10
+Muncher	Muncher	A skeletal hellhound who served as the lord of death, Harold's faithful companion.	6.2	136.1	108	Deaths Pet	10
+Hellpuppy	Hellpuppy	When a puppy accidentally fell to the infernal dimension, it comes back as a hellpuppy.	4.1	181.4	109	Barking 	8
+Hellhound	Hellhound	A shakroth-type demon from infernus. They bite really hard if not fed.	9.9	492.1	110	Unnice Doggy	12
+Cerberus	Cerberus	Known for its 3 heads, it's unknown if the heads act as one or if they retain individual personalities.	26.2	2562.8	111	Three Headed	12
+Kitten	Kitten	Small and curious about the world. A kitten will do anything to play with a ball of wool.	3.3	37.6	112	Kitten	6
+Cat	Cat	Known for their rat hunting prowess, they have become a mainstay in Gielinor.	6.4	79.8	113	Cat 	4
+Overgrown Cat	Overgrown_Cat	Since it has now grown to full size, it has become too lazy to actively hunt rats. The cat simply can not find the energy. 	6.9	63.5	114	Old Lived	9
+Lazy Cat	Lazy_Cat	When a wily cat does not exercise it becomes a lazy cat. Out of shape and out of motivation. Just like its owner.	6.4	115.7	115	Untrained	9
+Wily Cat	Wily_Cat	A cat trained to peak condition. Ready to strike at any rat it sees. They would fight a giant rat if allowed to.	6.9	91.6	116	Rat Catching	12
+Purple Cat	Purple_Cat	Cat made purple by the powers of a sweet-tooth witch. It is unknown if there is more to it beyond the colour.	6.4	79.8	117	Goulash	7
+Hell Cat	Hell_Cat	When a cat eats too many hell rats, they become a hellcat. Infused by the hell rats infernal energy.	6.9	91.6	118	Infernal Cat	12
+Post Cat	Post_Cat	Letters connect people, and cats connect cat lovers. The postcat is an epitome of them both.	6.4	80.4	119	Duty Bound	10
+Sunken Cat	Sunken_Cat	Sent as an omen to warn the adventurer of a terrible, terrible future. A sunken future. It also removes special effect on command.	6.4	70.8	120	XauTakitten	11
+Bob	Bob	The reincarnation of Odysseus, the mighty panther who died in a battle versus the dragonkin. Really likes Fish.	6.9	77.2	121	Bob	3
+Evil Bob	Evil_Bob	An evil tyrant of whom most who have seen rarely survive. He takes slaves in to put them trough cruel services like uncooking fish.	6.9	77.2	122	Scaperune	9
+Pet Rock	Pet_Rock	Known as the best companion an adventurer could ever have. They will fetch any stick thrown.	1.0	15.4	123	Companion	9
+Freezy	Strykewyrm_Freezy_Form	The different forms of strykewyrms are well adapted and dangerous.	15.7	185.5	124*	Youtuber	8
+Leafy	Strykewyrm_Leafy_Form	Nothing Interesting Happens.	15.7	185.5	124*	Leafy	5
+Sandy	Strykewyrm_Sandy_Form	Nothing Interesting Happens.	15.7	185.5	124*	Sandy	5
+Wildy	Strykewyrm_Wildy_Form	Nothing Interesting Happens.	15.7	185.5	124*	Wildy 	6
+Scorpion (Small)	Scorpion	While small, these arachnids pack a real punch if an adventurer gets stung.	3.6	24.9	125	Stinging	8
+King Scorpion	King_Scorpion	Known to many as a king scorpion, these scorpions are far bigger than most adventurers.	13.5	130.6	126	RoyalStinge	11
+Sneakerpeeper Spawn	Peepling	Has a curious eye for everything. Many adventurers have gone mad from their stares.	1.8	36.3	127	Peeping	7
+Sneakerpeeper	Sneakerpeeper	Some say they watch adventurers and their every action to learn. Some theorize they gaze into their soul.	3.5	114.4	128	Staring	7
+Runtstable	Runtstable	Made by a Gorajo, it lurks the Polymore Dungeon for food.	6.1	190.5	129	Runt	4
+Basilisk	Basilisk	With its petrifying gaze, anyone who challenges it without a mirror will be left a garden ornament.	15.5	635.0	130	Petrifying	10
+Baby Mole	Baby_Mole	Small and harmless, it will one day grow big enough to destroy any gardeners dream.	3.6	95.3	131	Mole	4
+Giant Mole	Giant_Mole	A pest to Gardener Wyson. This mole destroys the Falador garden from below.	20.1	1810.0	132	Garden Menace	13
+Squirrel	Squirrel	Happily jumping around without a care in the world. They often forget where they bury their nuts.	2.4	9.1	133	Nut Eater	9
+Raven Chick	Ravenling	Hatched from a black egg. They rarely leave their nest on purpose.	2.2	6.8	134	Nevermore	9
+Raven	Raven_Normal_Form	Known to pick up anything shiny. If you find a birds nest with a ring in it, it most likely belonged to a raven.	5.7	99.8	135*	Raven	5
+Raven (Prifddinas)	Raven_Nevermore_Form	Nothing Interesting Happens.	5.7	99.8	135*	Raven	5
+Magpie	Magpie	It picks up shiny objects from everywhere. But is most known by summoners for its horrible cockney accent.	2.6	22.7	136	Shiny Hunter	12
+Baby Chinchompa	Grey_Chinchompa	Capable of running great lengths. All barbers in Mishtalin uses them as energy.	1.5	35.4	137	Exploding	9
+Chinchompa	Red_Chinchompa	While usually passive, if provoked, they will put their all into exploding as a last resort.	2.5	40.8	138	Ferocious	9
+Golden chinchompa	Gold_Chinchompa	A chinchompa with a golden coloration. They sell for a wealthy prize but do not explode.	2.5	40.8	139	Undetonated	11
+Vulture (Small)	Vultling	Rarely leaving its nest before they can fly, they survive on scraps given by their parents.	2.4	31.8	140	Vulture	7
+Vulture	Vulture	Preying mostly on carcasses, they are important to the ecosystem as they remove diseased bodies from the world.	6.3	131.5	141	Scavending	10
+Penguin (Small)	Pengling	Young and immature, they mature fast as they learn of their oppressors.	2.9	18.1	142	Penguin	7
+Penguin	Penguin	Secret agents of the K.G.P on an undercover mission. Easily bribed by fish and cowbells.	4.8	86.2	143	KGP	3
+Ex_Ex_Parrot	Ex_Ex_Parrot	Used to be a real parrot but they are no more, its gone, and it longs for the fjords.	3.7	68.0	144	FjordLonging	12
+Broav	Broav	With a great sense of smell, they are able to find anything from truffles to secret trapdoors.	10.9	435.4	145	Smelling	8
+Tooth Creature	Tooth_Creature	A creature created by the magic of the tooth fairy. They turn rotten if they eat chocolate.	7.1	340.2	146	Fang	4
+Rune Guardian	Rune_Guardian	Created by rune crafting wizards, this automation is easily influenced by runic energy.	8.9	136.1	147	Rune Golem	10
+Golden Gnome	Gnomey	Given to winners of the golden gnome awards. Most being for pity or lack of competition.	5.2	272.2	148	Unwarranted	11
+Sparkles	Sparkles	A tinsel snake celebrating christmas. They refuse to curl around a tree.	8.0	31.8	149	Tinsel Snake	12
+Bat	Bat	Using echolocation they find their prey. They usually don't come out during the day.	2.7	2.3	150	Bat	3
+Giant Bat	Giant_Bat	One of the biggest bats there are. They have recently been hunted to make magic armour.	7.5	13.6	151	Giant Bat	9
+Warped Bat	Warped_Bat	A bat warped by unknown energy. They have become aggressive; but not necessarily that strong.	7.5	13.6	152	Catacombed Bat	14
+Albino bat	Albino_Bat	Found in Mos Le'Harmless. These bats have lost all colour in their bodies. 	7.5	13.6	153	White Bat	9
+Bat in a Box	Bat_in_a_Box	Mostly used as court evidence, these bats are perfectly sheltered from sunlight.	3.8	4.5	154	Wittness	8
+Fruit Bat	Fruit_Bat	Despite their vampyric cousins, these bats love fruit among all things. Especially papaya.	7.5	13.6	155	Herbivore	9
+Vampire Bat	Vampyre_Bat	Whenever it clings to it's enemies, it will not let go until it is full of blood.	7.5	13.6	156	Blood Sucking	13
+Imp	Imp	Known as a fire imp, these are the weakest demons that exist and love to play tricks on adventurers.	3.1	15.9	157	Fire Imp	8
+Lesser Demon	Lesser_Demon	A Byzroth demon. Once slaves in their home realm. Now they fight for the god of chaos.	18.5	499.0	158	Byzroth	7
+Greater Demon	Greater_Demon	An Alyaroth demon. Once used as slaves to the Chthonians, they now spread their wings for Zamorak.	22.9	879.0	159	Alyaroth	8
+Kalgerion Demon	Kalgerion_Demon	One of the strongest demons summoned by Bilrach for his lord. Zamorak used them as generals in his army.	24.6	2086.5	160	Kalgerion	9
+Pyrefiend	Pyrefiend	A demon posessing the power of fire. They fought for Zamorak in the god wars.	7.5	68.0	161	Fire Fiend	10
+Pyrelord	Pyrelord	Lord among pyrefiends. Their flames are said to scorch all who challenge it.	10.2	136.1	162	Pyre Fiend	10
+Waterfiend	Waterfiend	A demon made of demonic energy and water. If frozen, they turn into Icefiends.	7.5	68.0	163	Water Fiend	11
+Waterlord	Waterlord	Ruler of Waterfiends. They can expel water at very harmful speeds.	10.2	136.1	164	Sea Fiend	9
+Icefiend	Icefiend	A demon made of ice. Killing one sometimes cools down food to pleasant temperatures.	7.5	68.0	165	Ice Fiend	9
+Icelord	Icelord	Leader of icefiends. No heat is ever seen in the vicinity of a Icelord.	10.2	136.1	166	Frozen Fiend	12
+Baby Phoenix (Cute)	Phoenixling_Cutie_Form	A baby phoenix. A wonder unthought of for many millennia. It loves attention.	2.6	13.6	167*	Reborn	6
+Baby Phoenix (Mean)	Phoenixling_Meanie_Form	Nothing Interesting Happens.	2.6	13.6	167*	Rebirthed	9
+Phoenix	Phoenix_ReBirth_Form	A bird born of fire, if it dies it would simply return from its ashes.	6.0	122.5	168*	Ascended	8
+Phoenix (Wintertodt)	Phoenix_ReBorn_Form	Nothing Interesting Happens.	6.0	122.5	168*	Incadescent	11
+Evil Turnip	Evil_Turnip	A turnip so dastardly evil, not even demons dare to go near it. It gives the Evil chicken a run for its title.	3.1	68.0	169	Evil Turnip	11
+Cute Creature	Cute_Creature	A cute and innocent creature that would never harm you, spy on you, or find your deepest, darkest secrets.	2.9	81.6	170	Innocent	8
+Evil Creature	Evil_Creature	Nothing Interesting Happens.	2.9	81.6	170*	Guilty	6
+Baby Yak	Baby_Yak	A yak that can hardly growl 'baroo'. With long locks of hair, they eat any grass they come across.	11.4	213.2	171	Babyroo	7
+Yak	Yak	Making their home in the islands of Neitiznot, their fur and hide are used to make clothes.	17.6	714.4	172	Yak	3
+Pack Yak	Pack_Yak	A companion to any and all adventurers, the pack yaks will not stop at any weight to bring gear to their summoner.	17.6	925.3	173	Baroo	5
+Sacred Yak	Sacred_Yak	A Yak said to be holy and sacred. It's presence is an omen of good.	17.6	925.3	174	Enlightened	11
+Clue Scroll Yak	Clue_Scroll_Yak	It carries a hefty amount of clue scrolls, but without any interest in reading them. Not that it has the ability to. 	17.6	925.3	175	Treasure Trailing	17
+Minitrice	Minitrice	The smallest of all cockatrices. They may not even be able to petrify a human.	4.2	45.4	176	Minitrice	9
+Cockatrice	Cockatrice	Born of a rooster and snake, these monsters lay eggs to increase their numbers.	8.9	127.0	177	Egg Laying	10
+Guthatrice	Guthatrice	A green egg corrupted to become a guthatrice. Their view on balance is rocky at best.	8.9	127.0	178	Balancetrice	12
+Zamatrice	Zamatrice	A red egg corrupted to become a Zamatrice. They petrify any who defies chaos.	8.9	127.0	179	Chaostrice	10
+Saratrice	Saratrice	A blue egg corrupted to become a Saratrice. Their eyes gaze upon any who do not uphold order.	8.9	127.0	180	Wisdomtrice	11
+Corxatrice	Corxatrice	A black egg corrupted to become a corxatrice. They get really sad when they find shiny things and they turn to stone.	8.9	127.0	181	Nevermotrice	12
+Vultatrice	Vulatrice	A vulture egg corrupted to become a Vulatrice. Hoarding the deserts for food, they often petrify their meal accidentally.	8.9	127.0	182	Scavengtrice	12
+Pengatrice	Pengatrice	A penguin egg corrupted to become a Pengatrice. It is unknown if it sides with the K.G.P.	8.9	127.0	183	Kgptrice	8
+Chocatrice	Chocatrice	A chocolate monster full of anger over its state. Its gaze will turn monsters to chocolate.	8.9	127.0	184	Fudgetrice	10
+Pet of Summer	Sproutling_Summer_Form	A sprout that changes its appearance depending on the season.	5.7	68.0	185*	Summer	6
+Pet of Spring	Sproutling_Spring_Form	Nothing Interesting Happens.	5.7	68.0	185*	Spring	6
+Pet of Winter	Sproutling_Winter_Form	Nothing Interesting Happens.	5.7	68.0	185*	Winter	6
+Pet of Autumn	Sproutling_Autumn_Form	Nothing Interesting Happens.	5.7	68.0	185*	Autumn	6
+Kalphite Worker	Kalphite_Worker	Workers of the hive. These kalphites are not meant for combat.	12.3	113.4	186	Working	7
+Kalphite Soldier	Kalphite_Soldier	Kalphites born only to fight intruders of the hive. Their poison stings any adventurer.	14.8	263.1	187	Soldier	7
+Kalphite Guardian	KalphiteGuardian	The personal guardians of the hive's queen, these kalphites are far bigger than regular soldiers.	22.5	784.7	188	Guardian	8
+Kalphite Queen	Kalphite_Queen	Each kalphite hive needs a queen. And upon reaching a point in their life, they change form to become better at combat.	26.4	1292.7	189	Queen 	6
+Kalphite King	Kalphite_King	A corrupted kalphite that has become warped. Capable of things a regular kalphite king would never be able to do.	26.4	1360.8	190	King	4
+Rue	Rue	A dragon made of runic energy. They are known to sometimes steal adventurers runes as snacks.	5.5	88.5	191	Rune Dragon	11
+Monty	Monty	Unchosen by the people, they live only to claim revenge on their hated enemy. Refuses to rest until their blade tastes blood.	8.5	106.6	192	DArtaconda	10
+Zygomite	Zygomite	A mushroom hailing from Zanaris, the moon of Gielinor.	12.7	167.8	193	Mushroom	8
+Abyssal Spawnling	Abyssaling	A spawn from the abyssal realm. While young, they are very aggressive.	5.2	40.8	194	Unsired	7
+Abyssal Minion	Abyssal_Minion	A minion to the hive mind of the abyssal pathways. They wander the abyss in search of intruders.	7.9	276.7	195	Abby Minion	11
+Abyssal Demon	Abyssal_Demon	A demon from the abyssal realm. They are said to manipulate the fabric of space to teleport.	10.1	489.9	196	Rift Weaving	12
+Abyssal Sire	Abyssal_Sire	An abyssal demon of phenomenal power. It acts as if the gateway to the abyss goes through its body.	28.6	3415.6	197	Sired	5
+Abyssal Parasite	Abyssal_Parasite	A parasite from the abyss. They cling to their host; sucking them dry of energy.	3.5	68.0	198	Parasite	8
+Abyssal Lurker	Abyssal_Lurker	Gets their name from lurking the abyss. In Gielinor, they simply follow their summoners.	3.9	131.5	199	Lurker	6
+Abyssal Titan	Abyssal_Titan	A titan from the abyss summoned by a summoning obelisk. It's unclear if it enjoys to serve others.	19.0	893.6	200	Abby Giant	10
+Tz_Kih	Tz_Kih	Smallest of the wild beings of the tzhaar volcano. They fly around in the fight caves.	5.2	63.5	201	Kih	3
+Tz_Kek	Tz_Kek	A fighter of the fight cave, they were originally builders of the elder god Fuh.	10.3	362.9	202	Kek	3
+Tok_Xil	Tok_Xil	They fire deadly spines out of their arms, projected by their own heat.	22.0	734.8	203	Xil 	4
+Ket_Dill	Toktz_Ket_Dill	A plague upon the tzhaar volcano. These monsters are hunted for their meat but are hard to catch.	17.3	839.1	204	KetDill	7
+Ket_Zek	Ket_Zek	A strong monster from the fight caves capable of firing great balls of fire from their bodies.	29.9	1719.1	205	Zek	3
+Yt_HurKot	Yt_HurKot	It's unknown for what reason, but these monsters seem to heal stronger monsters of the Tzhaar.	3.7	72.6	206	Hutkot	6
+Yt_MejKot	Yt_MejKot	Possessing great strength they are a threat to any challenger of the fight caves. They struggle with small spaces.	25.5	1197.5	207	Mejkot	6
+TzRek_Jad	TzRek_Jad	A small creature that loves exploring what lies beyond the tzhaar volcano.	7.5	394.6	208	Mini Jad	8
+TzTok_Jad	TzTok_Jad	A monster and king of the fight caves. Warriors who beat one are presented with a fire cape.	46.7	4554.1	209	Jad	3
+Jal_Nib	Jal_Nib	Often referred to as "Nibblers". They are at the bottom of the food chain in the Inferno.	2.1	99.8	210	Nib	3
+Jal_MejRah	Jal_MejRah	Ancestor of the Tz-Kih. They fly around in the Inferno.	5.3	154.2	211	Merah	5
+Jal_Ak	Jal_Ak	Superior variant of the Tz-Kek. They are slow and powerful.	10.7	521.6	212	Ak	2
+Jal_ImKot	Jal_ImKot	A monster found in the Inferno. They possess extremely powerful claws that let them claw at their opponents.	25.9	1796.2	213	Imkot	5
+Jal_Zek	Jal_Zek	Superior variant of the Ket-Zek. They hurl large, projectile fire balls at their enemies. They are also capable of reviving their allies.	30.4	3551.6	214	Zek	3
+JalTok_Jad	JalTok_Jad	Superior variant of the TzTok-Jad. Opposed to being leaders in their own right, they become guardians of the imprisoned leader TzKal-Zuk.	50.5	7543.2	215	New Jad	7
+TzKal_Zuk	TzKal_Zuk	A dangerous entity that got imprisoned deep below the TzHaar City during the ancient times. Sacrifices are regularly send to keep it at bay.	64.9	13369.6	216	Zuk	3
+Baby Duck	Duckling	With huge self-doubts, they fear that they might be truly ugly. Its parents are unaware.	0.9	0.9	217	Duckling	8
+Swan	Swan	Possessing teeth infused with infernal energy and a scream that makes any grown man scared, these demons attack any who oppose them.	5.3	59.0	218	Demon Bird	10
+Duck	Duck	Waddling along playfully through the falador park. Some say they can grow to enormous sizes.	3.8	13.6	219	Duck 	5
+Mega duck	Mega_Duck	The biggest duck on Gielinor. At some point they will go on a holy pilgrimage to the far off land of Feldip.	4.8	31.8	220	Mega Duck	9
+Duck on a cart	Duck_on_a_Cart	A duck that climbed on top of a cart and has since never moved. It is now the king of the minecart.	3.8	13.6	221	Supreme Duck	12
+Baby platypode	Platypode	Small and weak, they attack back with poison to any who harm them.	1.9	9.1	222	Pode	4
+Platypus	Platypus	A pest to any resort owners. These monsters make great pets for hunters.	3.4	27.2	223	Platypus	8
+Daganoth Fledgeling	Fledgling	Having just grown big enough to move, these monsters are ready to eat anything.	6.5	45.4	224	Fledgling	9
+Dagannoth	Dagannoth_Normal_Form	A monster that is the sworn enemy of the Fremmenik. They hail from waterbirth island.	12.7	154.2	225*	Dagger Tooth	12
+Dagannoth Sentinal	Dagannoth_Guardian_Form	Nothing Interesting Happens.	12.7	154.2	225*	Dagger Guard	12
+Dagannoth Supreme	Dagannoth_King_Range_Form	The kings of the Dagannoth, each possessing great strength above any normal Dagannoth. They serve their queen.	32.4	2685.3	226*	Supreme  	9
+Dagannoth Prime	Dagannoth_King_Magic_Form	Nothing Interesting Happens.	32.4	2685.3	226*	Prime	5
+Dagannoth Rex	Dagannoth_King_Melee_Form	Nothing Interesting Happens.	32.4	2685.3	226*	Rex	3
+	Dagannoth_King_Range_Mega_Form	Nothing Interesting Happens.	32.4	2685.3	226*	Supreme	7
+	Dagannoth_King_Magic_Mega_Form	Nothing Interesting Happens.	32.4	2685.3	226*	Prime	5
+	Dagannoth_King_Melee_Mega_Form	Nothing Interesting Happens.	32.4	2685.3	226*	Rex	3
+Chaos Elemental	Chaos_Elemental	An elemental of pure chaotic energy. Its powers and behaviour is unpredictable to any enemy or friend alike.	19.9	1977.7	227*	Chaos 	6
+Chaos Elemental (RS3)	Chaos_Elemental_Mega_Form	Nothing Interesting Happens.	19.9	1977.7	227*	EllementL	9
+Bandosling	Bandling	Hatched from a brown egg, this little bird seeks only conflict.	1.5	12.7	228	Small Claw	10
+Bandos bird	Bandbird	If there are peaceful times, this bird will fly to great lengths to find a war to fight in.	3.6	44.0	229	Young Eagle	11
+Bandos eagle	Bandeagle	Used by bandosian warlords as weapons, their claws have felled many soldiers on the battlefield.	6.3	90.7	230	War Eagle	9
+Zarosling	Zaroling	Hatched from a purple egg, its motivations and goal is a mystery.	1.5	10.4	231	Small Glimmer	13
+Zaros bird	Zarobird	It closes its eyes and remains in solitude. Some say their presence is empty.	3.6	34.9	232	Young Raven	11
+Zaros raven	Zaraven	Possessing dark powers unheard of, these ravens appear at the darkest of times to watch over the world.	6.3	73.5	233	Empty Raven	11
+Serenling	Sereling	Hatched from a cyan egg, these birds shine in pure light.	1.5	10.0	234	Small Light	11
+Seren bird	Serebird	Peacefully jittering along, they love to sing in harmonic tunes.	3.6	36.3	235	Young Fowl	10
+Seren peacock	Serepea	While not a great flier, they refract light in a great many directions due to their crystals.	6.3	78.2	236	Crystal Pea	11
+Frogspawn	Frogspawn	Unable to move, the frogspawn patiently wait for their bodies to grow.	0.4	1.4	237	Frogspawn	9
+Frog	Frog	Denizen of any pond or lake, the frog will ribbit in the face of any foe.	1.4	11.3	238	Frog 	5
+Giant frog	Giant_Frog	A frog grown to large size. They are hunted by the Dorgeshuun for food.	5.6	47.6	239	Cuisine	7
+Royal frog	Royal_Frog	A royal member cursed to become a frog. Only a kiss from an adventurer could ever save them.	5.6	63.5	240	Distressed	10
+Bloated toad	Bloated_Frog	A frog infused with swamp gas. They are not very mobile and are easy prey for Chompies.	7.2	86.2	241	Flatulence	10
+Toad balloon	Balloon_Frog	A very gassy toad that has no ability to move. Only being held down by the rock its tied to. They hate their lives.	7.2	86.2	242	Balloon 	8
+Barker toad	Barker_Toad	A summoned monster from the spirit realm. They get their name from the sound they make when attacking.	7.2	86.2	243	Loud Toad	9
+Frogeel	Frogeel	An abomination made by the Homunculi. Part frog part eel, it does not comprehend its existence.	6.7	99.8	244	Frogeel	7
+Spider	Spiderling	While small, these spiders are used by inexperienced mages for training.	0.5	0.4	245	Spider	6
+Giant Spider	Spider_Giant_Form	Capable of growing quite big, these spiders are usually not a threat to seasoned adventurers.	4.3	2.7	246*	Giant Spider	12
+Huge Spider	Spider_Huge_Form	Nothing Interesting Happens.	4.3	2.7	246*	House Spider	12
+Deadly Red Spider	DeadlyRed_Spider	Sporting the name 'deadly red spider', these spiders protect their eggs from hoarders.	5.1	3.2	247	Deadly Red	10
+Night Spider	Night_Spider	They lurk the ruins of Daemonheim. But it is most known for posessing a hood that makes you invisible.	12.0	68.0	248	Night Spider	12
+Blessed Spider	Blessed_Spider	Spider that is blessed by the son of Zamorak, Iban. They are led by their brood Kalrag.	12.0	68.0	249	Iban Spider	11
+Jungle Spider	Jungle_Spider	Since they live in the jungle, they have a green coloration. This makes them invisible to see on maps.	12.0	68.0	250	Jungle	6
+Ice Spider	Ice_Spider	It's body is made of ice, making it one of very few cold-blooded insects.	12.0	68.0	251	Ice Spider	10
+Eek	Eek	A really scary spider who loves webbing houses for the spider queen. Not doing so is an offense and will leave a spider in your bathtub.	0.5	0.9	252	Friendly	8
+Spider in a bathtub	Minstrel_Web	It is customary for the lord of Death, Harold, to always have cobwebs in his house. If not, this spider will punish him.	12.0	68.0	253	Bathtub	7
+Spidersardine	Spidine	Staring eerily at anyone with its many eyes. It is unsure if its life was a folly or a mistake.	4.3	10.4	254	Creepy Nutritious	17
+Cave crawler	Cave_Crawler	Crawlers who search for food all day. They once became famous due to a combat expert.	5.6	72.6	255	Crawling	8
+Chasm crawler	Chasm_Crawler	A far larger cave crawler who might venture deeper into caves than their younger counterparts.	6.0	77.1	256	Crawler	7
+Monstreous crawler	MonstrousCrawler	The apex of the cave crawlers. Their bodies are so solid, moss and plants have begun growing on them.	8.7	235.9	257	Crawled	7
+Baby Tortoise	Winston	Small tortoises bred by the grand tree for use as mounts. They love cabbage.	2.2	13.6	258	Baby Turtle	11
+Tortoise	Tortoise	These large creatures are usually ridden by 3 gnome warriors, each using a different combat style.	9.8	176.9	259	Tortoise	8
+Warped Tortoise	Warped_Tortoise	Tortoise warped by Aposandra but the experiment failed. They now lurk the poison waste sewers.	10.0	204.1	260	Aposandran	10
+War Tortoise	War_Tortoise	A summonable tortoise that loves to carry items. Its offense is pitiable however.	10.0	204.1	261	Burdened	8
+Valluta	Valluta	A guardian of Guthix sent to fend off the void invasion. It can finish off a pest queen easily.	11.6	235.9	262	Protector	9
+Sea Turtle	Sea_Turtle	These sea turtles sometimes get caught by fishing trawlers. Therefore, they are hard to catch in bulk.	7.5	108.9	263	Sea Turtle	10
+Cave slime	Cave_Slime	A slime that seemingly absorbs nutrients as it goes. It's unclear if they possess a will.	6.2	0.5	264	Slime 	6
+Jelly	Jelly	A gelatinous blob of slime, what is inside it is seemingly skeletons and organs. It is unknown where they came from.	14.5	4.5	265	Jelly	5
+Warped Jelly	Warped_Jelly	A jelly so warped it could never be served to anyone. It's insides are beyond comprehension.	14.5	4.5	266	Cube	4
+Spirit Jelly	Spirit_Jelly	Even in the spirit realm there exists jellies. Eating humans will cause them indigestion.	14.5	4.5	267	Box	3
+Salamander	Salamander_Green_Form	A green swamp lizard usually found in Morytania. They love Guam leaves.	1.2	25.4	268	Guam	4
+Orange salamander	Salamander_Orange_Form	Apparently related to desert lizards. They can fire a fiery breath at their enemies.	1.2	25.4	269	Marrentil	9
+Red salamander	Salamander_Red_Form	Usually found around lava, these Salamanders have a fondness for herbs.	1.2	25.4	270	Torrentil	9
+Black salamander	Salamander_Black_Form	Found only in the wilderness, these salamanders are rarely hunted due to the dangers of the Wilderness.	1.2	25.4	271		0
+Augmented salamander	Salamander_Augmented_Form	As a strike against the gods, a black lizard became augmented by the inventions of mankind. Now stronger than ever, it strikes back.	1.4	25.4	272		0
+Gecko	Gecko	As they have no eyelids they lick their eyes to make sure they don't dry up.	2.5	40.8	273		0
+Chameleon	Chameleon	Capable of looking in any direction, shooting its tongue like an arrow, and colour-changing skin. This lizard has everything.	4.9	59.0	274		0
+Bloodveld	Bloodveld	One of the lower forms of Chtonian demons. They hunger for blood their entire lives.	15.8	816.5	275		0
+Insatiable bloodveld	Insatiable_Bloodveld_Physical_Form	Often used as pets for Vampyres, these monsters will salivate upon even small whiffs of blood.	16.8	916.3	276*		0
+Mutated bloodveld (Green)	Insatiable_Bloodveld_Special_Form	Nothing Interesting Happens.	16.8	916.3	276*		0
+Mutated bloodveld (hairy)	Mutated_Bloodveld_Physical_Form	A bloodveld experimented upon to truly understand hemomancy. The experiments failed.	16.8	916.3	277*		0
+Mutated insatiable bloodveld	Mutated_Bloodveld_Special_Form	Nothing Interesting Happens.	16.8	916.3	277*		0
+Armadyling	Armaling	Hatched from a pink egg. These birds seek to uphold law.	1.5	13.6	278	Small Gale	10
+Armadyl bird	Armabird	Flying swiftly through the sky, these birds will fly to kingdoms that uphold the law.	3.6	37.2	279	Young Falcon	12
+Armadyl falcon	Armafalcon	Hailing from the homeworld of the aviansies, they possess wings able to carry them anywhere.	6.3	79.4	280	Law Falcon	10
+Godlessling	Ungodling	Hatched from a regular egg, this bird needs a god to align with.	1.5	14.5	281	Small Might	11
+Godless bird	Ungodbird	Knowing that following a god is a folly, they want to prove to everyone that gods are of no use to them.	3.6	38.6	282	Young Pigeon	12
+Godless pigeon	Ungodgeon	Fighting with no aid from the gods, the godless assume they are the true believers of Guthix.	6.3	74.8	283	Mortal	6
+Tumekling	Tumekling	Born of an orange egg, this bird holds a small orb in honor of Tumeken.	1.5	11.3	284	Small Feet 	11
+Tumeken bird	Tumekbird	Balancing atop its orb, it will stand still even in the biggest of desert storms.	3.6	31.8	285	Young Ibis	10
+Tumeken ibis	Tumekibis	Balancing the orb along its tail feathers, it is said to only drop it if it has no strength left to fight.	6.3	72.6	286	Desert Ibis	11
+Kerrit	Kerrit	As they refuse to help you see in the dark, their only use is as a makeshift weapon.	1.9	45.4	287	Kerrit	6
+Snuffle	Snuffle	Running great lengths at surprisingly fast paces, only seasoned hunters seem able to catch them.	13.8	176.9	288	Snuffle	7
+Popoca	Popoca	Expelling fire from their husks, they seem to smell like bonfires. It's hard to let them out in the wild as they start forest fires.	14.0	294.8	289	Popoca	6
+Choloa	Choloa	A very skittish creature that when agitated, will simply roll away. Sometimes it rolls down hills and gets mad it has to walk up the hill again.	11.7	254.0	290	Choloa	6
+Durzag	Durzag	A airut commander under the god of Tuska. They seek nothing but destruction.	22.4	1723.7	291	Durzag	6
+Yakamaru	Yakamaru	A spirit guardian who fell victim to airut shamans. It now summons jellyfish to fight for it.	26.3	18057.5	292	Water Spirit	12
+Xinachto	Xinachto	A guardian spirit who holds the key to the anima mundi of its world. It feels shackled to the body it has.	16.3	1134.0	293	Xinachto	8
+Chompy	Chompy	A fat bird that has trouble flying. Ogres hunt them for food.	4.9	104.3	294	Ogre Meal	9
+Jubbly	Jubbly	A bird so fat that it could feed an Ogre for an entire week. The trick to catching them is a secret.	17.3	798.3	295	Ogre Feast	10
+Terrorbird	Terrorbird	Trained as mounts by the gnomes, these birds have no quarrel with fighting any who challenge them.	15.2	644.1	296	Gnome Bird	10
+Warped terrorbird	WarpedTerrorbird	Failed attempts to make the terrorbird smarter warped it to become like this. It is a failure.	15.2	644.1	297	Aposandrian	11
+Spirit terrorbird	SpiritTerrorbird	A terrorbird from the spirit realm. They can carry a great load of baggage on their backs.	15.2	644.1	298	Package Bird	12
+Jubly x Lobster	Jubster	Created by the homunculus, their reserves of meat and fat are so large, that it could feed a family of 3 on lobster for a week.	17.3	798.3	299	True Feast	10
+Juvenile Wolf	Juvenile_Wolf	A young wolf who prefers to stay inside caves. Their favourite treat is cave mice.	5.8	59.0	300	Juvenile	8
+Wolf	Wolf_Normal_Form	They form packs and hunt together in a flock. This way, survival becomes easier for the pack as they collaborate.	11.6	612.3	301*	Wold	4
+White Wolf	Wolf_White_Form	Nothing Interesting Happens.	11.6	612.3	301*	White Wolf	10
+Fenris Wolf	Wolf_Fenris_Form	Nothing Interesting Happens.	11.6	612.3	301*	Fenris 	7
+Dire Wolf	Dire_Wolf	A big and dangerous wolf from Arendar gates. They sometimes come down to Isafdar to hunt the unknowing.	12.5	698.5	302	Dire Wolf	9
+Skoll	Skoll	A big wolf said in the Fremennik Tales to be a wolf capable of even swallowing the sun.	14.7	1079.6	303	Sun Eating	10
+Hati	Hati	A big wolf said in the Fremennik Tales to be the harbinger of Ragnarok, the events that end the world.	14.7	1079.6	304	World Ending	12
+Fox	Fox	A crafty and shrewd vulpine. Known for sneaking into chicken pens to steal food.	4.6	77.1	305	Sly Fox	7
+Inari	Inari	A fox that has lived so long it grew additional tails. Each tail gave it more power.	5.3	95.3	306	Many Tailed	11
+Spirit Wolf	Spirit_Wolf	A wolf from the spirit world. Its howl can scare and repel any enemy, making it a good companion for new adventurers.	13.0	680.4	307	Howling	7
+Helwyr	Helwyr	Sorcerer of the Cywir clan, it fights in the name of Seren with the power of the spirit realm.	14.8	807.4	308	Spiritual	9
+Birds Nest	Bird_Nest	A delight for people who chop down trees. These nests often have small eggs in them.	0.6	4.5	309	Unhatched	9
+Pigeon	Pigeon	Mostly harmless birds that enjoy looking down on people from coathangers in a scornful way.	3.0	20.4	310	Pigeon	6
+Pheasant	Pheasant	Often seen with the Freaky Forester. These birds serve no purpose except being food.	4.2	38.6	311	Pheasant	8
+Baby roc	Rocling	It's wings are not ready to fly, yet it hunts for goatweed all day.	3.0	21.8	312	Small Birdie	12
+Roc	Roc	Known by a local farmer as "big bird". It has large wings capable of knocking farmers over.	6.7	122.5	313	Big Birdie	10
+Unicorn foal	Foal	A young unicorn pure of will and naive to the dangers of the world.	12.3	181.4	314	Foal	4
+Unicorn	Unicorn	With a pure mind, the unicorn is said to grant blessings. They enjoy the company of virgins and pure souls.	19.7	1701.0	315	Unicorn	7
+Unicorn stallion	Stallion	A stallion from the spirit realm. With great healing powers, they help their allies in battles.	20.3	1914.2	316	Stallion	8
+Pawya	Pawya	Native to Isafdar, these small critters love the taste of papaya, which are in short supply in the elven lands.	4.5	49.9	317	Papaya	6
+Grenwall	Grenwall	Hunters to the core. They prey on Pawya. If threatened, they will curl up into a defensive mode. Their spikes are used for potions.	4.1	45.4	318	Grenwall	8
+Bear cub	Bear_Cub	A young bear with much to learn. Easily tricked by honey. Tends to repay favours with an oblivious slap.	11.6	231.3	319	Cub	3
+Bear	Bear	A large monster of the ursa family. They will eat large amounts of food before hibernating in the winter.	17.4	1755.4	320	Bear 	5
+Kendall	Kendall	A god of the mountain. A cannibal posed as the Kendall once and ate whoever came close to his domain.	18.4	2118.3	321	Cannibal	8
+Polar bear	Polar_Bear	A bear native to Archeron. They held penguins as slaves and are the sworn enemies of the seals.	17.4	1755.4	322	Pbj	3
+Arctic Bear	Arctic_Bear	A very curious bear from the spirit realm. They will seemingly entertain any audience in an informative way.	17.4	1755.4	323	Arctic	6
+Horned Graahk	Graahk	A big horned monster from the Karamja jungles. Their horns are so solid, they will leave a dent on even steel.	16.3	1632.9	324	Horned 	7
+Spirit Graahk	Spirit_Graahk	A graahk from the spirit realm. They are not as easily teased as their Gielinorian counterpart.	16.3	1632.9	325	Spirit Horns	12
+Dust devil	Dust_Devil	A devil that makes a sound so dastardly any dog will bark at it in fear. It cleans up its domain however.	16.7	834.6	326	Dust 	5
+Smoke devil	Smoke_Devil	Expelling great amounts of smoke, it is hard to know if it does so to defend itself, or annoy its opponents.	17.3	898.1	327	Smoke	5
+Nuclear devil	Nuclear_Devil	A monster said to be so unstable it could blow up at any moment. Yet it keeps on living as if nothing is a threat.	18.0	1025.1	328	Nuclear	7
+Choke devil	Choke_Devil	A monster who will make even a grown man choke on his own breath. Any who challenge it should wear a facemask.	18.0	1047.8	329	Choke 	6
+Thermonuclear devil	Thermy	Said to be a danger to itself and any around it. It will refuse to do anything but harm those it loves.	23.5	1256.5	330	Thermnuclear	12
+Dragon hatchling	Hatchling	A newly hatched dragon. When they eat, they sometimes burn their food and become grumpy.	4.9	63.5	331	Small Dragon	12
+Baby Dragon (green)	Green_Dragonling	A small dragon. Dragons were originally made by the dragonkin to relieve them of their curse.	7.6	158.8	332	Green 	6
+Dragon (green)	Green_Dragon	Sporting incredibly thick hide, dragons are killed for their bones and hide which sells for a good price.	21.2	2549.2	333	Green Dragon	12
+Brutal (green) dragon	Brutal_Green	Scarred from battle, these dragon's are battle hardened and stronger than the regular kind.	23.4	2630.8	334	Brutal Green	12
+Baby dragon (blue)	Blue_Dragonling	Small and cute, they have yet to breathe fire. They are still killed anyway.	7.6	172.4	335	Blue	4
+Dragon (blue)	Blue_Dragon	A weaker dragon that can still pack a punch. Adventurers choose to kill them for trade.	21.2	2662.6	336	Blue Dragon	11
+Brutal (blue) dragon	Brutal_Blue	A dragon that should never be underestimated. Aside from being coloured blue, they are distinguished by spiky horns.	23.4	2721.6	337	Brutal Blue	11
+Baby Dragon (red)	Red_Dragonling	A young creature secluded to the Brimhaven Dungeon. They make friends with dogs.	7.6	195.0	338	Red	3
+Dragon (red)	Red_Dragon	A strong creature hidden away in inconvenient locations. They are not valued as high as their cousins.	21.2	2726.09	339	Red Dragon	10
+Brutal (red) dragon	Brutal_Red	A dragon that should never be underestimated. Aside from being coloured red, they are distinguished by a pointy horn.	23.4	2780.5	340	Brutal Red	10
+Baby Dragon (black)	Black_Dragonling	The elite of all baby dragon forms. They tend to stick close to their parents.	7.6	235.9	341	Black	5
+Dragon (black)	Black_Dragon	All hail the feared black dragon. They were once believed to be the strongest monsters of all.	21.2	2794.1	342	Black Dragon	12
+Brutal (black) dragon	Brutal_Black	A dragon that should never be underestimated. Aside from being coloured black, they are distinguished by curvy horns.	23.4	2889.4	343	Brutal Black	12
+3 headed (green) dragon	Dragon	A monster that should no longer exist. Finding one is a statistical anomaly.	22.7	3002.8	344	Tutorial	8
+Elvarg (green)	Elvarg	Slayer of Crandor Island. Elvarg is a threat to be reckoned with for any unprepared adventurer.	26.3	3057.2	345	Crandors End	12
+King Black Dragon	KingBlackDragon	A 3-headed black dragon made by Kerapac. Its real name is Shakorexis.	54.5	12188.0	346	King Dragon	11
+Queen Black Dragon	QueenBlackDragon	The first dragon ever created, laid to slumber as it serves to use anymore. Grotworms have since infested it.	102.8	15648.9	347	First Drake	11
+Creeping hand	Creeping_Hand	A really small hand. So small, it would come in handy at any kind of on-hand situation. They hate puns.	6.2	127.0	348	Finger 	7
+Crawling hand	Crawling_Hand	A hand from Viggora's Folly, a tower that fell into the ground due to unstable foundations. They love rings and gloves.	7.9	133.8	349	Hand	4
+Skeletal hand	Skeletal_Hand	A crawling hand without any skin left. Some theorize there could be skeletal feet out there.	8.2	140.6	350	Hunderus	8
+Crushing hand	Crushing_Hand	A hand so big it will crush anything it can. Despite lacking a body, it really packs a punch.	8.6	149.7	351	Palm	4
+Zombie hand	Zombie_Hand	Perhaps you should avoid shaking the hand. It has been rotting for some time.	8.7	152.0	352	Arm	3
+Turoth	Turoth	A creature so persistent, only a broad type of weapons could ever wish to harm it.	6.1	117.9	353	Turoth	6
+Mighty turoth	Mightiest_Turoth	A turoth grown to prime strength. Stronger than others of its kind, it will fight till its last breath to feed itself.	10.5	222.3	354	Mighty 	7
+Big Turoth	Big_Turoth	Its size is far larger than other turoth's making it more dangereous. But not that much dangereous.	15.7	331.1	355	Fanged	6
+Turoth with a sock	Sockroth	A turoth who, due to a number of inconvenient events and a fallout with Meg the Adventurer, now possesses a sock.	15.7	331.1	356	Sock Wearing	12
+Baby kurask	Lilrask	A kurask not fully grown yet. To prove its worth, it must travel to Karamja and return home with a pineapple.	6.2	204.1	357	Kura	4
+Kurask	Kurask	Having returned from Karamja with its prized possession, it is now marked an adult and can be a respected member of its herd.	24.5	2408.6	358	Kuraski	7
+King Kurask	King_Kurask	The king of its herd. They lead their herd with wisdom and experience.	30.8	5506.6	359	King Kurask	11
+Kurask overlord	Kurask_Overlord	It leads with a stern hand, demanding fruit as tribute for its protection.	38.7	9012.9	360	Kurask 	7
+Common Kebbit	Kebbit	A small monster mostly seen as prey by everyone else than other kebbits.	5.7	63.5	361	Kebbit	6
+Polar kebbit	Polar_Kebbit	A monster that defends itself with camouflage in snowy areas. It does not like the cold however.	5.7	63.5	362	Polar 	6
+Sabre toothed kebbit	Sabre_Kebbit	One of the more dangerous kebbits, they have massive fangs that bite predators. They are not that smart however.	6.3	81.6	363	Sabred	6
+Spotted kebbit	Spotted_Kebbit	Their spots confuse predators by causing optical illusions while running.	5.7	63.5	364	Spotted	7
+Dark kebbit	Dark_Kebbit	They can run at great speed without making a sound. This is due to their sleek fur.	5.7	63.5	365	Dark Flash	10
+Dashing kebbit	Dashing_Kebbit	These monsters are swift runners. Fast regular traps are no match for them. Falcons, however, easily catch them.	5.7	63.5	366	Dashing	7
+Wild Kebbit	Wild_Kebbit	These kebbits have grown small spikes in an attempt to defend themselves. But they got hunted even more by humans for trade.	5.7	63.5	367	Wild Kebbit	11
+Prickly kebbit	Prickly_Kebbit	A kebbit that is usually hunted by intermediate hunters. They hate falcons with a passion.	5.7	63.5	368	Prickly	7
+Razor backed kebbit	Razor_Kebbit	These kebbits will lower their bodies to the ground and then throw their backs into their enemies for self defence.	6.3	81.6	369	Razorbacked	11
+Big kebbit	Big_Kebbit	A kebbit that has grown to an extreme size. Despite its size, it is still a weak kebbit.	8.9	99.8	370	Enormeous	9
+Desert Devil	Desert_Devil	They only live in the desert, despite there not being much food around.	5.7	63.5	371	Sand Devil	10
+Feldip Weasel	Feldip_Weasel	One of the more common kebbits, hailing from the Piscatoris hunter area.	5.7	63.5	372	Weasel	6
+Barb tailed kebbit	Barbed_Kebbit	A kebbit with a barb tail so sharp, it can even be used to fish.	5.7	63.5	373	Barbed	6
+Diseased kebbit	Diseased_Kebbit	Being struck by disease, this kebbit awaits for it's life to end. Possibly dragging more of its kind with it.	5.7	63.5	374	Sick	4
+Chocolate kebbit	Chocolate_Kebbit	A kebbit made entirely of chocolate, usually by the powers of a chocatrice.	5.7	63.5	375	Choco Kebbit	12
+Monkey	Monkey	Denizens of Karamja, these creatures love bananas and playing tricks on humans.	4.3	49.9	376	Monkey	6
+Ninja monkey	Ninja_Monkey	Monkey trained to prime speed and form. They defend the Ape Atoll from any outsiders.	5.5	117.9	377	Ninja 	6
+Zombie monkey	Zombie_Monkey	Monkeys arisen by necromantic arts and locked away in the caves beneath the Ape Atoll.	6.6	158.5	378	Zomkey	6
+Gorilla	Gorilla_Normal_Form	A stronger kind of primate that are used when the speed of a monkey is not enough, and raw strength is needed.	20.1	1714.6	379*	Gorilla	7
+Ancient Gorilla	Gorilla_Ancient_Form	Nothing Interesting Happens.	20.1	1714.6	379*	Ancient Ape	11
+Larupia	Larupia	A swift hunter from the Feldip region. Their fur is adapted to camouflage in the jungles.	11.4	630.5	380	Spined	6
+Spirit larupia	Spirit_Larupia	A hunter from the spirit realm. These monsters have really sharp senses, making them great partners for hunters.	11.4	630.5	381	Larupia 	8
+Kyatt	Kyatt	The apex predator of the snowy north. Their fangs are really sharp, but if they break, they cannot be regrown.	9.8	657.7	382	Sabre Tooth	11
+Spirit kyatt	Spirit_Kyatt	A kyatt from the spirit realm. Capable of teleporting it and its adventurer to where it pleases, when it pleases.	9.8	657.7	383	Kyatt	5
+Rock Crab (Small)	Crablet	So small it can hide anywhere, it needs to make a decision how to survive in the future.	1.5	36.3	384	Hiding	6
+Rock crab	Rock_Crab	A crab made of solid rock. They stay along beaches motionlessly. If a rock moves, it might be a rock crab.	6.2	113.4	385	Rock Crab	9
+Giant rock crab	Giant_Rock_Crab	Far larger than it's smaller counterpart, it has become a lot harder to hide as a small rock.	20.6	839.1	386	Big Rock	8
+Ammonite crab	Ammonite_Crab	A crab so ancient, fossils can be seen on it. Archaeologists want to study them but are no match to their powers.	21.7	889.0	387	Ammonite	8
+Rock lobster	Rock_Lobster	A lobsters pretending to be a rock. Except it wasn't a rock, it was a rock lobster.	13.2	748.4	388	Not A Rock	10
+Sand Crab	Sand_Crab	These crabs are mainly found in desert regions, using sand instead of rocks.	7.0	285.8	389	Sand Crab	9
+Swamp Crab	Swamp_Crab	Mainly found in swamp's, they use whatever they can find as substitute shells.	7.2	322.1	390	Swamp Crab	10
+Granite crab	Granite_Crab	A bigger rockcrab from Waterbirth Island. They are far larger and deadlier but prefer to stay immobile.	7.8	353.8	391	Granite	7
+Granite lobster	Granite_Lobster	A lobster from the spirit realm. Smaller and swifter, these lobsters are really good at fishing underwater.	15.6	988.8	392	Lobster	7
+Rabbit	Rabbit	A creature that is light on its feet but are otherwise useless. Their meat is tasty and their feet bring luck to lumberjacks.	1.9	20.4	393	Lucky Pawed	11
+Wolpertinger	Wolpertinger	A rabbit from the spirit realm with antlers and magical powers. It also seemingly grants a great deal of camouflage to those in its herd.	7.7	122.5	394	Wolpertinger	12
+Bunyip	Bunyip	A swamp creature from the spirit realm. They prefer to swallow their fish raw.	18.0	1079.6	395	Bunyip	6
+Talon beast	Talon_Beast_Talon_Form	A feared monster of Morytania. It gets it name from the talons it possesses that has killed many adventurers.	20.2	1179.3	396*	Talon	5
+Nail Beast	Talon_Beast_Nail_Form	Nothing Interesting Happens.	20.2	1179.3	396*	Nail	4
+Ferret	Ferret	A friendly critter not to be confused with the ferret of doom. These muspelids will gladly hunt rabbits.	2.9	18.1	397	Ferret	6
+Toy mouse	Toy_Mouse	An automation made of clockwork to mimic a mouse. Cats love to play with these.	1.0	3.9	398	Toy Mouse	9
+Toy doll	Toy_Doll	Toy doll made from clockwork. It pirouettes and dances whenever it can.	2.3	6.4	399	Doll	4
+Toy soldier	Toy_Soldier	Made of clockwork, it seemingly follows its duty of marching to war. Even if there isn't any...	2.8	11.3	400	Armed	5
+Clockwork penguin	ClockworkPenguin	Penguin toy made of clockwork. If someone was small enough to fit, they could probably control it from the inside.	3.6	27.2	401	Automation	10
+Clockwork Cat	Clockwork_Cat	An automation made of clockwork to mimic mans best friend. They refuse to meow.	5.3	31.8	402	Clockwork	9
+Magic carpet	Magicarpet	Magically infused carpets capable of flight. They are used as transportation in the Kharidian desert.	2.9	90.7	403	Carpet	6
+Animated chair	Anichair	A chair that has seemingly gained life. They love to play tricks on adventurers who enter their domain.	10.0	63.5	404	Chair	5
+possesed axe	Exoraxe	An axe posessed by a ghost. Their movements are primitive, but deadly.	3.8	45.4	405	Axe	3
+Haunted pickaxe	Spookaxe	A pickaxe possessed by a long passed away miner. Even in death it keeps on chopping at anything.	4.0	49.9	406	Pickaxe	7
+Toy horse	Dobbin	Toy of a being that is now extinct. A horse is apparently something like a hornless unicorn that tasted delicious.	1.9	1.8	407	Toy Horse	9
+Marionette	Marionette	Marionette who dances to the puppetmaster. If there are no strings, it will fight back.	2.2	3.6	408	Marionette	10
+Dragon kite	Dragon_Kite	Sold due to high demand of Dragon kites. Adventurers got upset it was not a kiteshield and sales plummeted.	15.0	68.0	409	Drake Kite	10
+Animated armour	Animour	Armour reanimated by magic to become a test of strength. They are great for combat training.	17.4	204.1	410	Animated	8
+Dead tree	Dead_Tree	Just a normal tree without any leaves or life left. Something like this could never move.	21.7	544.3	411	Dead Tree	9
+Jadinko	Jadinko	Born of vines and plants, these monsters are one with nature and take many forms.	15.3	707.6	412	Jadinko	7
+Killerwatt	Killerwatt	A being from another plane. They are made entirely of electrical energy and will expel it at every opportunity.	12.6	136.1	413	Watt	4
+Mackers	Mackers	Unrelated to the K.G.P. The turkeys are trying to launch an attack on humans. Humans don't care since it is thanksgiving.	13.8	127.0	414	Thanksgiving	12
+Turkey	Turkey_Female_Form	Grown and ready to defend itself. It retaliates against adventurers to fight for its freedom. They are then eaten.	14.5	131.5	415*	Turkey	6
+	Turkey_Male_Form	Nothing Interesting Happens.	14.5	131.5	415*	Gobbling	8
+	Turkey_Protestor_Form	Nothing Interesting Happens.	14.5	131.5	415*	Protesting	10
+Tenacious Toucan	Tenacious_Toucan_Male_Form	Tenacious to a T, they will relentlessly attack adventurers embarking into the jade vine.	6.1	59.0	416*	Toucan	6
+	Tenacious_Toucan_Female_Form	Nothing Interesting Happens.	6.1	59.0	416*	Toucan	6
+Tuai Leit Toucan	Tuai_Leit_Toucan	Despite the look of it, its beak is actually very brittle and prone to breaking.	6.4	61.2	417	Tuai Leit	9
+Blue Blubber	Blubberfish	Its blue colorations are meant to disguise it under the sea. This makes it easier to fight prey.	9.5	34.0	418	Blubber	7
+Jellyfish (MeleeFish)	Jellyfish	They are commonly referred to as "melee fish" since they are very physically strong.	9.9	86.2	419	Jellyfish	9
+Rune	Pure	A chunk of runestone from a rock infused by the stone of Jas.	1.6	2.3	420	Rune Essence	12
+Runes	Rune	Infused with the energy of the runic altars, the rune essence gains the powers of the altars.	3.2	13.6	421	Pure Essence	12
+A lot of runes	Essence	In large supplies, runes are capable of creating spells. But not knowing what to do with them might expel said energy.	4.8	31.8	422	Anima Mundi	11
+Seagull	Seagull	A small bird often found amongst docks. They tend to clean harbours of food scraps otherwise left unattended.	4.2	9.1	423	Seagull	7
+Pelican	Pelican	Pelicans lurk fishing platforms hoping to either steal a fish, or for a fishing adventurer to give them a treat.	7.3	52.2	424	Pelican	7
+Pelican (albatross)	Albatross	Flying around Cairn Island, these birds fish for food.	8.5	56.7	425	Albatross	9
+Hattenkrapper	Hattenkrapper	Baron von Hattenkrapper. Sworn rival of Count Ludvig Koppenploppen. Known as the slayer of barrelchests on Bloodsplatter island.	8.2	54.4	426	Baron	5
+Count ludwig koppenploppen	Koppenploppen	Count Ludwig Koppenploppen. Sworn rival to Baron von Hattenkrapper. Known to have eaten many meals on The rock.	6.0	22.7	427	Count	5
+Steven seagull	Steven_Seagull	Flightless, the bird has nothing but it's own name that holds any value. It fights with all it has.	4.6	15.9	428	Seafaring	9
+Ibis	Ibis	Fishers with good summoning levels summon these birds to improve their catches.	12.3	12.2	429	Ibis	4
+Desert wyrm	Desert_Wyrm	A smaller, limbless kind of dragon that prefers to sail along the desert. The sandstorms cannot damage them.	4.7	13.6	430	Desert Wyrm	11
+Wyrm	Wyrm	A bigger, limbless dragon. While it has no fire breath, it is still a threat to unprepared adventurers.	25.2	1669.2	431	Wyrm	4
+Abby spectre	Aberrant_Spectre	Their bodies are covered in slime, no one but other ghosts would dare to hug it.	18.3	780.2	432	Spectre	7
+Snake	Snake	Found in the jungles of Karamja, these snakes are usually harmless to most travelers.	4.8	14.1	433	Snake	5
+Cobra	Cobra	Their necks can enlargen to scare their enemies. They dance when they are charmed by a flute.	7.5	27.2	434	Cobra	5
+Spirit cobra	Spirit_Cobra	A cobra from the spirit realm. They can corrupt eggs, making them into cockatrice egg's	8.8	31.8	435	Serpentine	10
+Juna	Juna	Guardian of Guthix, this snake was set to guard the residual sadness of Guthix left in the rocks of lumbridge.	12.4	317.5	436	Tear Guard	10
+Sea Snake	Sea_Snake	Found deep beneath Misthalin and Etceteria, these snakes only live in underwater caves.	5.0	14.5	437	Searpentine	11
+Big sea snake 	Big_Sea_Snake	Grown to a size far larger than any other snake, it preys on what enters its caves.	8.3	163.3	438	Big Snake	9
+	CUPHOLDER1	The meaning of Cupholders is still unknown.	0	0	999	Cupholder	
+Polish rock	Polishing_Rock	Created by betraying a friend and turning them into a polishing rock for the purpose of completing a quest.	1.4	40.8		Polished	8
+Pillar	Pillar	The Elder Gods created several Elder Artefacts. The Pillar was not one of them. Despite this, it killed Mother Mallum in one attack.	31.6	41730.5		Slug Slayer	11
+Rock soup	Rock_Soup	A troll delicacy made by mixing a pet rock into a soup of cabbage. You can really taste the rock in it.	3.5	59.0		Delicious	9
+Slagilith	Slagilith	Most Slagilith are caused by unknowing adventurers animating the face of a rock. It becomes sentient and will try to kill them.	13.2	340.2		Rock Spell	10
+Strange rock	Strange_Rock	These rocks are known to sneak into a player's inventory when they are least needed.	1.4	40.8		Strange 	8
+golden rock	Golden_Rock	These golden rocks are known to sneak into a player's inventory when they are sometimes needed.	1.4	40.8		Stranger	8
+Party rock	Party_Rock	They dance with the fury of a mighty statue. Having one at a party is sure to raise the roof.	1.4	40.8		Rock Party	10
+Zak	Zak	When a yak dies, that is usually it. Unless they become zombie yaks.	17.6	925.3		Zombie Yak	10
+Snack Yak	Snack_Yak	A yak tasked with the important duty of bearing the food supply for an entire winter, without eating it.	17.6	925.3		Snacking	8
+Dairy cow	Dairy_Cow	Dairy cows are specialized in producing the highest quality milk and can be milked by any passing adventurers.	15.7	7406.4		Dairy	5
+Strawberry cow	Strawberry_Cow	Strawberry cows come to be by feeding a dairy cow plenty of strawberries throughout its period of growth.	15.7	7406.4		Strawberry	10
+Vanilla cow	Vanilla_Cow	It is said that if you shake a vanilla cow enough and use a bucket on it, it will create a milkshake.	15.7	7406.4		Normal	6
+Chocolate cow	Chocolate_Cow	According to several surveys, 80% of players prefer the Chocolate cow over the vanilla or strawberry ones.	15.7	7406.4		Chocolate	9
+Harlequin cow	Harlequin_Cow	A cow posessing the rare qualities of its fellow cows. When slaughtered, the pink parts are usually left behind.	15.7	7406.4		Harlequin	9
+Super cow	Super_Cow	When a slayer comes near, the matriarch will challenge it to a battle so epic, only cowhide is left.	15.7	7406.4		Super Cow	9
+Plague cow	Plague_Cow	The cows of Sophanem and Menaphos were cursed by the devourer, and are thus slowly awaiting death.	15.7	7406.4		Plagued 	8
+Elder bull	Elder_Bull	The apex of bulls. They are capable of knocking players over, and filling their stomachs for a slayer task.	18.0	9865.6		Grown Bull	10
+Minotaur	Minotaur	Far smarter than regular cows or bulls, they reside in the Stronghold of Security for no apparent reason.	13.8	1202.0		Minotaur	8
+Rune minotaur	Rune_Minotaur	Whenever they see humans with horny helmets, they will ruthlessly charge at them for a duel.	18.5	2413.1		Barbarian	9
+Trojan cow	Trojan_Cow	Fred the farmer collects balls of wool in order to create the ultimate cow. The trojan cow.	72.9	65535		Construct	9
+Mysterious chicken	Mystery_Chicken	A chicken without any clear purpose or meaning. The real mystery is why it exists.	5.1	20.8		Mystery	7
+War horse	War_Horse	The horse of Frank, the fifth member of the clan, "The Horsemen".	6.1	27.2		War	3
+Pestilence horse	Pestilence_Horse	The Scientist Avalani sent several chicken into the sky to research the clan citadel. Not many returned.	6.1	27.2		Pestilence	10
+Famine horse	Famine_Horse	The fusion of 4 different chickens sent to certain death. Its power is that of 4 whole chickens.	6.1	27.2		Famine	6
+Death horse	Death_Horse	Serving as the steed of Frank, the fifth member of The Horsemen. This chicken has done nothing worth mentioning.	6.1	27.2		Death	5
+Golden ram	Golden_Ram	Golden rams tend to be monopolised by the troll Lalli. But their wool can be used to create enchanted lyres.	10.9	546.6		Gold Ram	8
+Goat	Goat	Known for eating mostly anything, these goats are great for controlling grasslands on the mountain.	10.2	499.0		Goat	4
+Desert Goat	Desert_Goat	As they wander the desert near Nardah they sometimes find adventurers killing them for their horns.	10.2	499.0		Desert Goat	11
+Black sheep	Black_Sheep	Sheep born with black fur are worth less than white ones because their wool can not be coloured.	9.5	467.2		Black Sheep	11
+Mountain goat	Mountain_Goat	Their hooves are so expertly crafted, they can climb even the steepes mountain. Despite this, they are often used for soup.	10.2	499.0		Billy	5
+Gorak	Gorak	Despite being found in another plane of existence, some made it to Gielinor to fight by Zamorak's side during the God Wars.	19.4	3551.6		Gorak	5
+Plague sheep	Plague_Sheep	A sheep coloured to pretend there was a plague in Kandarin. This was instigated by the faction of mourners.	10.2	499.0		Coloured	8
+Experiment dog	Experiment	Made by Dr. Fenkenstrain, these experiments are either sheep in wolf clothing, or the opposite.	16.0	771.1		Wolfsheep	9
+Not a sheep	Regular_Sheep	A perfectly normal sheep. In no way is it collecting information about you to use against you.	10.2	499.0		Unspying	8
+Crab	Crab	Their pincers are designed to hold on to their enemies. But at this stage, they are too small to effectively use them.	1.9	13.6		Crab	4
+Mossy Crab	Mossy_Crab	Once a year, crabs come out of their shell to grow bigger, but they are vulnerable while doing so.	1.9	13.6		Moss Crab	9
+Giant Crab	Giant_Crab	Capable of dealing massive damage, these crabs use their mighty pincers to battle.	2.9	31.8		Giant Crab	10
+Heim Crab	Heim_Crab	A delicious, cute, and sweet crab found in the deep ruins of Daemonheim.	1.9	13.6		Heim Crab	9
+Mossy giant crab	Giant_Mossy_Crab	These crabs are mostly herded by Mogres; ogres living underwater. Their meat is a delicacy.	2.9	31.8		Mossy Claw	10
+Rum pumped crab	Rum_Pumped_Crab	A crab pumped full of rum under the orders of Rabbid Jack. They are served as a delicacy in Menaphos.	1.9	13.6		Rum Pumped	10
+Web snipper	Web_Snipper	When adventurers Marmaros and Thok explored Daemonheim, these crabs would snip their fishing nets.	1.9	13.6		Web Snipp	9
+Blue crab	Blue_Crab	Easily recognized by their blue shell, these crabs linger in the deep caverns of Daemonheim.	1.9	13.6		Blue Crab	9
+Dark crab	Dark_Crab	Crabs that are so elusive and rare that even expert fishermen have trouble fishing them. Or live long enough to return to the bank with them.	1.9	13.6		Dark Crab	9
+Knife Crab	Knife_Crab	By giving a crab a knife, it is said their attack power triples. They are a threat to behold as they dance.	1.9	13.6		Armed	5
+Crablet	Tiny_Crab	A small crab more known for what they carry on their back. Which can vary in a lot of ways.	1.3	9.1		Crabling	8
+Golden lobster	Golden_Lobster	A lobster so rare they are mostly found in player-owned homes. They are easily recognized by their blue shell.	2.3	27.2		Contraction	11
+DH Lobster	Heim_Lobster	Found near the shores of Daemonheim, these lobsters are quite big, but otherwise harmless to all.	2.3	27.2		Tightening	10
+Obsidian Lobster	Obsidian_Lobster	A rare and elusive lobster. Fabled as an unbelievably rare creature, people are willing to pay 100k for one. Limited time offer.	2.3	27.2		Scam	4
+Mottled eel	Mottled_Eel	Known for their mottled texture, these eels tends to be fished with the aid of falconry.	0.8	4.5		Mottled	7
+Short finned eel	Short_Finned_Eel	Everything but appetizing, these eels are known for their many short fins.	0.8	4.5		Unsavory	8
+Salve eel	Salve_Eel	For unknown reasons these eels seem to have some lesser holy qualities to them.	0.8	4.5		Salve Eel	9
+Dusk eel	Dusk_Eel	Eels that enjoy lurking in the darkest of waters as to not be caught. When caught, they are anything but pretty.	0.8	4.5		Dusk Eel	8
+Cave moray	Cave_Moray	The biggest of all water-dwelling monsters of Daemonheim. The Cave Moray is a meal in itself for adventurers.	0.8	4.5		Moray	5
+Vile fish	Vile_Fish	A fish so vile, no one would ever attempt to eat one. Except maybe Thok.	0.8	4.5		Vile	4
+	CUPHOLDER2	The meaning of Cupholders is still unknown.	0	0	999	Cupholder	

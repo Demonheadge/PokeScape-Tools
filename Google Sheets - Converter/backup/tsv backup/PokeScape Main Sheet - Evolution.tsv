@@ -1,0 +1,651 @@
+POKEMON	EVOLUTION METHOD	SECONDARY METHOD	OUTCOME
+#_=_NUMBER			
+Level_0___100			KEY / LEGEND
+Friendship_0___255			COMMENTS
+			NO METHOD MADE YET
+			
+EVO_LEVEL,_#	Evolves by Leveling up		
+EVO_ITEM	Evolves with an Item		
+EVO_MOVE_TYPE	Evolves knowing TYPE MOVE		
+EVO_TRADE	Evolves by Trading		
+EVO_LEVEL_DAY	Evolves by Leveling up to # during the DAY		
+EVO_LEVEL_NIGHT	Evolves by Leveling up to # during the NIGHT		
+EVO_FRIENDSHIP,_#	Evolves with Friendship, % of Friendship		
+EVO_MAP	Evolves depending on LOCATION		
+EVO_LEVEL_SILCOON	High? Value <		
+EVO_LEVEL_CASCOON	Low? Value >		
+EVO_LEVEL_ATK_EQ_DEF	Attack is equal to Defense		
+EVO_LEVEL_ATK_LT_DEF	Attack is < to Defense		
+EVO_LEVEL_ATK_GT_DEF	Attack is > to Defense		
+EVO_FRIENDSHIP_DAY	Evolves during the DAY		
+EVO_FRIENDSHIP_NIGHT	Evolves during the NIGHT		
+EVO_BEAUTY			
+EVO_LEVEL_NINJASK	Upon evolving it creates another Pokemon		
+EVO_RAINY_FOGGY_OW	If the weather is any sort of Foggy / Rainy		
+EVO_TYPE_IN_PARTY	If you have TYPE in PARTY		
+EVO_MALE_LEVEL	If Male upon leveling up		
+EVO_FEMALE_LEVEL	If Female upon leveling up		
+EVO_HOLD_ITEM_NIGHT	Hold an item at Night		
+EVO_HOLD_ITEM_DAY	Hold an item during the Day		
+EVO_LEVEL_SPECIFIC_TIME_RANGE			
+EVO_MEGA	Mega Evolution		
+EVO_OTHER_PARTY_MON	Evolves with a certain Pokemon in the PARTY		
+EVO_MOVE	Evolve knowing a certain move.		
+EVO_FLAG_SET			
+NEW			
+EVO_DEATH	Level up in a battle, but faint at the end.		
+EVO_LEVEL_DEF_EQ_SPE	Defense is EQUAL to Speed		
+EVO_LEVEL_DEF_GT_SPE	Defense is HIGHER than Speed		
+EVO_LEVEL_DEF_LT_SPE	Defense is LOWER than Speed		
+EVO_LEVEL_SPDEF_LT_SPE	Special Defense is LOWER than Speed		
+EVO_LEVEL_SPDEF_GT_SPE	Special Defense is HIGHER than Speed		
+EVO_LEVEL_ATK_EQ_SPA	Attack is EQUAL to Special Attack		
+EVO_LEVEL_ATK_LT_SPA	Attack is LOWER than Special Attack		
+EVO_LEVEL_ATK_GT_SPA	Attack is HIGHER than Special Attack		
+			
+			
+			
+Guthling	EVO_LEVEL	16	Guthbird
+Guthbird	EVO_LEVEL	36	Guthraptor
+Guthraptor			
+Zamling	EVO_LEVEL	16	Zambird
+Zambird	EVO_LEVEL	36	Zamohawk
+Zamohawk			
+Saraling	EVO_LEVEL	16	Sarabird
+Sarabird	EVO_LEVEL	36	Saraowl
+Saraowl			
+Chick	EVO_FEMALE_LEVEL	17	Chicken_Normal_Form
+	EVO_FLAG_SET		Chicken_Varrock_Form
+	EVO_FLAG_SET		Chicken_Karamja_Form
+	EVO_FLAG_SET		Chicken_Bandosian_Form
+	EVO_MALE_LEVEL	17	Rooster_Normal_Form
+	EVO_FLAG_SET		Rooster_Varrock_Form
+	EVO_FLAG_SET		Rooster_Karamja_Form
+	EVO_FLAG_SET		Rooster_Bandosian_Form
+	EVO_FLAG_SET		Undead_Chicken
+	EVO_FRIENDSHIP	220	Lizard_Chicken
+	EVO_ITEM	LEGENDARY ITEM	Evil_Chicken
+Chicken_Normal_Form	EVO_MOVE	AIR CUTTER	Dreadfowl
+	EVO_ITEM	WATER RUNE	Underwater_Chicken
+Chicken_Varrock_Form	EVO_MOVE	AIR CUTTER	Dreadfowl
+	EVO_ITEM	WATER RUNE	Underwater_Chicken
+Chicken_Karamja_Form			
+Chicken_Bandosian_Form	EVO_MOVE	AIR CUTTER	Dreadfowl
+	EVO_ITEM	WATER RUNE	Underwater_Chicken
+Dreadfowl			
+Diving_Chicken			
+Rooster_Normal_Form	EVO_FLAG_SET		Ernest
+Rooster_Varrock_Form			
+Rooster_Karamja_Form	EVO_MOVE	HIGH JUMP KICK	Oomlie
+Rooster_Bandosian_Form			
+Oomlie			
+Ernest			
+Undead_Chicken			
+Lizard_Chicken			
+Swordchick			
+Newtroost			
+Evil_Chicken			
+Calf	EVO_FEMALE_LEVEL	19	Cow
+	EVO_MALE_LEVEL	19	Bull
+	EVO_FLAG_SET		Undead_Cow
+Cow	EVO_DEATH		Skeletal_Ox_Female_Form
+Bull	EVO_DEATH		Skeletal_Ox_Male_Form
+Skeletal_Ox_Male_Form			
+Skeletal_Ox_Female_Form			
+Undead_Cow			
+Unicow			
+Crayfish	EVO_LEVEL	18	Shrimp
+Shrimp	EVO_LEVEL	38	Lobster
+Lobster			
+Rat	EVO_LEVEL	23	Giant_Rat
+	EVO_ITEM	FIRE RUNE	Hell_Rat
+	EVO_LEVEL_NIGHT	15	Crypt_Rat
+	EVO_MOVE	FOUL PLAY	King_Rat
+Giant_Rat	EVO_ITEM	MUTATED VINE	Experiment_2
+	EVO_ITEM	WATER RUNE	Brine_Rat
+	EVO_LEVEL	32	Albino_Rat
+Experiment_2			
+Brine_Rat			
+Albino_Rat			
+Hell_Rat	EVO_LEVEL	32	Giant_Hell_Rat
+	EVO_MOVE_TYPE	GRASS	Shell_Rat
+	EVO_ITEM	MUTATED VINE	Dungeon_Rat
+Giant_Hell_Rat			
+Shell_Rat			
+Dungeon_Rat			
+Crypt_Rat	EVO_LEVEL	32	Giant_Crypt_Rat
+	EVO_ITEM	EARTH RUNE	Warped_Rat
+	EVO_ITEM	MUTATED VINE	Zombie_Rat
+Giant_Crypt_Rat			
+Warped_Rat			
+Zombie_Rat			
+King_Rat	EVO_LEVEL_SILCOON	32	Giant_King_Rat
+	EVO_LEVEL_CASCOON	32	Angry_Rat
+	EVO_ITEM	AIR RUNE	Blessed_Rat
+Giant_King_Rat			
+Angry_Rat			
+Blessed_Rat			
+Lamb	EVO_LEVEL	17	Sheep
+Sheep	EVO_LEVEL	28	Ram
+	EVO_ITEM	WATER RUNE	Pirate_Sheep
+Ram			
+Pirate_Sheep			
+Sardine	EVO_LEVEL	13	Herring
+Herring	EVO_LEVEL	27	Trout_Normal_Form
+	EVO_MOVE_TYPE	FLYING	Trout_Leaping_Form
+Trout_Normal_Form	EVO_LEVEL	42	Swordfish
+Trout_Tropical_Form	EVO_LEVEL	21	Bass
+	EVO_FLAG_SET		Mackerel
+Swordfish			
+Trout_Leaping_Form	EVO_LEVEL	30	Salmon_Leaping_Form
+Salmon_Normal_Form	EVO_MOVE_TYPE	FLYING	Salmon_Leaping_Form
+Salmon_Leaping_Form	EVO_LEVEL	45	Sturgeon
+Sturgeon	EVO_LEVEL	68	Sailfish
+Sailfish	EVO_ITEM	LEGENDARY ITEM	Thallasus
+Thallasus			
+Bass	EVO_LEVEL	35	Shark
+Shark	EVO_LEVEL_NIGHT	48	Tiger_Shark
+	EVO_LEVEL_DAY	48	Great_White_Shark
+Tiger_Shark			
+Great_White_Shark			
+Mackerel	EVO_LEVEL	36	Catfish
+Catfish	EVO_MOVE	SWAGGER	Fury_Shark
+Fury_Shark			
+Tarpon	EVO_LEVEL	18	Seerfish
+Seerfish	EVO_MOVE_TYPE	GRASS	Sillago
+Sillago	EVO_LEVEL	42	Wobbegong
+Wobbegong			
+Cod	EVO_LEVEL	21	Rainbow_Fish
+Rainbow_Fish	EVO_LEVEL	37	Golden_Shark
+Golden_Shark	EVO_LEVEL	48	Baron_Shark
+Baron_Shark			
+Desert_Sole	EVO_LEVEL_SILCOON	29	Whitefish
+	EVO_LEVEL_CASCOON	29	Beltfish
+Whitefish	EVO_LEVEL	40	Goblin_Fish
+Goblin_Fish			
+Beltfish	EVO_LEVEL	42	Manta_Ray
+Manta_Ray			
+Karambwanji	EVO_MOVE_TYPE	POISON	Karambwan
+Karambwan_			
+Giant_Carp	EVO_RAINY_FOGGY_OW		Monkfish
+Pike	EVO_RAINY_FOGGY_OW		Monkfish
+Monkfish	EVO_MOVE_TYPE	ELECTRIC	Golden_Monkfish
+Golden_Monkfish	EVO_LEVEL	40	Angler_Fish
+Angler_Fish			
+Pet_Fish	EVO_ITEM	WATER RUNE	Gilbert
+Gilbert			
+Cavefish	EVO_LEVEL	38	Rocktail
+Rocktail			
+Slimy_Eel	EVO_LEVEL	25	Cave_Eel
+	EVO_ITEM	FIRE RUNE	Lava_Eel
+Cave_Eel	EVO_LEVEL	40	Sacred_Eel
+Sacred_Eel			
+Lava_Eel	EVO_LEVEL	40	Infernal_Eel
+Infernal_Eel			
+Puppy_Pup_Form	EVO_ITEM	FIRE RUNE	Hellpuppy
+	EVO_ITEM	WATER RUNE	Dalmatian
+	EVO_ITEM	AIR RUNE	Labrador
+	EVO_ITEM	EARTH RUNE	Terrier
+	EVO_MOVE	SNARL	Terror_dog
+	EVO_FRIENDSHIP	220	Corgi
+Puppy_Mutt_Form	EVO_ITEM	FIRE RUNE	Hellpuppy
+	EVO_ITEM	AIR RUNE	Greyhound
+	EVO_ITEM	EARTH RUNE	Bulldog
+	EVO_FRIENDSHIP	220	Sheepdog
+	EVO_MOVE	SNARL	Terror_dog
+	EVO_DEATH		Muncher
+	EVO_RAINY_FOGGY_OW		Stray_Dog
+Terrier			
+Sheepdog			
+Dalmatian			
+Greyhound			
+Bulldog			
+Labrador			
+Corgi			
+Terror_dog			
+Stray_Dog			
+Muncher			
+Hellpuppy	EVO_LEVEL	55	Hellhound
+Hellhound	EVO_ITEM	LEGENDARY ITEM	Cerberus
+Cerberus			
+Kitten	EVO_LEVEL	20	Cat
+Cat	EVO_TYPE_IN_PARTY	FIRE	Hell_Cat
+	EVO_MOVE	REST	Lazy_Cat
+	EVO_TYPE_IN_PARTY	PSYCHIC	Purple_Cat
+	EVO_TYPE_IN_PARTY	FIGHTING	Wily_Cat
+	EVO_FRIENDSHIP	220	Overgrown_Cat
+	EVO_TYPE_IN_PARTY	WATER	Sunken_Cat
+	EVO_ITEM	POSTIE PETE'S LETTER	Post_Cat
+	EVO_ITEM	LEGENDARY ITEM	Bob
+Overgrown_Cat			
+Lazy_Cat			
+Wily_Cat			
+Purple_Cat			
+Hell_Cat			
+Post_Cat			
+Sunken_Cat			
+Bob	EVO_MOVE	NASTY PLOT	Evil_Bob
+Evil_Bob			
+Pet_Rock			
+Strykewyrm_Freezy_Form			
+Strykewyrm_Leafy_Form			
+Strykewyrm_Sandy_Form			
+Strykewyrm_Wildy_Form			
+Scorpion	EVO_LEVEL	28	King_Scorpion
+King_Scorpion			
+Peepling	EVO_LEVEL	42	Sneakerpeeper
+Sneakerpeeper			
+Runtstable			
+Basilisk			
+Baby_Mole	EVO_ITEM	LEGENDARY ITEM	Giant_Mole
+Giant_Mole			
+Squirrel			
+Ravenling	EVO_LEVEL_DAY	39	Raven_Normal_Form
+	EVO_LEVEL_NIGHT	39	Raven_Emo_Form
+	EVO_TYPE_IN_PARTY	FAIRY	Magpie
+Raven_Normal_Form			
+Raven_Nevermore_Form			
+Magpie			
+Grey_Chinchompa	EVO_LEVEL	35	Red_Chinchompa
+	EVO_FRIENDSHIP	220	Gold_Chinchompa
+Red_Chinchompa			
+Gold_Chinchompa			
+Vultling	EVO_LEVEL	35	Vulture
+Vulture			
+Pengling	EVO_FRIENDSHIP	220	Penguin
+Penguin			
+Ex_Ex_Parrot			
+Broav			
+Tooth_Creature			
+Rune_Guardian			
+Gnomey			
+Sparkles			
+Bat	EVO_LEVEL_NIGHT	33	Giant_Bat
+	EVO_LEVEL_DAY	33	Bat_in_a_Box
+Giant_Bat	EVO_LEVEL_NIGHT	46	Albino_Bat
+	EVO_FLAG_SET		Fruit_Bat
+Warped_Bat			
+Albino_Bat			
+Bat_in_a_Box	EVO_LEVEL_SILCOON	46	Warped_Bat
+	EVO_LEVEL_CASCOON	46	Vampyre_Bat
+Fruit_Bat			
+Vampyre_Bat			
+Imp	EVO_LEVEL	23	Lesser_Demon
+	EVO_ITEM	FIRE RUNE	Pyrefiend
+	EVO_ITEM	WATER RUNE	Waterfiend
+	EVO_ITEM	AIR RUNE	Icefiend
+Lesser_Demon	EVO_LEVEL	38	Greater_Demon
+Greater_Demon	EVO_LEVEL	55	Kalgerion_Demon
+Kalgerion_Demon			
+Pyrefiend	EVO_LEVEL	45	Pyrelord
+Pyrelord			
+Waterfiend	EVO_LEVEL	45	Waterlord
+Waterlord			
+Icefiend	EVO_LEVEL	45	Icelord
+Icelord			
+Phoenixling_Cutie_Form	EVO_FRIENDSHIP	220	Phoenix_ReBirth_Form
+Phoenixling_Meanie_Form	EVO_MOVE	INFERNO	Phoenix_ReBorn_Form
+Phoenix_ReBirth_Form			
+Phoenix_ReBorn_Form			
+Baby_Yak	EVO_FRIENDSHIP	220	Yak
+Yak	EVO_LEVEL	34	Pack_Yak
+	EVO_OTHER_PARTY_MON	Pack Yak	Sacred_Yak
+	EVO_MOVE	IRON HEAD	ClueScroll_Yak
+Pack_Yak			
+Sacred_Yak			
+ClueScroll_Yak			
+Minitrice	EVO_LEVEL	47	Cockatrice
+	EVO_OTHER_PARTY_MON	Guthraptor	Guthatrice
+	EVO_OTHER_PARTY_MON	Zamohawk	Zamatrice
+	EVO_OTHER_PARTY_MON	Saraowl	Saratrice
+	EVO_OTHER_PARTY_MON	Raven	Corxatrice
+	EVO_OTHER_PARTY_MON	Vulture	Vulatrice
+	EVO_OTHER_PARTY_MON	Penguin	Pengatrice
+	EVO_ITEM	CHOCOLATE CAKE	Chocatrice
+Cockatrice			
+Guthatrice			
+Zamatrice			
+Saratrice			
+Corxatrice			
+Vulatrice			
+Pengatrice			
+Chocatrice			
+Sproutling			
+Kalphite_Worker	EVO_LEVEL	24	Kalphite_Soldier
+	EVO_ITEM	LEGENDARY ITEM	Kalphite_Queen
+	EVO_ITEM	LEGENDARY ITEM	Kalphite_King
+Kalphite_Soldier	EVO_LEVEL	41	KalphiteGuardian
+KalphiteGuardian			
+Kalphite_Queen			
+Kalphite_King			
+Rue			
+Monty			
+Zygomite			
+Abyssaling	EVO_FRIENDSHIP	220	Abyssal_Minion
+Abyssal_Minion	EVO_MOVE	TELEPORT	Abyssal_Demon
+Abyssal_Demon	EVO_ITEM	LEGENDARY ITEM	Abyssal_Sire
+Abyssal_Sire			
+Abyssal_Parasite			
+Abyssal_Lurker	EVO_LEVEL	42	Abyssal_Titan
+Abyssal_Titan			
+Tz_Kih	EVO_LEVEL	22	Tz_Kek
+Tz_Kek	EVO_LEVEL	33	Tok_Xil
+	EVO_OTHER_PARTY_MON	Spookaxe	Toktz_Ket_Dill
+Tok_Xil			
+Toktz_Ket_Dill	EVO_LEVEL	38	Ket_Zek
+Ket_Zek			
+Yt_HurKot	EVO_LEVEL	33	Yt_MejKot
+Yt_MejKot			
+TzRek_Jad	EVO_FRIENDSHIP	220	TzTok_Jad
+TzTok_Jad			
+Jal_Nib	EVO_LEVEL_ATK_GT_DEF	32	Jal_MejRah
+	EVO_LEVEL_ATK_LT_DEF	32	Jal_Ak
+Jal_MejRah	EVO_LEVEL	45	Jal_ImKot
+Jal_Ak	EVO_LEVEL	45	Jal_Zek
+Jal_ImKot			
+Jal_Zek			
+JalTok_Jad			
+TzKal_Zuk			
+Duckling	EVO_FRIENDSHIP	220	Duck
+	EVO_LEVEL	50	Swan
+Swan			
+Duck	EVO_MOVE	GROWTH	Mega_Duck
+	EVO_FLAG_SET		Cart_Duck
+Mega_Duck			
+Duck_on_a_Cart			
+Platypode	EVO_FRIENDSHIP	220	Platypus
+Platypus			
+Fledgling	EVO_LEVEL	21	Dagannoth_Normal_Form
+	EVO_MOVE	IRON DEFENSE	Dagannoth_Guardian_Form
+Dagannoth_Normal_Form	EVO_HOLD_ITEM_DAY	Dagannoth Scale	Dagannoth_King_Range_Form
+	EVO_HOLD_ITEM_DAY	Dagannoth Egg Shell	Dagannoth_King_Magic_Form
+	EVO_HOLD_ITEM_DAY	Shrivelled Dagannoth Claw	Dagannoth_King_Melee_Form
+Dagannoth_Guardian_Form			
+Dagannoth_King_Range_Form	EVO_MEGA		Dagannoth_King_Range_Mega_Form
+Dagannoth_King_Magic_Form	EVO_MEGA		Dagannoth_King_Magic_Mega_Form
+Dagannoth_King_Melee_Form	EVO_MEGA		Dagannoth_King_Melee_Mega_Form
+Dagannoth_King_Range_Mega_Form			
+Dagannoth_King_Magic_Mega_Form			
+Dagannoth_King_Melee_Mega_Form			
+Chaos_Elemental	EVO_MEGA		Chaos_Elemental_Mega_Form
+Chaos_Elemental_Mega_Form			
+Bandling	EVO_LEVEL	16	Bandbird
+Bandbird	EVO_LEVEL	36	Bandeagle
+Bandeagle			
+Zaroling	EVO_LEVEL	16	Zarobird
+Zarobird	EVO_LEVEL	36	Zaraven
+Zaraven			
+Sereling	EVO_LEVEL	16	Serebird
+Serebird	EVO_LEVEL	36	Serepea
+Serepea			
+Frogspawn	EVO_LEVEL	10	Frog
+Frog	EVO_LEVEL	20	Giant_Frog
+	EVO_ITEM	AIR RUNE	Bloated_Frog
+	EVO_MOVE_TYPE	POISON	Barker_Toad
+Giant_Frog	EVO_LEVEL	30	Royal_Frog
+Royal_Frog			
+Bloated_Frog	EVO_ITEM	AIR RUNE	Balloon_Frog
+Balloon_Frog			
+Barker_Toad			
+Frogeel			
+Spiderling	EVO_LEVEL_SILCOON	15	Big_Spider_Giant_Form
+	EVO_LEVEL_CASCOON	15	Big_Spider_Huge_Form
+	EVO_TYPE_IN_PARTY	GHOST	Eek
+Spider_Giant_Form	EVO_LEVEL_DAY	28	DeadlyRed_Spider
+	EVO_LEVEL_NIGHT	28	Night_Spider
+	EVO_MOVE	THUNDER FANG	Blessed_Spider
+Spider_Huge_Form	EVO_LEVEL_NIGHT	28	Night_Spider
+	EVO_ITEM	EARTH RUNE	Jungle_Spider
+	EVO_MOVE	ICE FANG	Ice_Spider
+DeadlyRed_Spider			
+Night_Spider			
+Blessed_Spider			
+Jungle_Spider			
+Ice_Spider			
+Eek	EVO_OTHER_PARTY_MON	Duckling	Spider_in_Bathtub
+Minstrel_Web			
+Spidine			
+Cave_Crawler	EVO_LEVEL	29	Chasmcrawl
+Chasm_Crawler	EVO_LEVEL	40	Monstrouscrawl
+MonstrousCrawler			
+Winston	EVO_LEVEL_SILCOON	30	Tortoise
+	EVO_LEVEL_CASCOON	30	Wartoise
+	EVO_ITEM	WATER RUNE	Sea_Turtle
+Tortoise	EVO_LEVEL	48	Warped_Tortoise
+Warped_Tortoise			
+War_Tortoise		LEGENDARY ITEM	Valluta
+Valluta			
+Sea_Turtle			
+Cave_Slime	EVO_LEVEL	34	Jelly
+Jelly	EVO_LEVEL	52	Warped_Jelly
+	EVO_ITEM	SPIRIT CHARM	Spirit_Jelly
+Warped_Jelly			
+Spirit_Jelly			
+Salamander_Green_Form	EVO_LEVEL	15	Salamander_Orange_Form
+Salamander_Orange_Form	EVO_LEVEL	25	Salamander_Red_Form
+	EVO_FLAG_SET		Gecko
+Salamander_Red_Form	EVO_LEVEL	35	Salamander_Black_Form
+	EVO_FLAG_SET		Gecko
+Salamander_Black_Form	EVO_ITEM	FIRE RUNE	Salamander_Augmented_Form
+Salamander_Augmented_Form			
+Gecko	EVO_LEVEL	51	Chameleon
+Chameleon			
+Bloodveld	EVO_LEVEL_ATK_GT_SPA	32	Insatiable_Bloodveld_Physical_Form
+	EVO_LEVEL_ATK_LT_SPA	32	Insatiable_Bloodveld_Special_Form
+Insatiable_Bloodveld_Physical_Form	EVO_LEVEL	43	Mutated_Bloodveld_Physical_Form
+Mutated_Bloodveld_Physical_Form			
+Insatiable_Bloodveld_Special_Form	EVO_LEVEL	43	Mutated_Bloodveld_Special_Form
+Mutated_Bloodveld_Special_Form			
+Armaling	EVO_LEVEL	16	Armabird
+Armabird	EVO_LEVEL	36	Armalcon
+Armalcon			
+Ungodling	EVO_LEVEL	16	Ungodbird
+Ungodbird	EVO_LEVEL	36	Ungodgeon
+Ungodgeon			
+Tumekling	EVO_LEVEL	16	Tumekbird
+Tumekbird	EVO_LEVEL	36	Tumekibis
+Tumekibis			
+Kerrit			
+Snuffle			
+Popoca			
+Choloa			
+Durzag			
+Yakamaru			
+Xinachto			
+Chompy	EVO_LEVEL_SPE_LT_SPDEF	26	Jubbly
+	EVO_LEVEL_SPE_GT_SPDEF	26	Terrorbird
+Jubbly			
+Terrorbird	EVO_ITEM	SPIRIT CHARM	Spirit_Terrorbird
+	EVO_LEVEL	44	Warped_Terrorbird
+Warped_Terrorbird			
+Spirit_Terrorbird			
+Jubster			
+Juvenile_Wolf	EVO_ITEM	SPIRIT CHARM	Spirit_Wolf
+	EVO_LEVEL_ATK_EQ_SPA	20	Wolf_Normal_Form
+	EVO_LEVEL_ATK_LT_SPA	20	Wolf_White_Form
+	EVO_LEVEL_ATK_GT_SPA	20	Wolf_Fenris_Form
+	EVO_MOVE	HEX	Fox
+Wolf_Normal_Form	EVO_LEVEL	40	Dire_Wolf
+Wolf_White_Form	EVO_LEVEL	40	Hati
+Wolf_Fenris_Form	EVO_LEVEL	40	Skoll
+Dire_Wolf			
+Hati			
+Skoll			
+Fox	EVO_LEVEL	40	Inari
+Inari			
+Spirit_Wolf	EVO_ITEM	LEGENDARY ITEM	Helwyr
+Helwyr			
+Bird_Nest	EVO_LEVEL_SILCOON	7	Pigeon
+	EVO_LEVEL_CASCOON	7	Pheasant
+	EVO_LEVEL	35	Rocling
+Pigeon			
+Pheasant			
+Rocling	EVO_LEVEL	45	Roc
+Roc			
+Foal	EVO_LEVEL	25	Unicorn
+Unicorn	EVO_LEVEL	40	Stallion
+Stallion			
+Pawya	EVO_LEVEL	34	Grenwall
+Grenwall			
+Bear_Cub	EVO_LEVEL	31	Bear
+	EVO_FLAG_SET		Polar_Bear
+Bear	EVO_LEVEL	43	Kendall
+Kendall			
+Polar_Bear	EVO_LEVEL	43	Artic_Bear
+Artic_Bear			
+Graahk	EVO_ITEM	SPIRIT CHARM	Graahk_Spirit_Form
+Spirit_Graahk			
+Dust_Devil	EVO_LEVEL_SILCOON	40	Smoke_Devil
+	EVO_LEVEL_CASCOON	40	Choke_Devil
+Smoke_Devil	EVO_LEVEL	60	Nuclear_Devil
+Nuclear_Devil			
+Choke_Devil	EVO_LEVEL	60	Thermy
+Thermy			
+Hatchling	EVO_HOLD_ITEM	GREEN SCALE	Green_Dragonling
+		BLUE SCALE	Blue_Dragonling
+		RED SCALE	Red_Dragonling
+		BLACK SCALE	Black_Dragonling
+Green_Dragonling	EVO_LEVEL	45	Green_Dragon
+Green_Dragon	EVO_LEVEL	65	Brutal_Green
+Brutal_Green	EVO_ITEM	LEGENDARY ITEM	Elvarg
+Blue_Dragonling	EVO_LEVEL	45	Blue_Dragon
+Blue_Dragon	EVO_LEVEL	65	Burtal_Blue
+Burtal_Blue			
+Red_Dragonling	EVO_LEVEL	45	Red_Dragon
+Red_Dragon	EVO_LEVEL	65	Brutal_Red
+Brutal_Red			
+Black_Dragonling	EVO_LEVEL	45	Black_Dragon
+Black_Dragon	EVO_LEVEL	65	Brutal_Black
+Brutal_Black	EVO_ITEM	LEGENDARY ITEM	KingBlackDragon
+	EVO_ITEM	LEGENDARY ITEM	QueenBlackDragon
+Dragon			
+Elvarg			
+KingBlackDragon			
+QueenBlackDragon			
+Creeping_Hand	EVO_LEVEL	27	Crawling_Hand
+Crawling_Hand	EVO_MOVE	BONE RUSH	Skeletal_Hand
+	EVO_MOVE	CRUSH GRIP	Crushing_Hand
+	EVO_LEVEL	38	Zombie_Hand
+Skeletal_Hand			
+Crushing_Hand			
+Zombie_Hand			
+Turoth	EVO_LEVEL_SILCOON	55	Mightiest_Turoth
+	EVO_LEVEL_CASCOON	55	Big_Turoth
+	EVO_ITEM	WISE OLD MAN'S SOCK	Sockroth
+Mightiest_Turoth			
+Big_Turoth			
+Sockroth			
+Baby_Kurask	EVO_FRIENDSHIP_DAY	220	Kurask
+Kurask	EVO_LEVEL_SILCOON	50	
+	EVO_LEVEL_CASCOON	50	
+King_Kurask			
+Kurask_Overlord			
+Kebbit	EVO_LEVEL_DEF_EQ_SPE	15	Polar_Kebbit
+	EVO_LEVEL_DEF_GT_SPE	15	Spotted_Kebbit
+	EVO_LEVEL_DEF_LT_SPE	15	Wild_Kebbit
+Polar_Kebbit	EVO_LEVEL	32	Sabre_Kebbit
+Sabre_Kebbit			
+Spotted_Kebbit	EVO_LEVEL	25	Dark_Kebbit
+Dark_Kebbit	EVO_LEVEL	32	Dashing_Kebbit
+Dashing_Kebbit			
+Wild_Kebbit		25	Prickly_Kebbit
+Prickly_Kebbit	EVO_LEVEL_SILCOON	32	Razor_Kebbit
+	EVO_LEVEL_CASCOON	32	Big_Kebbit
+Razor_Kebbit			
+Big_Kebbit			
+Desert_Devil	EVO_LEVEL	15	Feldip_Weasel
+	EVO_ITEM	CHOCOLATE ITEM	Chocolate_Kebbit
+Feldip_Weasel	EVO_LEVEL	23	Barbed_Kebbit
+Barbed_Kebbit	EVO_MOVE_TYPE	POISON	Diseased_Kebbit
+Diseased_Kebbit			
+Chocolate_Kebbit			
+Monkey	EVO_MOVE_TYPE	AGILITY	Ninja_Monkey
+	EVO_TYPE_IN_PARTY	GHOST	Zombie_Monkey
+	EVO_LEVEL_SILCOON	40	Gorilla_Normal_Form
+	EVO_LEVEL_CASCOON	40	Gorilla_Ancient_Form
+Ninja_Monkey			
+Zombie_Monkey			
+Gorilla_Normal_Form			
+Gorilla_Ancient_Form			
+Larupia	EVO_ITEM	SPIRIT CHARM	Larupia_Spirit_Form
+Spirit_Larupia			
+Kyatt	EVO_ITEM	SPIRIT CHARM	Kyatt_Spirit_Form
+Spirit_Kyatt			
+Crablet	EVO_LEVEL	15	Rock_Crab
+	EVO_FLAG_SET		Sand_Crab
+	EVO_FLAG_SET		Swamp_Crab
+	EVO_ITEM	GRANITE RING	Granite_Crab
+Rock_Crab	EVO_LEVEL	32	Giant_Rock_Crab
+Giant_Rock_Crab	EVO_MOVE	CRABHAMMER	Rock_Lobster
+	EVO_MOVE	ANCIENT POWER	Ammonite_Crab
+Ammonite_Crab			
+Rock_Lobster			
+Sand_Crab			
+Swamp_Crab			
+Granite_Crab	EVO_MOVE	CRABHAMMER	Granite_Lobster
+Granite_Lobster			
+Rabbit	EVO_LEVEL	31	Wolpertinger
+Wolpertinger			
+Bunyip			
+Talon_Beast_Talon_Form			
+Talon_Beast_Nail_Form			
+Ferret			
+Toy_Mouse	EVO_FEMALE_LEVEL	20	Toy_Doll
+	EVO_MALE_LEVEL	20	Toy_Soldier
+	EVO_OTHER_PARTY_MON	Penguin	Clockguin
+	EVO_OTHER_PARTY_MON	Cat	Clockwork_Cat
+Toy_Doll			
+Toy_Soldier			
+ClockworkPenguin			
+Clockwork_Cat			
+Magicarpet			
+Anichair			
+Exoraxe			
+Spookaxe			
+Dobbin			
+Marionette			
+Dragon_Kite			
+Animour			
+Dead_Tree			
+Jadinko			
+Killerwatt			
+Mackers	EVO_FEMALE_LEVEL	27	Turkey_Female_Form
+	EVO_MALE_LEVEL	27	Turkey_Male_Form
+Turkey_Female_Form			
+Turkey_Male_Form	EVO_ITEM	POSTIE PETE'S LETTER	Turkey_Protestor_Form
+Turkey_Protestor_Form			
+Tenacious_Toucan_Male_Form	EVO_LEVEL	32	Tuai_Leit_Toucan
+Tenacious_Toucan_Female_Form	EVO_LEVEL	32	Tuai_Leit_Toucan
+Tuai_Leit_Toucan			
+Blubberfish	EVO_LEVEL	40	Jellyfish_(MeleeFish)
+Jellyfish			
+Pure	EVO_ITEM	ANY RUNE	Rune
+Rune	EVO_ITEM	ANY RUNE	Essence
+Essence			
+Seagull	EVO_LEVEL_ATK_EQ_DEF		Pelican
+	EVO_ITEM	AIR RUNE	Albatross
+	EVO_LEVEL_ATK_LT_DEF		Hattenkrap
+	EVO_LEVEL_ATK_GT_DEF		Koppenploppen
+	EVO_ITEM	EARTH RUNE	Steven_Seagull
+	EVO_ITEM	SPIRIT CHARM	Ibis
+Pelican			
+Albatross			
+Hattenkrap			
+Koppenploppen			
+Steven_Seagull			
+Ibis			
+Desert_Wyrm	EVO_LEVEL	43	Wyrm
+Wyrm			
+Evil_Turnip			
+Cute_Creature			
+Aberrant_Spectre			
+Piglet	EVO_LEVEL	22	Pig
+Pig			
+Snake	EVO_LEVEL	27	Cobra
+	EVO_ITEM	WATER RUNE	Sea_Snake
+	EVO_ITEM	LEGENDARY ITEM	Juna
+Cobra	EVO_ITEM	SPIRIT CHARM	Spirit_cobra
+Spirit_cobra			
+Juna			
+Sea_Snake	EVO_LEVEL	42	Big_sea_snake
+Big_sea_snake			
