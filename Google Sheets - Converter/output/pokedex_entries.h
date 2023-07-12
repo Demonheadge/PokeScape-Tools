@@ -6178,6 +6178,54 @@
 	.trainerOffset = 0 ,
 	},
 
+	[NATIONAL_DEX_CRABLET_SECOND_FORM] =
+	{
+	.categoryName = _("Crabling"),
+	.height = 0,
+	.weight = 0,
+	.description = gCrablet_Second_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_CRABLET_THIRD_FORM] =
+	{
+	.categoryName = _("Crabling"),
+	.height = 0,
+	.weight = 0,
+	.description = gCrablet_Third_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_CRABLET_FORTH_FORM] =
+	{
+	.categoryName = _("Crabling"),
+	.height = 0,
+	.weight = 0,
+	.description = gCrablet_Forth_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_CRABLET_FIFTH_FORM] =
+	{
+	.categoryName = _("Crabling"),
+	.height = 0,
+	.weight = 0,
+	.description = gCrablet_Fifth_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
 	[NATIONAL_DEX_LOBSTER_GOLDEN_FORM] =
 	{
 	.categoryName = _("Contraction"),
@@ -7380,7 +7428,7 @@
 
 	[NATIONAL_DEX_KALPHITE_SPIRIT_FORM] =
 	{
-	.categoryName = _("Spirit kalph"),
+	.categoryName = _("Spirit"),
 	.height = 0,
 	.weight = 0,
 	.description = gKalphite_Spirit_FormPokedexText,
@@ -8196,7 +8244,7 @@
 
 	[NATIONAL_DEX_DEMON_BLOODCHILLER_FORM] =
 	{
-	.categoryName = _("Bloodchiller"),
+	.categoryName = _("Chiller"),
 	.height = 0,
 	.weight = 0,
 	.description = gDemon_Bloodchiller_FormPokedexText,
@@ -8232,7 +8280,7 @@
 
 	[NATIONAL_DEX_DEMON_RIFTSPLITTER_FORM] =
 	{
-	.categoryName = _("Riftsplitter"),
+	.categoryName = _("Splitter"),
 	.height = 0,
 	.weight = 0,
 	.description = gDemon_Riftsplitter_FormPokedexText,
@@ -10888,6 +10936,90 @@
 	.height = 0,
 	.weight = 0,
 	.description = gPig_Summoning_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_TZ_KIH_SPIRIT_FORM] =
+	{
+	.categoryName = _("Tzhaar"),
+	.height = 0,
+	.weight = 0,
+	.description = gTz_Kih_Spirit_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_SPIDER_SPIRIT_FORM] =
+	{
+	.categoryName = _("Spider"),
+	.height = 0,
+	.weight = 0,
+	.description = gSpider_Spirit_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_ROVER] =
+	{
+	.categoryName = _("Wolf"),
+	.height = 0,
+	.weight = 0,
+	.description = gRoverPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_WOLF_JUNGLE_FORM] =
+	{
+	.categoryName = _("Wolf"),
+	.height = 0,
+	.weight = 0,
+	.description = gWolf_Jungle_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_WOLF_DESERT_FORM] =
+	{
+	.categoryName = _("Wolf"),
+	.height = 0,
+	.weight = 0,
+	.description = gWolf_Desert_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_BLOODVELD_RS3_FORM] =
+	{
+	.categoryName = _("Bloodveld"),
+	.height = 0,
+	.weight = 0,
+	.description = gBloodveld_RS3_FormPokedexText,
+	.pokemonScale = 256 ,
+	.pokemonOffset = 0 ,
+	.trainerScale = 256 ,
+	.trainerOffset = 0 ,
+	},
+
+	[NATIONAL_DEX_CORPOREAL_BEAST_ZANIK_FORM] =
+	{
+	.categoryName = _("Zanik"),
+	.height = 0,
+	.weight = 0,
+	.description = gCorporeal_Beast_Zanik_FormPokedexText,
 	.pokemonScale = 256 ,
 	.pokemonOffset = 0 ,
 	.trainerScale = 256 ,
@@ -13816,6 +13948,22 @@ const u8 gCrablet_First_FormPokedexText[] = _(
 "ways.");
 
 
+const u8 gCrablet_Second_FormPokedexText[] = _(
+"Nothing Interesting Happens.");
+
+
+const u8 gCrablet_Third_FormPokedexText[] = _(
+"Nothing Interesting Happens.");
+
+
+const u8 gCrablet_Forth_FormPokedexText[] = _(
+"Nothing Interesting Happens.");
+
+
+const u8 gCrablet_Fifth_FormPokedexText[] = _(
+"Nothing Interesting Happens.");
+
+
 const u8 gLobster_Golden_FormPokedexText[] = _(
 "A lobster so rare they are mostly found in\n"
 "player-owned homes. They are easily\n"
@@ -14860,7 +15008,7 @@ const u8 gSquirrel_Australian_FormPokedexText[] = _(
 
 
 const u8 gRacoonPokedexText[] = _(
-"Known as "washbears" to some these\n"
+"Known as 'washbears' to some these\n"
 "woodland critters love to eat garbage.");
 
 
@@ -16031,5 +16179,33 @@ const u8 gZulrah_Tanzanite_FormPokedexText[] = _(
 const u8 gPig_Summoning_FormPokedexText[] = _(
 "A pig from the spirit realm summoned to\n"
 "Gielinor to help its summoner.");
+
+
+const u8 gTz_Kih_Spirit_FormPokedexText[] = _(
+"CUPHOLDER");
+
+
+const u8 gSpider_Spirit_FormPokedexText[] = _(
+"CUPHOLDER");
+
+
+const u8 gRoverPokedexText[] = _(
+"CUPHOLDER");
+
+
+const u8 gWolf_Jungle_FormPokedexText[] = _(
+"CUPHOLDER");
+
+
+const u8 gWolf_Desert_FormPokedexText[] = _(
+"CUPHOLDER");
+
+
+const u8 gBloodveld_RS3_FormPokedexText[] = _(
+"CUPHOLDER");
+
+
+const u8 gCorporeal_Beast_Zanik_FormPokedexText[] = _(
+"CUPHOLDER");
 
 

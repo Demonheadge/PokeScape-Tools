@@ -28,6 +28,8 @@ const PSMoves = Object.keys(PokeScapeMOVES);
 const DexEntries = require('./js folder/' + './PokeScape_DexEntries.js')
 const pokedexData = Object.keys(DexEntries);
 
+const PokeScapeTMs = require('./js folder/' + './PokeScape_TM.js')
+const TM_List = Object.keys(PokeScapeTMs);
 
 /* for (i = 0; i < Object.keys(level_up_moves).length; i++) {
 	console.log(Object.keys(level_up_moves[Object.keys(level_up_moves)[i]]) + '\n' + util.inspect(level_up_moves[Object.keys(level_up_moves)[i]][Object.keys(level_up_moves[Object.keys(level_up_moves)[i]])]))
@@ -99,43 +101,48 @@ MOVENAME_MOVE = 3;
 
 
 
-/*
-//species.h
-	Define_Species();
-//pokemon_animation.c
-	//Do Manually this is temp placeholders.
-	animations();
-//pokemon_icon.c
-	pokemon_icon();
-//graphics.h
-	graphics();
-//pokemon.h
-	pokemonH();
-//base_stats.h
-	BaseStats();
-//evolution.h
-//level_up_learnset_pointers.h
-	level_up_learnset_pointers();
-//level_up_learnsets.h
-	MOVES();
-//tmhm_learnsets.h
-//back_pic_coordinates.h
-//footprint_table.h
-//front_pic_coordinates.h
-//species_names.h
-	species_names()
 
-	back_pic_coordinates();
-	front_pic_coordinates();
-	pokedex_entries();
-	back_pic_table();
-	front_pic_table();
-	speciesToNational();
-	anim_mon_front_pics();
-*/
+//START //Uncomment in order to run the function.
+	//GBA
+		/*
+		//species.h
+			Define_Species();
+		//pokemon_animation.c
+			//Do Manually this is temp placeholders.
+			animations();
+		//pokemon_icon.c
+			pokemon_icon();
+		//graphics.h
+			graphics();
+		//pokemon.h
+			pokemonH();
+		//base_stats.h
+			BaseStats();
+		//evolution.h
+		//level_up_learnset_pointers.h
+			level_up_learnset_pointers();
+		//level_up_learnsets.h
+			MOVES();
+		//tmhm_learnsets.h
+		//back_pic_coordinates.h
+		//footprint_table.h
+		//front_pic_coordinates.h
+		//species_names.h
+			species_names()
 
+			back_pic_coordinates();
+			front_pic_coordinates();
+			pokedex_entries();
+			back_pic_table();
+			front_pic_table();
+			speciesToNational();
+			anim_mon_front_pics();
+		*/
+			ConvertTMList();
 
-	WebsiteJSON();
+	//WEBSITE
+		//WebsiteJSON();
+		//MOVEStest();
 
 
 //#region Base_Stats.c
@@ -1038,7 +1045,7 @@ function WebsiteJSON() {
 
 
 
-MOVEStest();
+
 //#region LevelUp_Movesets
 function MOVEStest() {
 
@@ -1181,3 +1188,331 @@ function WebsiteJSON() {
 	
 };
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ConvertTMList() {
+	
+	//PokeScape_TM
+	TM_ID_NUMBER = 0;
+	TM_MONSTER_NAME = 1;
+	TM_01 = 2;
+	TM_02 = 3;
+	TM_03 = 4;
+	TM_04 = 5;
+	TM_05 = 6;
+	TM_06 = 7;
+	TM_07 = 8;
+	TM_08 = 9;
+	TM_09 = 10;
+	TM_10 = 11;
+	TM_11 =	12;
+	TM_12 =	13;
+	TM_13 =	14;
+	TM_14 =	15;
+	TM_15 =	16;
+	TM_16 =	17;
+	TM_17 =	18;
+	TM_18 =	19;
+	TM_19 =	20;
+	TM_20 =	21;
+	TM_21 =	22;
+	TM_22 =	23;
+	TM_23 =	24;
+	TM_24 =	25;
+	TM_25 =	26;
+	TM_26 =	27;
+	TM_27 =	28;
+	TM_28 =	29;
+	TM_29 =	30;
+	TM_30 =	31;
+	TM_31 =	32;
+	TM_32 =	33;
+	TM_33 =	34;
+	TM_34 =	35;
+	TM_35 =	36;
+	TM_36 =	37;
+	TM_37 =	38;
+	TM_38 =	39;
+	TM_39 =	40;
+	TM_40 =	41;
+	TM_41 =	42;
+	TM_42 =	43;
+	TM_43 =	44;
+	TM_44 =	45;
+	TM_45 =	46;
+	TM_46 =	47;
+	TM_47 =	48;
+	TM_48 =	49;
+	TM_49 =	50;
+	TM_50 =	51;
+	TM_51 =	52;
+	TM_52 =	53;
+	TM_53 =	54;
+	TM_54 =	55;
+	TM_55 =	56;
+	TM_56 =	57;
+	TM_57 =	58;
+	TM_58 =	59;
+	TM_59 =	60;
+	TM_60 =	61;
+	TM_61 =	62;
+	TM_62 =	63;
+	TM_63 =	64;
+	TM_64 =	65;
+	TM_65 =	66;
+	TM_66 =	67;
+
+
+	
+	
+		let TMListOutput_print = ''
+	
+		for (k = 0; k < TM_List.length; k++) { //LOOP THROUGH THE TM LIST.
+			TMListOutput_print += '\t[SPECIES_' + PokeScapeTMs[TM_List[k]][TM_MONSTER_NAME].toUpperCase() + ']\t\t= TMHM_LEARNSET(\n'
+				
+			
+				if (PokeScapeTMs[TM_List[k]][TM_01] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_01].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_01].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_02] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_02].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_02].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_03] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_03].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_03].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_04] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_04].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_04].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_05] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_05].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_05].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_06] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_06].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_06].toUpperCase() + ')\n'
+				}
+
+
+
+
+
+				if (PokeScapeTMs[TM_List[k]][TM_07] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_07].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_07].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_08] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_08].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_08].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_09] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_09].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_09].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_10] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_10].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_10].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_11] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_11].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_11].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_12] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_12].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_12].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_13] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_13].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_13].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_14] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_14].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_14].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_15] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_15].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_15].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_16] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_16].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_16].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_17] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_17].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_17].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_18] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_18].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_18].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_19] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_19].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_19].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_20] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_20].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_20].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_21] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_21].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_21].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_22] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_22].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_22].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_23] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_23].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_23].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_24] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_24].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_24].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_25] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_25].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_25].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_26] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_26].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_26].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_27] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_27].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_27].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_28] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_28].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_28].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_29] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_29].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_29].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_30] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_30].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_30].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_31] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_31].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_31].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_32] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_32].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_32].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_33] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_33].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_33].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_34] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_34].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_34].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_35] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_35].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_35].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_36] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_36].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_36].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_37] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_37].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_37].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_38] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_38].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_38].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_39] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_39].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_39].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_40] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_40].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_40].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_41] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_41].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_41].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_42] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_42].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_42].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_43] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_43].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_43].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_44] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_44].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_44].toUpperCase() + ')\n'
+				}
+				
+
+
+				if (PokeScapeTMs[TM_List[k]][TM_45] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_45].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_45].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_46] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_46].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_46].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_47] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_47].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_47].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_48] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_48].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_48].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_49] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_49].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_49].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_50] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_50].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_50].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_51] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_51].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_51].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_52] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_52].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_52].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_53] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_53].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_53].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_54] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_54].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_54].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_55] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_55].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_55].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_56] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_56].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_56].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_57] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_57].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_57].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_58] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_58].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_58].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_59] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_59].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_59].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_60] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_60].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_60].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_61] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_61].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_61].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_62] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_62].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_62].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_63] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_63].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_63].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_64] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_64].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_64].toUpperCase() + ')\n'
+				}
+				/*if (PokeScapeTMs[TM_List[k]][TM_65] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_65].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_65].toUpperCase() + ')\n'
+				}
+				if (PokeScapeTMs[TM_List[k]][TM_66] == 'TRUE') {
+					TMListOutput_print += '\t\t\t\t\t\t\t\t\t| TMHM(' + '' + PokeScapeTMs[TM_List[0]][TM_66].toUpperCase() + "_" + PokeScapeTMs[TM_List[1]][TM_66].toUpperCase() + ')\n'
+				}*/
+			
+				
+							
+							
+				TMListOutput_print += '\t\t\t\t\t\t\t\t\t),\n'
+				TMListOutput_print = TMListOutput_print.replace("TMHM_LEARNSET(\n\t\t\t\t\t\t\t\t\t|", "TMHM_LEARNSET(\n\t\t\t\t\t\t\t\t\t")
+		}
+		
+
+		
+		
+
+	
+	
+		console.log(TMListOutput_print)
+			fs.writeFile('./output/' + 'TMListOutput_print.json', TMListOutput_print, function (err) {
+		if (err) throw err;
+		});
+		
+	};
+
+	//.replace(/ /g, '_')
+
+	//if (TM_List[PokeScapeTMs[k]][0] === 'FALSE') {
+		//if (PokeScapeTMs[TM_List[k]][TM_02] !== 'TRUE') {
+
+		

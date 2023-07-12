@@ -12,6 +12,8 @@ initialTMHMFile = "tsv folder/PokeScape Main Sheet - TM_HM"
 initialDexEntriesFile = "tsv folder/PokeScape Main Sheet - Dex Entries"
 initialMovesFile = "tsv folder/PokeScape Main Sheet - MOVES"
 
+initialTMFile = "tsv folder/PokeScape Main Sheet - TM LIST"
+
 #File names for the converted output files. (Include extensions)
 finalLevelFile = "js folder/PokeScape_LevelUp_Moves.js"
 finalStatsFile = "js folder/PokeScape_Stats.js"
@@ -20,6 +22,8 @@ finalEvolutionFile = "js folder/PokeScape_Evolution.js"
 finalTMHMFile = "js folder/PokeScape_TM_HM.js"
 finalDexEntriesFile = "js folder/PokeScape_DexEntries.js"
 finalMovesFile = "js folder/MOVES.js"
+
+finalTMFile = "js folder/PokeScape_TM.js"
 
 # Convert Tab Characters to Spaces.
 def tabSwap(inputFileName):
@@ -238,6 +242,44 @@ def ConvertTMHMToJavascript(inputFileName, outputFileName, StartWithLine):
 
 
 
+# Convert Most Non-Special Json lines to javascript.
+def ConvertTMsToJavascript(inputFileName, outputFileName, StartWithLine):
+    print("  > ConvertToJavascript('"+inputFileName+"','"+outputFileName+"',"+str(StartWithLine)+")")
+
+    """
+    Load the input data, and prepare the output file.
+    """
+    inFile = open(inputFileName+"_InsertedDataModded.json")
+    outFile = open(outputFileName, "w")
+    buffer = []
+
+    """
+    Add the file header, start the initial counter at 0.
+    """
+    buffer.append("module.exports = {\n")
+    counter = 1
+
+    """
+    For each line in the file:
+      > Start when the Loop when it matches StartWithLine ID.
+      > Add the counter minus StartWithLine
+      > Add a comma after each Right-Square bracket.
+      > Add one to the counter.
+    """
+    for line in inFile:
+        if counter >= StartWithLine-1:
+            buffer.append(str(counter-StartWithLine+1)+": "+line.replace("###", ",").replace("]", "],"))
+        counter = counter+1
+
+    """
+    Add the file footer, and save the new file.
+    """
+    buffer.append("\n}")
+    outFile.writelines(buffer)
+
+
+
+
 
 
 
@@ -326,6 +368,16 @@ def ConvertMoves():
     ConvertMostToJavascript(initialMovesFile, finalMovesFile, 2)
 
 
+
+# Load the converters seperately for MOVES.
+def ConvertTMs():
+    print("ConvertTMs()")
+    tabSwap(initialTMFile)
+    insertData(initialTMFile)
+    ConvertTMsToJavascript(initialTMFile, finalTMFile, 2) #Change the function
+
+
+
 # Uncomment the converters you want to run, comment using a # to not run them.
 def Start():
     print("Start()")
@@ -336,6 +388,7 @@ def Start():
     #ConvertTMHM()
     ConvertDexEntries()
     ConvertMoves()
+    ConvertTMs()
 
 # Start the program!
 Start()

@@ -1,3 +1,5 @@
+{
+}
 {"ID": "1","NAME": "Guthling","lvl1": "1","mv1": "TACKLE","lvl2": "2","mv2": "GROWL","lvl3": "6","mv3": "BULLET_SEED","lvl4": "9","mv4": "PECK","lvl5": "14","mv5": "SAND_ATTACK","lvl6": "16","mv6": "RAZOR_LEAF","lvl7": "22","mv7": "PLUCK","lvl8": "25","mv8": "SCREECH","lvl9": "29","mv9": "FURY_ATTACK","lvl10": "30","mv10": "GUTHIX_CLAWS","lvl11": "32","mv11": "MAGICAL_LEAF","lvl12": "35","mv12": "LEAF_BLADE","lvl13": "40","mv13": "FORESTS_CURSE","lvl14": "44","mv14": "BRAVE_BIRD"}
 {"ID": "2","NAME": "Guthbird","lvl1": "1","mv1": "TACKLE","lvl2": "2","mv2": "GROWL","lvl3": "3","mv3": "BULLET_SEED","lvl4": "4","mv4": "PECK","lvl5": "8","mv5": "SAND_ATTACK","lvl6": "11","mv6": "RAZOR_LEAF","lvl7": "18","mv7": "PLUCK","lvl8": "21","mv8": "FURY_ATTACK","lvl9": "24","mv9": "SCREECH","lvl10": "28","mv10": "ACROBATICS","lvl11": "32","mv11": "MAGICAL_LEAF","lvl12": "34","mv12": "GUTHIX_CLAWS","lvl13": "36","mv13": "LEAF_BLADE","lvl14": "43","mv14": "FORESTS_CURSE","lvl15": "45","mv15": "BRAVE_BIRD","lvl16": "50","mv16": "STRENGTH_SAP"}
 {"ID": "3","NAME": "Guthraptor","lvl1": "1","mv1": "SEED_BOMB","lvl2": "2","mv2": "TACKLE","lvl3": "3","mv3": "GROWL","lvl4": "4","mv4": "BULLET_SEED","lvl5": "5","mv5": "SAND_ATTACK","lvl6": "7","mv6": "RAZOR_LEAF","lvl7": "14","mv7": "PLUCK","lvl8": "19","mv8": "FURY_ATTACK","lvl9": "24","mv9": "SCREECH","lvl10": "28","mv10": "ACROBATICS","lvl11": "32","mv11": "MAGICAL_LEAF","lvl12": "34","mv12": "GUTHIX_CLAWS","lvl13": "36","mv13": "LEAF_BLADE","lvl14": "40","mv14": "AROMATHERAPY","lvl15": "43","mv15": "FORESTS_CURSE","lvl16": "48","mv16": "BRAVE_BIRD","lvl17": "51","mv17": "STRENGTH_SAP"}
@@ -915,4 +917,9 @@
 {"ID": "915","NAME": "Zygomite_Ancient_Form","lvl1": "1","mv1": "SCRATCH"}
 {"ID": "916","NAME": "Zulrah_Serpentine_Form","lvl1": "1","mv1": "SCRATCH"}
 {"ID": "917","NAME": "Zulrah_Magma_Form","lvl1": "1","mv1": "SCRATCH"}
-{"ID": "918","NAME": "Zulrah_Tanzanite_Form","lvl1": "1","mv1": "SCRATCH"}
+{"ID": "918","NAME": "Zulrah_Tanzanite_Form","lvl1": "1","mv1": "SCRATCH"
+
+
+
+
+}
