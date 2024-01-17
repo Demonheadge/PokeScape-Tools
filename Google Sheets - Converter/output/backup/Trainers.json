@@ -1,0 +1,3391 @@
+HelloWorld.TimetoConvertthistoJSON
+{
+conststructTrainergTrainers[",
+{
+	"TRAINER": "NONE",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PKMN_TRAINER_1",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_MALE",
+	"trainerPic": "TRAINER_PIC_HIKER",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "0",
+	"partySize": "0,",
+	"party": "{.NoItemDefaultMovesNULL}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "MAGGIE",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WITCH",
+	"encounterMusic_gender": "F_TRAINER_FEMALE|TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_maggie",
+	"trainerName": "MAGGIE",
+	"items": "{ITEM_BREAD,ITEM_BREAD,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Maggie",
+	"party": "{.NoItemDefaultMovessParty_Maggie}"
+},
+
+{
+	"TRAINER": "GOBLIN_1_ROUTE1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "WARTFOOT",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin1_Route1",
+	"party": "{.NoItemDefaultMovessParty_Goblin1_Route1}"
+},
+
+{
+	"TRAINER": "GOBLIN_2_ROUTE1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "FROGFACE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin2_Route1",
+	"party": "{.NoItemDefaultMovessParty_Goblin2_Route1}"
+},
+
+{
+	"TRAINER": "RSN_ROUTE1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "BOB",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Trainer1_Route1",
+	"party": "{.NoItemDefaultMovessParty_Trainer1_Route1}"
+},
+
+{
+	"TRAINER": "GOBLIN_3_ROUTE1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "MUDBEARD",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin3",
+	"party": "{.NoItemDefaultMovessParty_Goblin3}"
+},
+
+{
+	"TRAINER": "GOBLIN_4_ROUTE1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "FEETFINGERS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE1_Goblin4",
+	"party": "{.ItemDefaultMovessParty_ROUTE1_Goblin4}",
+	"scaling": "FALSE"
+},
+
+
+{
+	"TRAINER": "TRAINER1_MILLLANEMILL",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HUNTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_hunter_f",
+	"trainerName": "KEBBIE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_TRAINER1_MILLLANEMILL",
+	"party": "{.ItemDefaultMovessParty_TRAINER1_MILLLANEMILL}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "TRAINER2_MILLLANEMILL",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FARMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_farmer",
+	"trainerName": "HOPS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_TRAINER2_MILLLANEMILL",
+	"party": "{.ItemDefaultMovessParty_TRAINER2_MILLLANEMILL}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "TRAINER3_MILLLANEMILL",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miller",
+	"trainerName": "CASSIDY",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_TRAINER3_MILLLANEMILL",
+	"party": "{.ItemDefaultMovessParty_TRAINER3_MILLLANEMILL}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "TRAINER4_MILLLANEMILL",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miller",
+	"trainerName": "DIXIE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_TRAINER4_MILLLANEMILL",
+	"party": "{.ItemDefaultMovessParty_TRAINER4_MILLLANEMILL}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MILLIE_MILLER_MILLLANEMILL",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miller",
+	"trainerName": "MILLIE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MILLIE_MILLER_MILLLANEMILL",
+	"party": "{.ItemDefaultMovessParty_MILLIE_MILLER_MILLLANEMILL}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "FARMER_ROUTE1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FARMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_farmer",
+	"trainerName": "JOHN",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Farmer_Route1",
+	"party": "{.NoItemDefaultMovessParty_Farmer_Route1}"
+},
+
+{
+	"TRAINER": "MUGGER_ROUTE4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "MILES",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Mugger_Route4",
+	"party": "{.ItemDefaultMovessParty_Mugger_Route4}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "FARMER_ROUTE4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FARMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_farmer",
+	"trainerName": "LEEROY",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Farmer_Route4",
+	"party": "{.ItemDefaultMovessParty_Farmer_Route4}"
+},
+
+{
+	"TRAINER": "SCAMMER_ROUTE4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SCAMMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_scammer",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Scammer_Route4",
+	"party": "{.ItemDefaultMovessParty_Scammer_Route4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "MUGGER_ROUTE6",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "LEO",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Mugger_Route6",
+	"party": "{.ItemDefaultMovessParty_Mugger_Route6}"
+},
+
+{
+	"TRAINER": "GOBLIN_4_ROUTE12",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "WORMTONGUE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin4",
+	"party": "{.NoItemDefaultMovessParty_Goblin4}"
+},
+
+{
+	"TRAINER": "GOBLIN_5_ROUTE12",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "FEETHANDS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin5",
+	"party": "{.ItemDefaultMovessParty_Goblin5}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "GOBLIN_6_ROUTE12",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "EYEMONGER",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin6",
+	"party": "{.ItemDefaultMovessParty_Goblin6}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "GOBLIN_7_ROUTE12",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "SMELLYBACK",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Goblin7",
+	"party": "{.ItemDefaultMovessParty_Goblin7}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "RSN_ROUTE12",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "NOTANOOB37",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Rsn_Route12",
+	"party": "{.ItemDefaultMovessParty_Rsn_Route12}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "LUMBRIDGE_GYM1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_miller",
+	"trainerName": "ANABELL",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Lumbridge_Gym1",
+	"party": "{.ItemDefaultMovessParty_Lumbridge_Gym1}",
+	"scaling": "FALSE,
+
+},
+{
+	"TRAINER": "LUMBRIDGE_GYM2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FARMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_farmer",
+	"trainerName": "GIDEON",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Lumbridge_Gym2",
+	"party": "{.ItemDefaultMovessParty_Lumbridge_Gym2}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "LUMBRIDGE_GYM3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_miller",
+	"trainerName": "JESSE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Lumbridge_Gym3",
+	"party": "{.ItemDefaultMovessParty_Lumbridge_Gym3}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "LUMBRIDGE_GYM4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FARMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_farmer",
+	"trainerName": "JERICHO",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Lumbridge_Gym4",
+	"party": "{.ItemDefaultMovessParty_Lumbridge_Gym4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DUKE",
+	"partyFlags": "F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_LEADER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_duke_horacio",
+	"trainerName": "HORACIO",
+	"items": "{ITEM_BREAD,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Duke",
+	"party": "{.NoItemCustomMovessParty_Duke}"
+},
+
+{
+	"TRAINER": "RSN_LUM_SWAMP",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "SLIMETHIGHS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Rsn_Lum_Swamp",
+	"party": "{.ItemDefaultMovessParty_Rsn_Lum_Swamp}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MUGGER_LUM_SWAMP",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "ROBIN",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Mugger_Lum_Swamp",
+	"party": "{.ItemDefaultMovessParty_Mugger_Lum_Swamp}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "SKELETON_LUM_SWAMP",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "BRITTLEBONE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Skeleton_Lum_Swamp",
+	"party": "{.ItemDefaultMovessParty_Skeleton_Lum_Swamp}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "LUM_SWAMP_GRASSTEETH",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "GRASSTEETH",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Lum_Swamp_GrassTeeth",
+	"party": "{.ItemDefaultMovessParty_Lum_Swamp_GrassTeeth}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "MITHRILMAN1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN1",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN1}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN2",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN2}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN3",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN3}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN4",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN4}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN5",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN5",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN5}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN6",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN6",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN6}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN7",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN7",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN7}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN8",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN8",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN8}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN9",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN9",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN9}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "MITHRILMAN10",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MITHRILMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mithrilman",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MITHRILMAN10",
+	"party": "{.ItemDefaultMovessParty_MITHRILMAN10}",
+	"scaling": "FALSE"
+},
+
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_ADMIN_PATTY",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_BOSS",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "PATTY",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_ADMIN_PATTY",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_ADMIN_PATTY}",
+	"scaling": "FALSE"
+},
+
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_GRUNT_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_GRUNT_1",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_GRUNT_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_GRUNT_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_GRUNT_2",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_GRUNT_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_GRUNT_3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_GRUNT_3",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_GRUNT_3}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_GRUNT_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_GRUNT_4",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_GRUNT_4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_GRUNT_5",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_GRUNT_5",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_GRUNT_5}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "KARAMJAVOLCANO_HAM_GRUNT_6",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_ham_grunt_f",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_HAM_GRUNT_6",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_HAM_GRUNT_6}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "KARAMJAVOLCANO_SKELETON_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "Humurus",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_KaramjaVolcano_SKELETON_1",
+	"party": "{.ItemDefaultMovessParty_KaramjaVolcano_SKELETON_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_COUNT_DRAYNOR",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_COUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_count_draynor",
+	"trainerName": "DRAYNOR",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_COUNT_DRAYNOR",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_COUNT_DRAYNOR}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "VERTEBRAE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_1",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "MCBONEFACE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_2",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_TRAINER_3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_TRAINER_3",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_TRAINER_3}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "TARSUS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_4",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_5",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "STERNUM",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_5",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_5}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_6",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "COLLAR",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_6",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_6}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_7",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "PELVIS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_7",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_7}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNOR_MANOR_SKELETON_8",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "RIBS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNOR_MANOR_SKELETON_8",
+	"party": "{.ItemDefaultMovessParty_DRAYNOR_MANOR_SKELETON_8}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_skiller",
+	"trainerName": "HOW2TYPE",
+	"items": "{ITEM_BREAD,ITEM_BREAD,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_1",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_wizard_m",
+	"trainerName": "TAMMCGRUB",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_2",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "CAKEBAWS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_3",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_3}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "SLIMYTEM",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_4",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_5",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_5",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_5}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_6",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_6",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_6}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE2_TRAINER_7",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_BOT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_bot_woodcutting",
+	"trainerName": "WOODCUTTING",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE2_TRAINER_7",
+	"party": "{.ItemDefaultMovessParty_ROUTE2_TRAINER_7}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "WIZARDSTOWER_TRAINER_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_wizard_m",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_WIZARDSTOWER_TRAINER_1",
+	"party": "{.ItemDefaultMovessParty_WIZARDSTOWER_TRAINER_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "WIZARDSTOWER_TRAINER_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_wizard_m",
+	"trainerName": "GOLDBERG",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_WIZARDSTOWER_TRAINER_2",
+	"party": "{.ItemDefaultMovessParty_WIZARDSTOWER_TRAINER_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "WIZARDSTOWER_TRAINER_3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_wizard_m",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_WIZARDSTOWER_TRAINER_3",
+	"party": "{.ItemDefaultMovessParty_WIZARDSTOWER_TRAINER_3}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "WIZARDSTOWER_TRAINER_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_wizard_m",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_WIZARDSTOWER_TRAINER_4",
+	"party": "{.ItemDefaultMovessParty_WIZARDSTOWER_TRAINER_4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "WIZARDSTOWER_TRAINER_MYRTLE",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_wizard_f",
+	"trainerName": "MYRTLE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_WIZARDSTOWER_TRAINER_MYRTLE",
+	"party": "{.ItemDefaultMovessParty_WIZARDSTOWER_TRAINER_MYRTLE}",
+	"scaling": "FALSE"
+},
+
+
+{
+	"TRAINER": "ROUTE3_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SKILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_skiller",
+	"trainerName": "IPWNSKILLS",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE3_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE3_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE5_CAPTAINTOCK",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "CPT.TOCK",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE5_CAPTIANTOCK",
+	"party": "{.NoItemDefaultMovessParty_ROUTE5_CAPTIANTOCK}"
+},
+
+{
+	"TRAINER": "ROUTE5_WOODCUTTER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "CHOPSALOT",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE5_WOODCUTTER",
+	"party": "{.ItemDefaultMovessParty_ROUTE5_WOODCUTTER}"
+},
+
+{
+	"TRAINER": "ROUTE10_MONK",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MONK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_monk",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE10_MONK",
+	"party": "{.NoItemDefaultMovessParty_ROUTE10_MONK}"
+},
+
+{
+	"TRAINER": "ROUTE10_GOBLIN_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "FEETSTOMPER",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE10_GOBLIN_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE10_GOBLIN_1}"
+},
+
+{
+	"TRAINER": "ROUTE10_GOBLIN_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "WINDBURSTER",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE10_GOBLIN_2",
+	"party": "{.ItemDefaultMovessParty_ROUTE10_GOBLIN_2}"
+},
+
+{
+	"TRAINER": "ROUTE8_THIEF",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SCAMMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_scammer",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_THIEF",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_THIEF}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_NOOB",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_NOOB",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_NOOB}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_DnD",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DnDer",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_dnd",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_DnD",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_DnD}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_MINER_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_MINER_1",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_MINER_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_WOODCUTTER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_WOODCUTTER",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_WOODCUTTER}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_MINER_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_MINER_2",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_MINER_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_WIZARD_AIR",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "AIR",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_WIZARD_AIR",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_WIZARD_AIR}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_WIZARD_WATER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WATER",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_WIZARD_WATER",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_WIZARD_WATER}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_WIZARD_EARTH",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "EARTH",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_WIZARD_EARTH",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_WIZARD_EARTH}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_WIZARD_FIRE",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "FIRE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_WIZARD_FIRE",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_WIZARD_FIRE}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE8_WIZARD_MALIGNIUS_MORTIFER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "MALIGNIUS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE8_WIZARD_MALIGNIUS_MORTIFER",
+	"party": "{.ItemDefaultMovessParty_ROUTE8_WIZARD_MALIGNIUS_MORTIFER}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_GOBLIN_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "HOBS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_GOBLIN_1",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_GOBLIN_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_GOBLIN_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_GOBLIN_2",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_GOBLIN_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_GOBLIN_3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "SNOWTOES",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_GOBLIN_3",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_GOBLIN_3}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_GOBLIN_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_GOBLIN_4",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_GOBLIN_4}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_CHEF",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_CHEF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_cook",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_CHEF",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_CHEF}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_MUGGER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_MUGGER",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_MUGGER}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_GUTHIX_WIZARD",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WIZARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guthix_wizard",
+	"trainerName": "GUTHIX",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_GUTHIX_WIZARD",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_GUTHIX_WIZARD}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_MINER_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_MINER_1",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_MINER_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE9_MINER_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE9_MINER_2",
+	"party": "{.ItemDefaultMovessParty_ROUTE9_MINER_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE11_QUESTER",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_QUESTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_quester",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE11_QUESTER",
+	"party": "{.NoItemDefaultMovessParty_ROUTE11_QUESTER}"
+},
+
+{
+	"TRAINER": "ROUTE11_PIRATE",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE11_PIRATE",
+	"party": "{.NoItemDefaultMovessParty_ROUTE11_PIRATE}"
+},
+
+{
+	"TRAINER": "ROUTE11_SAILOR",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SAILOR",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_sailor",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE11_SAILOR",
+	"party": "{.NoItemDefaultMovessParty_ROUTE11_SAILOR}"
+},
+
+{
+	"TRAINER": "ROUTE11_PvMer",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE11_PvMer",
+	"party": "{.NoItemDefaultMovessParty_ROUTE11_PvMer}"
+},
+
+{
+	"TRAINER": "ROUTE11_GRACEFUL",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_AGILE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_SKILLER",
+	"trainerPic": "TRAINER_PIC_graceful",
+	"trainerName": "ERKEE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE11_GRACEFUL",
+	"party": "{.NoItemDefaultMovessParty_ROUTE11_GRACEFUL}"
+},
+
+{
+	"TRAINER": "FALADOR_MODTIMBO",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_JMOD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_jmod_m",
+	"trainerName": "TIMBO",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_FALADOR_MODTIMBO",
+	"party": "{.ItemDefaultMovessParty_FALADOR_MODTIMBO}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "LUMBRIDGESWAMPCAVE_FISHERMAN_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "EELFROG330",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_LUMBRIDGESWAMPCAVE_FISHERMAN_1",
+	"party": "{.ItemDefaultMovessParty_LUMBRIDGESWAMPCAVE_FISHERMAN_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "LUMBRIDGESWAMPCAVE_SKELETON_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "CRISPYBONES",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_LUMBRIDGESWAMPCAVE_SKELETON_1",
+	"party": "{.ItemDefaultMovessParty_LUMBRIDGESWAMPCAVE_SKELETON_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "LUMBRIDGESWAMPCAVE_PVMER_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "B00MER",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_LUMBRIDGESWAMPCAVE_PVMER_1",
+	"party": "{.ItemDefaultMovessParty_LUMBRIDGESWAMPCAVE_PVMER_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNORSEWERS_SKELETON_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "SKULLY",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNORSEWERS_SKELETON_1",
+	"party": "{.ItemDefaultMovessParty_DRAYNORSEWERS_SKELETON_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DRAYNORSEWERS_SKELETON_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKELETON",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_skeleton",
+	"trainerName": "TIBIA",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_DRAYNORSEWERS_SKELETON_2",
+	"party": "{.ItemDefaultMovessParty_DRAYNORSEWERS_SKELETON_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE6_FIREMAKER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_FIREMAKER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_firemaking",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE6_FIREMAKER",
+	"party": "{.ItemDefaultMovessParty_ROUTE6_FIREMAKER}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_MUGGER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_AsgarnianDungeon_MUGGER_1",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_MUGGER_1}"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_PIRATE_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_AsgarnianDungeon_PIRATE_1",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_PIRATE_1}"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_PIRATE_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_AsgarnianDungeon_PIRATE_2",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_PIRATE_2}"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_PIRATE_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_AsgarnianDungeon_PIRATE_3",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_PIRATE_3}"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_PIRATE_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_AsgarnianDungeon_PIRATE_4",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_PIRATE_4}"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_GOBLIN_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "GRUNTKNEE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_AsgarnianDungeon_GOBLIN_1",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_GOBLIN_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_GOBLIN_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "SHIVERKNEES",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_AsgarnianDungeon_GOBLIN_2",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_GOBLIN_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_QUESTER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_QUESTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_quester",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_AsgarnianDungeon_QUESTER",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_QUESTER}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_PVM_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_AsgarnianDungeon_PVM_1",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_PVM_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "AsgarnianDungeon_PVM_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_AsgarnianDungeon_PVM_2",
+	"party": "{.ItemDefaultMovessParty_AsgarnianDungeon_PVM_2}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "ROUTE6_GUARD_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_guard_falador",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE6_GUARD_1",
+	"party": "{.ItemDefaultMovessParty_ROUTE6_GUARD_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "DWARVENMINES_BLACKKNIGHT",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_BLACK_KNIGHT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_black_knight_m",
+	"trainerName": "",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_BLACKKNIGHT",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_BLACKKNIGHT}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_HAM",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_HAM_GRUNT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_ham_grunt_m",
+	"trainerName": "GRUNT",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_HAM",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_HAM}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_SKILLER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_SKILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_skiller",
+	"trainerName": "TREET0PS",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_SKILLER",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_SKILLER}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_MINER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "D33PD1V3",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_MINER",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_MINER}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_DWARF_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DWARF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_dwarf_m",
+	"trainerName": "SVERRE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_DWARF_1",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_DWARF_1}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_DWARF_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DWARF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_dwarf_m",
+	"trainerName": "STEINAR",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_DWARF_2",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_DWARF_2}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_DWARF_3",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DWARF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_dwarf_m",
+	"trainerName": "VALDEMAR",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_DWARF_3",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_DWARF_3}",
+	"scaling": "FALSE"
+},
+{
+	"TRAINER": "DWARVENMINES_DWARF_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DWARF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_dwarf_m",
+	"trainerName": "DROBAK",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_DWARVENMINES_DWARF_4",
+	"party": "{.ItemDefaultMovessParty_DWARVENMINES_DWARF_4}",
+	"scaling": "FALSE"
+},
+
+
+{
+	"TRAINER": "FALADOR_GYM_1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WHITE_KNIGHT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_white_knight_m",
+	"trainerName": "SIRTHEO",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_FALADOR_GYM_1",
+	"party": "{.ItemDefaultMovessParty_FALADOR_GYM_1}",
+	"scaling": "FALSE"
+},
+
+{
+	"TRAINER": "FALADOR_GYM_2",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WHITE_KNIGHT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_white_knight_m",
+	"trainerName": "SIREMONY",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_FALADOR_GYM_2",
+	"party": "{.ItemDefaultMovessParty_FALADOR_GYM_2}"
+},
+
+{
+	"TRAINER": "FALADOR_GYM_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WHITE_KNIGHT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_white_knight_m",
+	"trainerName": "SIRPRYCE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_FALADOR_GYM_3",
+	"party": "{.NoItemDefaultMovessParty_FALADOR_GYM_3}"
+},
+
+{
+	"TRAINER": "FALADOR_GYM_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WHITE_KNIGHT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_white_knight_m",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_FALADOR_GYM_4",
+	"party": "{.NoItemDefaultMovessParty_FALADOR_GYM_4}"
+},
+
+{
+	"TRAINER": "FALADOR_GYM_AMIKVARZE",
+	"partyFlags": "F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_LEADER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_sir_amik_varze",
+	"trainerName": "AMIKVARZE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_FALADOR_GYM_AMIKVARZE",
+	"party": "{.NoItemCustomMovessParty_FALADOR_GYM_AMIKVARZE}"
+},
+
+{
+	"TRAINER": "FALADOR_HAIRDRESSER",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM|F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_LEGEND",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_hairdresser",
+	"trainerName": "HAIRDRESSER",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_FALADOR_HAIRDRESSER",
+	"party": "{.ItemCustomMovessParty_FALADOR_HAIRDRESSER}"
+},
+
+{
+	"TRAINER": "ROUTE24_MUGGER",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_MUGGER",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_MUGGER}"
+},
+
+{
+	"TRAINER": "ROUTE24_WOODCUTTER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_WOODCUTTER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_WOODCUTTER_1}"
+},
+
+{
+	"TRAINER": "ROUTE24_WOODCUTTER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_WOODCUTTER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_WOODCUTTER_2}"
+},
+
+{
+	"TRAINER": "ROUTE24_GOBLIN_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_GOBLIN_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_GOBLIN_1}"
+},
+
+{
+	"TRAINER": "ROUTE24_GOBLIN_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_GOBLIN_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_GOBLIN_2}"
+},
+
+{
+	"TRAINER": "ROUTE24_GOBLIN_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_GOBLIN_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_GOBLIN_3}"
+},
+
+{
+	"TRAINER": "ROUTE24_GOBLIN_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE24_GOBLIN_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE24_GOBLIN_4}"
+},
+
+
+{
+	"TRAINER": "MUDSKIPPERPOINT_SLAYER",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MUDSKIPPERPOINT_SLAYER",
+	"party": "{.NoItemDefaultMovessParty_MUDSKIPPERPOINT_SLAYER}"
+},
+{
+	"TRAINER": "MUDSKIPPERPOINT_FISHERMAN_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MUDSKIPPERPOINT_FISHERMAN_1",
+	"party": "{.NoItemDefaultMovessParty_MUDSKIPPERPOINT_FISHERMAN_1}"
+},
+{
+	"TRAINER": "MUDSKIPPERPOINT_FISHERMAN_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_MUDSKIPPERPOINT_FISHERMAN_2",
+	"party": "{.NoItemDefaultMovessParty_MUDSKIPPERPOINT_FISHERMAN_2}"
+},
+{
+	"TRAINER": "DEMONHEADGE",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_POKESCAPER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_demonheadge",
+	"trainerName": "DEMONHEADGE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Demonheadge",
+	"party": "{.NoItemDefaultMovessParty_Demonheadge}"
+},
+
+{
+	"TRAINER": "ROUTE40_DIVINER",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DIVINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_divination",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE40_DIVINER",
+	"party": "{.NoItemDefaultMovessParty_ROUTE40_DIVINER}"
+},
+
+{
+	"TRAINER": "PUB_SARIM_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_PUB_SARIM_1",
+	"party": "{.NoItemDefaultMovessParty_PUB_SARIM_1}"
+},
+
+{
+	"TRAINER": "PUB_SARIM_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PIRATE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_pirate",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_PUB_SARIM_2",
+	"party": "{.NoItemDefaultMovessParty_PUB_SARIM_2}"
+},
+
+{
+	"TRAINER": "PUB_SARIM_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DWARF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_dwarf_m",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_PUB_SARIM_3",
+	"party": "{.NoItemDefaultMovessParty_PUB_SARIM_3}"
+},
+
+{
+	"TRAINER": "RimmingtonMines_Miner",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_RimmingtonMines_Miner",
+	"party": "{.NoItemDefaultMovessParty_RimmingtonMines_Miner}"
+},
+
+{
+	"TRAINER": "RimmingtonMines_Ironman",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_IRONMAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_ironman",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_RimmingtonMines_Ironman",
+	"party": "{.NoItemDefaultMovessParty_RimmingtonMines_Ironman}"
+},
+
+{
+	"TRAINER": "RimmingtonMines_Slayer",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_RimmingtonMines_Slayer",
+	"party": "{.NoItemDefaultMovessParty_RimmingtonMines_Slayer}"
+},
+
+{
+	"TRAINER": "ROUTE23_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DWARF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_dwarf_m",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE23_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE23_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE23_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BARBARIAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_barbarian_m",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE23_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE23_TRAINER_2}"
+},
+
+{
+	"TRAINER": "ROUTE23_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BARBARIAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_barbarian_f",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE23_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE23_TRAINER_3}"
+},
+
+{
+	"TRAINER": "ROUTE23_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PKer",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pk_rusher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE23_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE23_TRAINER_4}"
+},
+
+{
+	"TRAINER": "ROUTE23_TRAINER_COUPLE",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DUO",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_barbarian_duo",
+	"trainerName": "SARA&TREV",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE23_TRAINER_COUPLE",
+	"party": "{.NoItemDefaultMovessParty_ROUTE23_TRAINER_COUPLE}"
+},
+
+
+{
+	"TRAINER": "RimmingtonMines_DRAGONBOT_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BOT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_bot_dragon_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_RimmingtonMines_DRAGONBOT_1",
+	"party": "{.NoItemDefaultMovessParty_RimmingtonMines_DRAGONBOT_1}"
+},
+{
+	"TRAINER": "RimmingtonMines_DRAGONBOT_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BOT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_bot_dragon_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_RimmingtonMines_DRAGONBOT_2",
+	"party": "{.NoItemDefaultMovessParty_RimmingtonMines_DRAGONBOT_2}"
+},
+
+{
+	"TRAINER": "RimmingtonMines_Slayer_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_RimmingtonMines_Slayer_1",
+	"party": "{.NoItemDefaultMovessParty_RimmingtonMines_Slayer_1}"
+},
+
+{
+	"TRAINER": "Varrock_Max",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "MAX",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Varrock_Max",
+	"party": "{.NoItemDefaultMovessParty_Varrock_Max}"
+},
+
+{
+	"TRAINER": "Soffan_and_Quo",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_POKESCAPER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_SoffanQuo",
+	"trainerName": "SOFAN&QUO",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Soffan_and_Quo",
+	"party": "{.NoItemDefaultMovessParty_Soffan_and_Quo}"
+},
+
+
+{
+	"TRAINER": "ROUTE18_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_AGILE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_SKILLER",
+	"trainerPic": "TRAINER_PIC_graceful",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER1}"
+},
+{
+	"TRAINER": "ROUTE18_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DnDer",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_canada_grrl",
+	"trainerName": "CanadaGrrl",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER2}"
+},
+{
+	"TRAINER": "ROUTE18_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER4}"
+},
+{
+	"TRAINER": "ROUTE18_TRAINER_5",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER5}"
+},
+{
+	"TRAINER": "ROUTE18_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BOT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER3}"
+},
+{
+	"TRAINER": "ROUTE18_TRAINER_6",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER6",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER6}"
+},
+{
+	"TRAINER": "ROUTE18_TRAINER_7",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_guard_varrock",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE18_TRAINER7",
+	"party": "{.NoItemDefaultMovessParty_ROUTE18_TRAINER7}"
+},
+
+{
+	"TRAINER": "ROUTE20_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE20_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE20_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE20_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE20_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE20_TRAINER_2}"
+},
+
+{
+	"TRAINER": "ROUTE20_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FISHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_fisher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE20_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE20_TRAINER_3}"
+},
+
+{
+	"TRAINER": "ROUTE20_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SKILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_skiller",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE20_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE20_TRAINER_4}"
+},
+
+{
+	"TRAINER": "ROUTE20_DUO",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DUO",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_cook_fm_duo",
+	"trainerName": "&",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE20_DUO",
+	"party": "{.NoItemDefaultMovessParty_ROUTE20_DUO}"
+},
+
+{
+	"TRAINER": "ROUTE19_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_CHEF",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_cook",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE19_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE19_TRAINER_1}"
+},
+
+{
+	"TRAINER": "BARBARIAN_GYM_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BARBARIAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_barbarian_m",
+	"trainerName": "ATLAS",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_BARBARIAN_GYM_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_BARBARIAN_GYM_TRAINER_1}"
+},
+
+{
+	"TRAINER": "BARBARIAN_GYM_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BARBARIAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_barbarian_f",
+	"trainerName": "LITARA",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_BARBARIAN_GYM_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_BARBARIAN_GYM_TRAINER_2}"
+},
+
+{
+	"TRAINER": "BARBARIAN_GYM_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BARBARIAN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_barbarian_m",
+	"trainerName": "HAAKON",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_BARBARIAN_GYM_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_BARBARIAN_GYM_TRAINER_3}"
+},
+
+
+{
+	"TRAINER": "BARBARIAN_GYM_GUNTHOR",
+	"partyFlags": "F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_LEADER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_gunthor",
+	"trainerName": "GUNTHOR",
+	"items": "{ITEM_BREAD,ITEM_CAKE,ITEM_BLUEBERRY_SPECIAL,ITEM_POTION_ATT}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_BARBARIAN_GYM_GUNTHOR",
+	"party": "{.NoItemCustomMovessParty_BARBARIAN_GYM_GUNTHOR}"
+},
+
+
+{
+	"TRAINER": "ROUTE13_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE13_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE13_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_2}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE13_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_3}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE13_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_4}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_5",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE13_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_5}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_6",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE13_TRAINER_6",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_6}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_7",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_AGILE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_SKILLER",
+	"trainerPic": "TRAINER_PIC_graceful",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE13_TRAINER_7",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_7}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_8",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_FARMER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_farmer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE13_TRAINER_8",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_8}"
+},
+
+{
+	"TRAINER": "ROUTE13_TRAINER_9",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_QUESTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_quester",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE13_TRAINER_9",
+	"party": "{.NoItemDefaultMovessParty_ROUTE13_TRAINER_9}"
+},
+
+
+{
+	"TRAINER": "ROUTE14_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE14_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE14_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE14_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE14_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE14_TRAINER_2}"
+},
+
+{
+	"TRAINER": "ROUTE16_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE16_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE16_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE16_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_guard_varrock",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE16_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE16_TRAINER_2}"
+},
+
+{
+	"TRAINER": "ROUTE16_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_ARCHAEOLOGIST",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_Archaeologist",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE16_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE16_TRAINER_3}"
+},
+
+{
+	"TRAINER": "ROUTE16_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DIVINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_divination",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE16_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE16_TRAINER_4}"
+},
+
+{
+	"TRAINER": "ROUTE16_TRAINER_5",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_AGILE",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_SKILLER",
+	"trainerPic": "TRAINER_PIC_graceful",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE16_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE16_TRAINER_5}"
+},
+
+{
+	"TRAINER": "ROUTE16_TRAINER_6",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE16_TRAINER_6",
+	"party": "{.NoItemDefaultMovessParty_ROUTE16_TRAINER_6}"
+},
+
+{
+	"TRAINER": "ROUTE17_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter_alt",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE17_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE17_TRAINER_1}"
+},
+
+{
+	"TRAINER": "ROUTE17_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SKILLER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_skiller",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE17_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE17_TRAINER_2}"
+},
+
+{
+	"TRAINER": "PREZLEEK",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_prezleek",
+	"trainerName": "Prezleek",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_Prezleek",
+	"party": "{.NoItemDefaultMovessParty_Prezleek}"
+},
+
+{
+	"TRAINER": "NYCHANNEL",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "NYCHANNEL",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_NYCHANNEL",
+	"party": "{.NoItemDefaultMovessParty_NYCHANNEL}"
+},
+
+{
+	"TRAINER": "GERTRUDE",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_LADY",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_gertrude",
+	"trainerName": "GERTRUDE",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_GERTRUDE",
+	"party": "{.NoItemDefaultMovessParty_GERTRUDE}"
+},
+
+{
+	"TRAINER": "LUMBRIDGEFOREST_WOODCUTTER1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_LUMBRIDGEFOREST_WOODCUTTER1",
+	"party": "{.NoItemDefaultMovessParty_LUMBRIDGEFOREST_WOODCUTTER1}"
+},
+{
+	"TRAINER": "LUMBRIDGEFOREST_BOT1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_BOT",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "WOODCUTTING",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_LUMBRIDGEFOREST_BOT1",
+	"party": "{.NoItemDefaultMovessParty_LUMBRIDGEFOREST_BOT1}"
+},
+
+{
+	"TRAINER": "SINKHOLE_NPC_FORGOTTENWARRIOR_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WARRIOR",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_SINKHOLE_NPC_FORGOTTENWARRIOR_1",
+	"party": "{.NoItemDefaultMovessParty_SINKHOLE_NPC_FORGOTTENWARRIOR_1}"
+},
+
+{
+	"TRAINER": "LUMBRIDGEFOREST_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MUGGER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_mugger",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_LUMBRIDGEFOREST_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_LUMBRIDGEFOREST_TRAINER_1}"
+},
+{
+	"TRAINER": "LUMBRIDGEFOREST_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_LUMBRIDGEFOREST_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_LUMBRIDGEFOREST_TRAINER_2}"
+},
+{
+	"TRAINER": "LUMBRIDGEFOREST_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_LUMBRIDGEFOREST_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_LUMBRIDGEFOREST_TRAINER_3}"
+},
+
+{
+	"TRAINER": "ROUTE28_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird",
+	"trainerName": "ALKHARID",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE28_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE28_TRAINER_1}"
+},
+{
+	"TRAINER": "ROUTE28_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_lukien",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE28_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE28_TRAINER_2}"
+},
+{
+	"TRAINER": "ROUTE28_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird",
+	"trainerName": "ALKHARID",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE28_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE28_TRAINER_3}"
+},
+{
+	"TRAINER": "ROUTE28_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_ARCHAEOLOGIST",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_SKILLER",
+	"trainerPic": "TRAINER_PIC_Archaeologist",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE28_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE28_TRAINER_4}"
+},
+{
+	"TRAINER": "ROUTE28_TRAINER_5",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_PKer",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_pk_rusher",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE28_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE28_TRAINER_5}"
+},
+
+{
+	"TRAINER": "ROUTE29_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_SLAYER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_slayer",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_1}"
+},
+{
+	"TRAINER": "ROUTE29_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_2}"
+},
+{
+	"TRAINER": "ROUTE29_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_noob_default",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_4}"
+},
+{
+	"TRAINER": "ROUTE29_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_ARCHAEOLOGIST",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_SKILLER",
+	"trainerPic": "TRAINER_PIC_Archaeologist",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_3}"
+},
+{
+	"TRAINER": "ROUTE29_TRAINER_5",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird_duo",
+	"trainerName": "Brothers",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_5}"
+},
+
+{
+	"TRAINER": "ROUTE33_GOBLIN1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE33_GOBLIN1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE33_GOBLIN1}"
+},
+{
+	"TRAINER": "ROUTE33_GOBLIN2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GOBLIN",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_goblin",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE33_GOBLIN2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE33_GOBLIN2}"
+},
+{
+	"TRAINER": "ROUTE33_ZAMORAK1",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_DARK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_wizard_dark",
+	"trainerName": "WIZARD",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE33_ZAMORAK1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE33_ZAMORAK1}",
+	"scaling": "FALSE"
+},
+
+
+{
+	"TRAINER": "VARROCK_GYM_KINGROALD",
+	"partyFlags": "F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_LEADER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_king_roald",
+	"trainerName": "KINGROALD",
+	"items": "{ITEM_CHOCOLATE_CAKE,ITEM_CHOCOLATE_CAKE,ITEM_POTION_SPDEF,ITEM_BLUEBERRY_SPECIAL}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_VARROCK_GYM_KINGROALD",
+	"party": "{.NoItemCustomMovessParty_VARROCK_GYM_KINGROALD}"
+},
+
+{
+	"TRAINER": "VARROCK_GYM_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_guard_varrock",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_VARROCK_GYM_1",
+	"party": "{.NoItemDefaultMovessParty_VARROCK_GYM_1}"
+},
+{
+	"TRAINER": "VARROCK_GYM_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_guard_varrock",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_VARROCK_GYM_2",
+	"party": "{.NoItemDefaultMovessParty_VARROCK_GYM_2}"
+},
+{
+	"TRAINER": "VARROCK_GYM_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_CHOOB",
+	"trainerPic": "TRAINER_PIC_guard_varrock",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_VARROCK_GYM_3",
+	"party": "{.NoItemDefaultMovessParty_VARROCK_GYM_3}"
+},
+{
+	"TRAINER": "VARROCK_GYM_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MONK",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_monk",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_VARROCK_GYM_4",
+	"party": "{.NoItemDefaultMovessParty_VARROCK_GYM_4}"
+},
+
+{
+	"TRAINER": "ROUTE15_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE15_TRAINER_1",
+	"party": "{.NoItemDefaultMovessParty_ROUTE15_TRAINER_1}"
+},
+{
+	"TRAINER": "ROUTE15_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE15_TRAINER_2",
+	"party": "{.NoItemDefaultMovessParty_ROUTE15_TRAINER_2}"
+},
+{
+	"TRAINER": "ROUTE15_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_MINER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_miner",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE15_TRAINER_3",
+	"party": "{.NoItemDefaultMovessParty_ROUTE15_TRAINER_3}"
+},
+{
+	"TRAINER": "ROUTE15_TRAINER_4",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE15_TRAINER_4",
+	"party": "{.NoItemDefaultMovessParty_ROUTE15_TRAINER_4}"
+},
+{
+	"TRAINER": "ROUTE15_TRAINER_5",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_NOOB",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_lukien",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE15_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE15_TRAINER_5}"
+},
+{
+	"TRAINER": "ROUTE15_TRAINER_6",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_WOODCUTTER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_NOOB",
+	"trainerPic": "TRAINER_PIC_woodcutter",
+	"trainerName": "",
+	"items": "{}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_CHECK_BAD_MOVE|AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE",
+	"partySize": "sParty_ROUTE15_TRAINER_6",
+	"party": "{.NoItemDefaultMovessParty_ROUTE15_TRAINER_6}"
+},
+
+
+{
+	"TRAINER": "ALKHARID_GYM_TRAINER_1",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird_duo",
+	"trainerName": "Ali&Ali",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_5}"
+},
+{
+	"TRAINER": "ALKHARID_GYM_TRAINER_2",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird_duo",
+	"trainerName": "Ali&Ali",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_5}"
+},
+{
+	"TRAINER": "ALKHARID_GYM_TRAINER_3",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird_duo",
+	"trainerName": "Ali&Ali",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_5}"
+},
+{
+	"TRAINER": "ALKHARID_GYM_TRAINER_4",
+	"partyFlags": "0",
+	"trainerClass": "TRAINER_CLASS_GUARD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guard_alkhaird_duo",
+	"trainerName": "Ali&Ali",
+	"items": "{}",
+	"doubleBattle": "TRUE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ROUTE29_TRAINER_5",
+	"party": "{.NoItemDefaultMovessParty_ROUTE29_TRAINER_5}"
+},
+{
+	"TRAINER": "ALKHARID_GYM_PRINCE_ALI",
+	"partyFlags": "F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_LEADER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_prince_ali",
+	"trainerName": "PRINCEALI",
+	"items": "{ITEM_CHOCOLATE_CAKE,ITEM_CHOCOLATE_CAKE,ITEM_POTION_SPDEF,ITEM_BLUEBERRY_SPECIAL}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_ALKHARID_GYM_PRINCE_ALI",
+	"party": "{.NoItemCustomMovessParty_ALKHARID_GYM_PRINCE_ALI}"
+},
+{
+	"TRAINER": "BARROWS_GUTHAN",
+	"partyFlags": "F_TRAINER_PARTY_CUSTOM_MOVESET",
+	"trainerClass": "TRAINER_CLASS_BARROWS_BROTHER",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_PKER",
+	"trainerPic": "TRAINER_PIC_guthan_osrs",
+	"trainerName": "GUTHAN",
+	"items": "{ITEM_CHOCOLATE_CAKE,ITEM_CHOCOLATE_CAKE,ITEM_POTION_SPDEF,ITEM_BLUEBERRY_SPECIAL}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_BARROWS_GUTHAN",
+	"party": "{.NoItemCustomMovessParty_BARROWS_GUTHAN}"
+},
+{
+	"TRAINER": "MOD_SARNIE",
+	"partyFlags": "F_TRAINER_PARTY_HELD_ITEM",
+	"trainerClass": "TRAINER_CLASS_JMOD",
+	"encounterMusic_gender": "TRAINER_ENCOUNTER_MUSIC_HAM",
+	"trainerPic": "TRAINER_PIC_jmod_m",
+	"trainerName": "SARNIE",
+	"items": "{ITEM_NONE,ITEM_NONE,ITEM_NONE,ITEM_NONE}",
+	"doubleBattle": "FALSE",
+	"aiFlags": "AI_FLAG_PREFER_STRONGEST_MOVE|AI_FLAG_HP_AWARE|AI_FLAG_CHECK_BAD_MOVE",
+	"partySize": "sParty_MOD_SARNIE",
+	"party": "{.ItemDefaultMovessParty_MOD_SARNIE}",
+	"scaling": "FALSE"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};

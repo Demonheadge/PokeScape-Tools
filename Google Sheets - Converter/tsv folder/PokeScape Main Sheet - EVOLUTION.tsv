@@ -1,0 +1,14 @@
+33	Calf	EVO_STATUS_LEVEL	19	Cow_Plague_Form
+33	Calf	EVO_FEMALE_LEVEL	19	Cow
+33	Calf	EVO_MALE_LEVEL	19	Bull
+33	Calf	EVO_ITEM	ITEM_VANILLA_MILK	Cow_Vanilla_Form
+33	Calf	EVO_ITEM	ITEM_STRAWBERRY_MILK	Cow_Strawberry_Form
+33	Calf	EVO_ITEM	ITEM_CHOCOLATE_MILK	Cow_Chocolate_Form
+33	Calf	EVO_ITEM	ITEM_CHAOS_RUNE	Minotaur_Normal_Form
+33	Calf	EVO_VAR	7	Cow_Undead_Form
+33	Calf	EVO_OTHER_PARTY_MON	Ram_Golden_Form	Trojan_Cow
+33	Calf	EVO_OTHER_PARTY_MON	Unicorn_White_Form	Unicow
+34	Cow	EVO_FEMALE_DEATH	30	SkeletalOx_Female_Form
+34	Cow	EVO_ITEM	ITEM_DEATH_RUNE	SkeletalOx_Female_Form
+34	Cow	EVO_LEVEL_ATK_LT_DEF	30	Cow_Dairy_Form
+34	Cow	EVO_LEVEL_ATK_GT_DEF	30	Super_Cow

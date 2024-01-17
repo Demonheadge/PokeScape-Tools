@@ -7,7 +7,7 @@ root = ""
 initialEVFile = "tsv folder/PokeScape Main Sheet - EV Yeilds"
 initialStatsFile = "tsv folder/PokeScape Main Sheet - Stats"
 initialLevelFile = "tsv folder/PokeScape Main Sheet - Level-Up Moves"
-initialEvolutionFile = "tsv folder/PokeScape Main Sheet - Evolution"
+initialEvolutionFile = "tsv folder/PokeScape Main Sheet - EVOLUTION"
 initialTMHMFile = "tsv folder/PokeScape Main Sheet - TM_HM"
 initialDexEntriesFile = "tsv folder/PokeScape Main Sheet - Dex Entries"
 initialMovesFile = "tsv folder/PokeScape Main Sheet - MOVES"
@@ -329,7 +329,7 @@ def ConvertEvolution():
     print("ConvertEvolution()")
     tabSwap(initialEvolutionFile)
     insertData(initialEvolutionFile)
-    ConvertMostToJavascript(initialEvolutionFile, finalEvolutionFile, 48)
+    ConvertMostToJavascript(initialEvolutionFile, finalEvolutionFile, 2)
 
 
 
@@ -384,7 +384,7 @@ def Start():
     #ConvertEVs()
     ConvertStats()
     #ConvertLevels()
-    #ConvertEvolution()
+    ConvertEvolution()
     #ConvertTMHM()
     ConvertDexEntries()
     ConvertMoves()
