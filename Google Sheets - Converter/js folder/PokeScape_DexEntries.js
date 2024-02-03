@@ -547,7 +547,7 @@ module.exports = {
 545: ["546", "Bunyip", "A swamp creature from the spirit realm. They prefer to swallow their fish raw.", "18.0", "1079.6", "395", "Bunyip", "6", "Bunyip"],
 546: ["547", "TalonBeast_Talon_Form", "A feared monster of Morytania. It gets it name from the talons it possesses that has killed many adventurers.", "20.2", "1179.3", "396*", "Talon", "5", "Talon beast"],
 547: ["548", "TalonBeast_Nail_Form", "Nothing Interesting Happens.", "20.2", "1179.3", "396*", "Nail", "4", "Nail Beast"],
-548: ["549", "Ferret", "A friendly critter not to be confused with the ferret of doom. These muspelids will gladly hunt rabbits.", "2.9", "18.1", "397", "Ferret", "6", "Ferret"],
+548: ["549", "Ferret", "A friendly critter not to be confused with the ferret of doom. These mustelid will gladly hunt rabbits.", "2.9", "18.1", "397", "Ferret", "6", "Ferret"],
 549: ["550", "Toy_Mouse", "An automation made of clockwork to mimic a mouse. Cats love to play with these.", "1.0", "3.9", "398", "Toy Mouse", "9", "Toy mouse"],
 550: ["551", "Toy_Doll", "Toy doll made from clockwork. It pirouettes and dances whenever it can.", "2.3", "6.4", "399", "Doll", "4", "Toy doll"],
 551: ["552", "Toy_Soldier", "Made of clockwork, it seemingly follows its duty of marching to war. Even if there isn't any...", "2.8", "11.3", "400", "Armed", "5", "Toy soldier"],
@@ -924,4 +924,7 @@ module.exports = {
 922: ["923", "Slime_Queen", "A giant pink slime that gives off pheromones that attract green slimes.", "", "", "", "Slime", "5", ""],
 923: ["924", "Airut", "A creature infused with essence of the god Tuska.", "", "", "", "Tuska", "5", ""],
 924: ["925", "Skotizo", "A demon found deep within the depths of Kourend. It's origins are unknown.", "", "", "", "Demon", "5", ""],
+925: ["926", "Scurrius_Melee_Form", "", "", "", "", "Rat", "3", ""],
+926: ["927", "Scurrius_Ranged_Form", "CUPHOLDER", "", "", "", "Rat", "3", ""],
+927: ["928", "Scurrius_Magic_Form", "CUPHOLDER", "", "", "", "Rat", "3", ""],
 }

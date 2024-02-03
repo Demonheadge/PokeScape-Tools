@@ -76,6 +76,7 @@ EV_DEFENSE = 29;
 EV_SPATT = 30;
 EV_SPDEF = 31;
 EV_SPEED = 32;
+INGAME_NAME = 38;
 
 //PokeScape_MOVES
 NEWMON_MOVE = 4;
@@ -131,6 +132,7 @@ EVO_INTO_MON = 4;
 
 		//BuildGameCode();
 		EXPANSION_BaseStats();
+		MOVES();
 
 	//GBA
 	function BuildGameCode() {	
@@ -2778,7 +2780,7 @@ function EXPANSION_BaseStats() {
 	base_stats_print += ',\n\t\t.itemCommon = ' + stats[base_stats[k]][HELDITEM1].toUpperCase() + ',\n\t\t.itemRare = ' + stats[base_stats[k]][HELDITEM2].toUpperCase() 
 //EGG GROUP
 if (stats[base_stats[k]][EGGGROUP2] === '') stats[base_stats[k]][EGGGROUP2] = stats[base_stats[k]][EGGGROUP1];
-base_stats_print += ',\n\t\t.eggGroup = { EGG_GROUP_' + stats[base_stats[k]][EGGGROUP1].toUpperCase().replace(/ /g, '') + ', EGG_GROUP_' + stats[base_stats[k]][EGGGROUP2].toUpperCase().replace(/ /g, '') + " },"
+base_stats_print += ',\n\t\t.eggGroups = { EGG_GROUP_' + stats[base_stats[k]][EGGGROUP1].toUpperCase().replace(/ /g, '') + ', EGG_GROUP_' + stats[base_stats[k]][EGGGROUP2].toUpperCase().replace(/ /g, '') + " },"
 //ABILITIES
 	if (stats[base_stats[k]][ABILITY1] === '') stats[base_stats[k]][ABILITY1] = 'NONE';
 	if (stats[base_stats[k]][ABILITY2] === '') stats[base_stats[k]][ABILITY2] = 'NONE';
@@ -2789,7 +2791,7 @@ base_stats_print += ',\n\t\t.eggGroup = { EGG_GROUP_' + stats[base_stats[k]][EGG
 	base_stats_print +='\n\t\t.bodyColor = BODY_COLOR_BLACK,'
 
 //SPECIES NAME
-	base_stats_print += '\n\t\t.speciesName = _("' + stats[base_stats[k]][NAME].toUpperCase().replace(/ /g, '_')/* .replace(/_/g, '') *//* .replace(/-/g, '') */.replace('.', '') + '"),'
+	base_stats_print += '\n\t\t.speciesName = _("' + stats[base_stats[k]][INGAME_NAME].toUpperCase().replace(/ /g, '_')/* .replace(/_/g, '') *//* .replace(/-/g, '') */ + '"),'
 //CRY ID
 	base_stats_print += '\n\t\t.cryId = ' + 'CRY_NONE,'//stats[base_stats[k]][NAME].toUpperCase().replace(/ /g, '_')/* .replace(/_/g, '') *//* .replace(/-/g, '') */.replace('.', '') + '"),'
 //NATIONAL_DEX
