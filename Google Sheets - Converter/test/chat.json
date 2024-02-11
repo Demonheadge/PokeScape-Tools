@@ -1,0 +1,68 @@
+[
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_STATUS_LEVEL",
+        "SECONDARY REQUIREMENT": 19,
+        "EVOLVES INTO": "Cow_Plague_Form"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_FEMALE_LEVEL",
+        "SECONDARY REQUIREMENT": 19,
+        "EVOLVES INTO": "Cow"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_MALE_LEVEL",
+        "SECONDARY REQUIREMENT": 19,
+        "EVOLVES INTO": "Bull"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_ITEM",
+        "SECONDARY REQUIREMENT": "ITEM_VANILLA_MILK",
+        "EVOLVES INTO": "Cow_Vanilla_Form"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_ITEM",
+        "SECONDARY REQUIREMENT": "ITEM_STRAWBERRY_MILK",
+        "EVOLVES INTO": "Cow_Strawberry_Form"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_ITEM",
+        "SECONDARY REQUIREMENT": "ITEM_CHOCOLATE_MILK",
+        "EVOLVES INTO": "Cow_Chocolate_Form"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_ITEM",
+        "SECONDARY REQUIREMENT": "ITEM_CHAOS_RUNE",
+        "EVOLVES INTO": "Minotaur_Normal_Form"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_VAR",
+        "SECONDARY REQUIREMENT": 7,
+        "EVOLVES INTO": "Cow_Undead_Form"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_OTHER_PARTY_MON",
+        "SECONDARY REQUIREMENT": "Ram_Golden_Form",
+        "EVOLVES INTO": "Trojan_Cow"
+    },
+    {
+        "MONSTER": "Calf",
+        "METHOD": "EVO_OTHER_PARTY_MON",
+        "SECONDARY REQUIREMENT": "Unicorn_White_Form",
+        "EVOLVES INTO": "Unicow"
+    },
+    {
+        "MONSTER": "Cow",
+        "METHOD": "EVO_FEMALE_DEATH",
+        "SECONDARY REQUIREMENT": 30,
+        "EVOLVES INTO": "SkeletalOx_Female_Form"
+    }
+]

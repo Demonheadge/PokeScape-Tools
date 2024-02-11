@@ -257,7 +257,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 255, Guthatrice, ROCK, GRASS, PETRIFY, OVERGROW, , 513, 119, 70, 60, 91, 79, 94, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , , 2, , , , , , Herblore, 5120, , Guthatrice, GRASS_PELT
 256, Zamatrice, ROCK, FIRE, PETRIFY, BLAZE, , 513, 60, 79, 94, 119, 70, 91, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , 2, , , , , , , Firemaking, 5120, , Zamatrice, SOLAR_POWER
 257, Saratrice, ROCK, WATER, PETRIFY, TORRENT, , 513, 94, 70, 60, 91, 119, 79, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , , , 2, , , , , Magic, 5120, , Saratrice, RAIN_DISH
-258, Corxatrice, ROCK, DARK, PETRIFY, PICKPOCKET, , 513, 60, 94, 79, 119, 70, 91, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , , , , , 2, , , Thieving, 5120, , Corxatrice, BIGPECKS_
+258, Corxatrice, ROCK, DARK, PETRIFY, PICKPOCKET, , 513, 60, 94, 79, 119, 70, 91, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , , , , , 2, , , Thieving, 5120, , Corxatrice, BIG_PECKS
 259, Vulatrice, ROCK, GROUND, PETRIFY, SAND_STREAM, , 513, 94, 119, 91, 60, 70, 79, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , , 2, , , , , , Prayer, 5120, , Vulatrice, OVERCOAT
 260, Pengatrice, ROCK, ICE, PETRIFY, SLUSH_RUSH, , 513, 60, 79, 70, 94, 91, 119, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , 2, , , , , , , , Fishing, 5120, , Pengatrice, SLUSH_RUSH
 261, Chocatrice, ROCK, FAIRY, PETRIFY, SWEET_VEIL, , 513, 119, 60, 79, 91, 70, 94, , -, -, 156, slow, 50, 45, 0, 20, FLYING, MONSTER, 0, , , , , , 2, , , , Quest, 5120, , Chocatrice, SWEET_VEIL
@@ -271,7 +271,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 269, Abyssaling, BUG, -, ABYSSAL, HYPER_CUTTER, , 241, 37, 43, 43, 34, 41, 43, , -, -, 36, medium slow, 50, 255, 70, 15, BUG, AMORPHOUS, 0, , , , , , , 1, , , Runecrafting, 3840, ABYSS, Abyssaling, TECHNICIAN
 270, Abyssal_Minion_Form, BUG, -, ABYSSAL, HYPER_CUTTER, , 296, 53, 61, 43, 43, 43, 53, , -, -, 67, medium slow, 50, 250, 70, 15, BUG, AMORPHOUS, 0, , , , , , , 2, , , Runecrafting, 3840, ABYSS, Abyssal, TECHNICIAN
 271, Abyssal_Demon_Form, PSYCHIC, BUG, ABYSSAL, HYPER_CUTTER, , 538, 67, 111, 83, 83, 97, 97, , -, -, 125, medium slow, 50, 45, 70, 15, BUG, AMORPHOUS, 0, , , 1, , , , 2, , , Slayer, 3840, ABYSS, Abyssal, TECHNICIAN
-272, Abyssal_Sire_Form, PSYCHIC, BUG, PRESSURE, ABYSSAL, , 620, 97, 143, 97, 143, 97, 43, , -, -, 207, Slow, 50, 45, 70, 15, BUG, AMORPHOUS, 0, , , 3, , , 1, , , , Slayer, 3840, ABYSS, Abyssal, SWARM_
+272, Abyssal_Sire_Form, PSYCHIC, BUG, PRESSURE, ABYSSAL, , 620, 97, 143, 97, 143, 97, 43, , -, -, 207, Slow, 50, 45, 70, 15, BUG, AMORPHOUS, 0, , , 3, , , 1, , , , Slayer, 3840, ABYSS, Abyssal, SWARM
 273, Abyssal_Leech_Form, PSYCHIC, BUG, ABYSSAL, LIQUID_OOZE, , 296, 61, 53, 43, 53, 43, 43, , -, -, 56, medium slow, 50, 130, 70, 15, BUG, AMORPHOUS, 0, , , , , , , 1, , , Runecrafting, 3840, ABYSS, Abyssal, 
 274, Abyssal_Parasite_Form, PSYCHIC, BUG, ABYSSAL, LIQUID_OOZE, , 428, 89, 89, 61, 61, 71, 57, , -, -, 89, medium slow, 50, 200, 70, 15, BUG, AMORPHOUS, 0, , , , , , 2, , , , Runecrafting, 3840, ABYSS, Abyssal, LIQUID_OOZE
 275, Abyssal_Lurker_Form, PSYCHIC, -, ABYSSAL, SWARM, , 294, 61, 31, 41, 61, 47, 53, , -, -, 53, medium slow, 50, 130, 70, 15, BUG, AMORPHOUS, 0, , , 2, , , , , , , Summoning, 3840, ABYSS, Abyssal, LIQUID_OOZE
@@ -313,9 +313,9 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 311, Dagannoth_King_Melee_Mega_Form, WATER, DRAGON, STRONG_JAW, STRONG_JAW, , 660, 85, 185, 130, 80, 90, 90, , -, -, 232, slow, 0, 15, 30, 20, WATER_3, , 0, , , 3, , , , , , , Attack, 5120, DAGANNOTH, Dagannoth, STRONG_JAW
 312, Chaos_Ele, FAIRY, GHOST, TRACE, MOODY, , 624, 98, 113, 99, 113, 103, 98, , -, -, 238, slow, Genderless, 3, 30, 20, UNDISCOVERED, , 0, , , 2, , , 2, , , , Divination, 5120, , Chaos Ely, MARVEL_SCALE
 313, Chaos_Ele_Mega_Form, FAIRY, GHOST, TRACE, MOODY, , 724, 98, 153, 109, 113, 153, 98, , -, -, 228, slow, Genderless, 3, 30, 20, UNDISCOVERED, , 0, , , 2, , , 2, , , , Divination, 5120, , Chaos Ely, MOODY
-314, Bandling, STEEL, -, GLORY, GLORY, , 310, 55, 60, 70, 45, 35, 45, , -, -, 42, medium slow, 12.5, 180, 70, 20, FLYING, , 0, , , , 1, , , , , , Strength, 5120, BIRD / STARTER, Bandling, STEELWORKER_
-315, Bandbird, STEEL, FLYING, GLORY, GLORY, , 405, 60, 85, 80, 50, 60, 70, , -, -, 80, medium slow, 12.5, 120, 70, 20, FLYING, , 0, , , , 2, , , , , , Strength, 5120, BIRD / STARTER, Bandbird, STEELWORKER_
-316, Bandeagle, STEEL, FLYING, GLORY, GLORY, , 500, 70, 125, 110, 75, 55, 65, , -, -, 150, medium slow, 12.5, 45, 70, 20, FLYING, , 0, , , , 3, , , , , , Strength, 5120, BIRD / STARTER, Bandeagle, STEELWORKER_
+314, Bandling, STEEL, -, GLORY, GLORY, , 310, 55, 60, 70, 45, 35, 45, , -, -, 42, medium slow, 12.5, 180, 70, 20, FLYING, , 0, , , , 1, , , , , , Strength, 5120, BIRD / STARTER, Bandling, STEELWORKER
+315, Bandbird, STEEL, FLYING, GLORY, GLORY, , 405, 60, 85, 80, 50, 60, 70, , -, -, 80, medium slow, 12.5, 120, 70, 20, FLYING, , 0, , , , 2, , , , , , Strength, 5120, BIRD / STARTER, Bandbird, STEELWORKER
+316, Bandeagle, STEEL, FLYING, GLORY, GLORY, , 500, 70, 125, 110, 75, 55, 65, , -, -, 150, medium slow, 12.5, 45, 70, 20, FLYING, , 0, , , , 3, , , , , , Strength, 5120, BIRD / STARTER, Bandeagle, STEELWORKER
 317, Zaroling, DARK, -, EMPTY_LORD, EMPTY_LORD, , 310, 60, 70, 25, 75, 35, 45, , -, -, 52, medium slow, 12.5, 180, 70, 20, FLYING, , 0, , , 1, , 1, , , , , Divination, 5120, BIRD / STARTER, Zaroling, DARK_AURA
 318, Zarobird, DARK, FLYING, EMPTY_LORD, EMPTY_LORD, , 405, 40, 115, 30, 115, 45, 60, , -, -, 75, medium slow, 12.5, 120, 70, 20, FLYING, , 0, , , 2, , 2, , , , , Divination, 5120, BIRD / STARTER, Zarobird, DARK_AURA
 319, Zaraven, DARK, FLYING, EMPTY_LORD, EMPTY_LORD, , 500, 50, 125, 40, 125, 80, 80, , -, -, 156, medium slow, 12.5, 45, 70, 20, FLYING, , 0, , , 1, , 3, , , , , Divination, 5120, BIRD / STARTER, Zaraven, DARK_AURA
@@ -417,7 +417,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 415, Yakamaru, WATER, DRAGON, WATER_VEIL, DRIZZLE, , 550, 80, 90, 50, 135, 120, 75, , -, -, 154, medium fast, Genderless, 25, 0, 20, UNDISCOVERED, , 0, , , , , 2, 1, , , , Divination, 5120, MAZCAB, Yakamaru, WATER_BUBBLE
 416, Chompy, NORMAL, FLYING, THICK_FAT, FRIEND_GUARD, , 240, 80, 50, 35, 35, 20, 20, , -, -, 43, medium fast, 50, 255, 70, 20, FLYING, LIFE, 0, , 1, , , , , , , , Constitution, 5120, BIRD, Chompy, FRIEND_GUARD
 417, Jubbly, NORMAL, FLYING, THICK_FAT, FRIEND_GUARD, , 448, 160, 77, 67, 47, 67, 30, , -, -, 86, medium fast, 50, 110, 70, 20, FLYING, LIFE, 0, , 3, , , , , , , , Constitution, 5120, BIRD, Jubbly, FRIEND_GUARD
-418, Jubster, WATER, NORMAL, THICK_FAT, HUSTLE, , 518, 150, 90, 81, 80, 67, 50, , -, -, 151, fluctuating, 50, 75, 70, 15, FLYING, LIFE, 0, , 3, , , , , , , , Invention, 3840, EXPERIMENT, Jubster, HUSTLE_
+418, Jubster, WATER, NORMAL, THICK_FAT, HUSTLE, , 518, 150, 90, 81, 80, 67, 50, , -, -, 151, fluctuating, 50, 75, 70, 15, FLYING, LIFE, 0, , 3, , , , , , , , Invention, 3840, EXPERIMENT, Jubster, HUSTLE
 419, Terrorbird_Normal_Form, NORMAL, -, RUN_AWAY, UNBURDEN, , 330, 40, 70, 50, 50, 50, 70, , -, -, 76, medium fast, 50, 90, 70, 20, FLYING, LIFE, 0, , , , , , , 2, , , Agility, 5120, BIRD, Terrorbird, SPEED_BOOST
 420, Terrorbird_Warped_Form, NORMAL, POISON, RATTLED, SOUNDPROOF, , 515, 70, 95, 100, 80, 100, 70, , -, -, 156, medium fast, 50, 90, 70, 20, FLYING, LIFE, 0, , , , , , 1, 1, , , Agility, 5120, BIRD, Terrorbird, SPEED_BOOST
 421, Terrorbird_Spirit_Form, NORMAL, FAIRY, RUN_AWAY, UNBURDEN, , 515, 85, 90, 75, 80, 75, 110, , -, -, 156, medium fast, 50, 90, 70, 20, FLYING, LIFE, 0, , , , , , , 2, , , Summoning, 5120, BIRD, Terrorbird, SPEED_BOOST
@@ -575,7 +575,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 573, Jellyfish, WATER, ELECTRIC, STATIC, POISON_HEAL, , 500, 200, 50, 20, 110, 100, 20, , -, -, 140, fast, 50, 45, 50, 20, AMORPHOUS, WATER_3, 0, , 3, , , , , , , , Fishing, 5120, FISH, Jellyfish, POISON_HEAL
 574, Pure, PSYCHIC, -, LEVITATE, LEVITATE, , 275, 20, 5, 15, 95, 70, 70, , -, -, 67, medium fast, 50, 200, 20, 15, MINERAL, , 0, , , , , 2, , , , , Runecraft, 3840, , Essence, MAGIC_GUARD
 575, Rune, PSYCHIC, -, LEVITATE, LEVITATE, , 368, 25, 20, 20, 125, 100, 78, , -, -, 99, medium fast, 50, 115, 20, 15, MINERAL, , 0, , , , , 3, , , , , Runecraft, 3840, , Essence, MAGIC_GUARD
-576, Essence, PSYCHIC, ELECTRIC, LEVITATE, LEVITATE, , 509, 50, 60, 23, 155, 120, 101, , -, -, 134, medium fast, 50, 65, 20, 15, MINERAL, , 0, , , , , 4, , , , , Runecraft, 3840, , Essence, MAGIC_GUARD
+576, Essence, PSYCHIC, ELECTRIC, LEVITATE, LEVITATE, , 509, 50, 60, 23, 155, 120, 101, , -, -, 134, medium fast, 50, 65, 20, 15, MINERAL, , 0, , , , , 3, , , , , Runecraft, 3840, , Essence, MAGIC_GUARD
 577, Seagull_Normal_Form, ICE, FLYING, EARLY_BIRD, KEEN_EYE, , 300, 50, 50, 50, 50, 50, 50, , -, -, 52, fast, 50, 255, 70, 15, FLYING, , 0, , 1, , , , , , , , Sailing, 3840, BIRD, Seagull, RAIN_DISH
 578, Pelican, ICE, FLYING, EARLY_BIRD, KEEN_EYE, , 475, 84, 50, 68, 100, 80, 93, , -, -, 89, fast, 50, 85, 70, 15, FLYING, , 0, , , , , , , 2, , , Sailing, 3840, BIRD, Pelican, RAIN_DISH
 579, Albatross, WATER, FLYING, SWIFT_SWIM, GALE_WINGS, , 485, 75, 60, 75, 90, 75, 110, , -, -, 120, fast, 50, 85, 70, 15, FLYING, , 0, , , , , , 2, , , , Fishing, 3840, BIRD, Albatross, GALE_WINGS
@@ -633,7 +633,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 631, Bulwark_Beast, STEEL, ROCK, STAMINA, SOLID_ROCK, , 535, 110, 90, 200, 60, 55, 20, , -, -, 140, medium slow, 50, 90, 70, 20, MONSTER, MINERAL, 0, , , , , , , , , , Dungeoneering, 5120, BEHEMOTH, Behemoth, 
 632, Behemoth_Gluttonous_Form, STEEL, -, STAMINA, STAMINA, , 535, 140, 110, 100, 90, 60, 35, , -, -, 140, medium slow, 50, 90, 70, 20, MONSTER, MINERAL, 0, , , , , , , , , , Dungeoneering, 5120, BEHEMOTH, Behemoth, 
 633, Behemoth_Runebound_Form, STEEL, PSYCHIC, STAMINA, MAGIC_GUARD, , 535, 120, 90, 90, 90, 120, 25, , -, -, 140, medium slow, 50, 90, 70, 20, MONSTER, MINERAL, 0, , , , , , , , , , Dungeoneering, 5120, BEHEMOTH, Behemoth, 
-634, Stomp, STEEL, GROUND, STAMINA, STAMINA, , 535, 130, 130, 90, 110, 70, 5, , -, -, 140, medium slow, 50, 90, 70, 20, MONSTER, MINERAL, 0, , , , , , , , , , Dungeoneering, 5120, BEHEMOTH, Stomp, 
+634, Stomp, STEEL, GROUND, STAMINA, STAMINA, , 533, 130, 130, 90, 110, 70, 3, , -, -, 140, medium slow, 50, 90, 70, 20, MONSTER, MINERAL, 0, , , , , , , , , , Dungeoneering, 5120, BEHEMOTH, Stomp, 
 635, Hope_Devourer, STEEL, ELECTRIC, STAMINA, STATIC, , 535, 100, 100, 70, 100, 95, 70, , -, -, 140, medium slow, 50, 90, 70, 20, MONSTER, MINERAL, 0, , , , , , , , , , Dungeoneering, 5120, BEHEMOTH, Behemoth, 
 636, Karamthulu_Overlord, WATER, PSYCHIC, SYNCHRONIZE, RAIN_DISH, , 560, 95, 90, 50, 150, 85, 90, , -, -, 140, fast, 50, 85, 50, 15, WATER_3, , 0, , , , , 2, 1, , , , Fishing, 3840, FISH, Karamthulu, 
 637, Light_Creature, ELECTRIC, -, LEVITATE, , , 385, 35, 50, 30, 80, 95, 95, , -, -, 89, medium fast, 50, 75, 50, 15, FLYING, , 0, , , , , 2, , , , , Invention, 3840, , Light, 
@@ -684,7 +684,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 682, Racoon, NORMAL, -, PICKPOCKET, PICKPOCKET, , 365, 50, 70, 50, 40, 75, 80, , -, -, 95, fluctuating, 50, 80, 70, 20, FAIRY , , 0, , , , , , , 1, , , Hunter, 5120, HUNTER, Racoon, 
 683, Ralph, DARK, -, PICKPOCKET, PICKPOCKET, , 490, 70, 90, 70, 70, 70, 120, , -, -, 101, fluctuating, 50, 80, 70, 20, FAIRY , , 0, , , , , , , 1, , , Thieving, 5120, HUNTER, Ralph, 
 684, Rocky, NORMAL, -, PICKPOCKET, PICKPOCKET, , 490, 80, 90, 70, 60, 90, 100, , -, -, 101, fluctuating, 50, 80, 70, 20, FAIRY , , 0, , , , , , , 1, , , Thieving, 5120, HUNTER, Rocky, 
-685, Honey_Badger, FIGHTING, -, TOUGH_CLAWS, HONEY_GATHER, , 490, 80, 120, 100, 40, 70, 80, , -, -, 101, fluctuating, 50, 80, 70, 20, FAIRY , , 0, , , 4, , , , , , , Defense, 5120, HUNTER, Badger, 
+685, Honey_Badger, FIGHTING, -, TOUGH_CLAWS, HONEY_GATHER, , 490, 80, 120, 100, 40, 70, 80, , -, -, 101, fluctuating, 50, 80, 70, 20, FAIRY , , 0, , , 3, , , , , , , Defense, 5120, HUNTER, Badger, 
 686, Squirrel_Giant_Form, FAIRY, -, PICKUP, PRANKSTER, , 515, 85, 70, 85, 65, 85, 125, , -, -, 110, Fast, 75, 180, 70, 10, FAIRY, , 0, , , , , , , 2, , , Hunter, 2560, HUNTER, Squirrel, 
 687, Squirrel_Australian_Form, FAIRY, GROUND, PICKUP, MOODY, , 515, 75, 75, 85, 80, 85, 115, , -, -, 110, Fast, 75, 180, 70, 10, FAIRY, , 0, , , , , , , 2, , , Quest, 2560, , Squirrel, 
 688, Jade_Vine, GRASS, POISON, CHLOROPHYLL, MERCILESS, , 505, 100, 110, 70, 105, 80, 40, , -, -, 110, ERRATIC, Genderless, 45, 70, 20, GRASS, , 0, , , 1, , 1, , , , , Farming, 3840, , Jade Vine, 
@@ -715,8 +715,8 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 713, Demon_Ice_OSRS_Form, DARK, -, SNOW_WARNING, AVERNIC, , 480, 80, 70, 50, 110, 75, 95, , -, -, 130, slow, 50, 90, 70, 20, HUMAN_LIKE, , 0, , , , , 2, , , , , Dungeoneering, , , Ice Demon, 
 714, Demon_Ice_RS3_Form, DARK, ICE, SNOW_WARNING, AVERNIC, , 560, 90, 90, 60, 130, 80, 110, , -, -, 160, slow, 50, 45, 70, 20, HUMAN_LIKE, , 0, , , , , 2, , , , , Quest, 5120, DEMON, Ice Demon, 
 715, Demon_Bloodchiller_Form, DARK, ICE, ICE_BODY, AVERNIC, , 560, 100, 120, 70, 120, 70, 80, , -, -, 160, slow, 50, 45, 70, 20, HUMAN_LIKE, , 0, , , 2, , 1, , , , , Dungeoneering, 5120, DEMON, Demon, 
-716, Demon_Reanimated_Form, DARK, GHOST, CURSED_BODY, AVERNIC, , 560, 70, 70, 70, 100, 140, 110, , -, -, 160, slow, 50, 45, 70, 20, HUMAN_LIKE, , 0, , , , , , 4, , , , Prayer, 5120, DEMON, Demon, 
-717, Kril_Tsutsaroth, DARK, POISON, AVERNIC, POISON_TOUCH, , 560, 100, 150, 70, 80, 70, 90, , -, -, 160, slow, 50, 45, 70, 20, HUMAN_LIKE, , 0, , , 4, , , , , , , Strength, 5120, DEMON, Tsutsaroth, 
+716, Demon_Reanimated_Form, DARK, GHOST, CURSED_BODY, AVERNIC, , 560, 70, 70, 70, 100, 140, 110, , -, -, 160, slow, 50, 45, 70, 20, HUMAN_LIKE, , 0, , , , , , 3, , , , Prayer, 5120, DEMON, Demon, 
+717, Kril_Tsutsaroth, DARK, POISON, AVERNIC, POISON_TOUCH, , 560, 100, 150, 70, 80, 70, 90, , -, -, 160, slow, 50, 45, 70, 20, HUMAN_LIKE, , 0, , , 3, , , , , , , Strength, 5120, DEMON, Tsutsaroth, 
 718, Pyrefiend, GHOST, FIRE, FLAME_BODY, FLASH_FIRE, , 380, 50, 80, 30, 105, 80, 35, , -, -, 90, slow, Genderless, 170, 0, 20, HUMAN_LIKE, , 0, , , , , 1, , , , , Firemaking, 5120, DEMON, Pyrefiend, FLASH_FIRE
 719, Pyrelord, GHOST, FIRE, FLAME_BODY, FLASH_FIRE, , 480, 55, 90, 55, 120, 103, 57, , -, -, 130, slow, Genderless, 65, 0, 20, HUMAN_LIKE, , 0, , , , , 2, , , , , Firemaking, 5120, DEMON, Pyrelord, FLASH_FIRE
 720, Waterfiend, GHOST, WATER, WATER_VEIL, RAIN_DISH, , 380, 60, 65, 50, 105, 90, 10, , -, -, 90, slow, Genderless, 170, 0, 20, HUMAN_LIKE, , 0, , , , , 1, , , , , Sailing, 5120, DEMON, Waterfiend, RAIN_DISH
@@ -740,7 +740,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 738, Void_Shifter, BUG, -, LIQUID_OOZE, UNNERVE, , 485, 65, 90, 55, 85, 70, 120, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , , , , , , 2, , , Attack, 5120, , V. Shifter, 
 739, Void_Brawler, BUG, FIGHTING, LIQUID_OOZE, FLUFFY, , 485, 120, 90, 85, 55, 70, 65, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , 2, , , , , , , , Attack, 5120, , V. Brawler, 
 740, Void_Defiler, BUG, DARK, LIQUID_OOZE, SPEED_BOOST, , 485, 55, 110, 70, 85, 75, 90, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , 2, , , , , , , , Attack, 5120, , V. Defiler, 
-741, Void_Splatter, BUG, NORMAL, LIQUID_OOZE, AFTERMATH, , 485, 150, 80, 75, 55, 70, 55, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , , 2, , , , , , , Attack, 5120, , V. Splatter, 
+741, Void_Splatter, BUG, NORMAL, LIQUID_OOZE, AFTERMATH, , 485, 150, 80, 75, 55, 70, 55, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , , 2, , , , , , , Attack, 5120, , Splatter, 
 742, Void_Ravager, BUG, GROUND, LIQUID_OOZE, ARENA_TRAP, , 485, 70, 95, 75, 95, 75, 75, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , 1, 1, , , , , , , Attack, 5120, , V. Ravager, 
 743, Void_Spinner, BUG, ELECTRIC, LIQUID_OOZE, STATIC, , 485, 70, 75, 80, 95, 120, 45, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , , , , , 2, , , , Attack, 5120, , V. Spinner, 
 744, Void_Drone, BUG, -, HEALER, HEALER, , 485, 70, 65, 90, 85, 120, 55, , -, -, 140, slow, Genderless, 45, 0, 120, BUG, AMORPHOUS, 0, , , , , , 2, , , , Quest, 5120, , Void Drone, 
@@ -781,7 +781,7 @@ ID, NAME, Type 1, Type 2, Ability 1, Ability 2, , Stats Total, HP, Attack, Defen
 779, Fire_Titan, FIRE, -, PRISM_ARMOR, FLAME_BODY, , 540, 70, 90, 85, 125, 125, 45, , -, -, 167, fluctuating, Genderless, 90, 70, 20, HUMAN_LIKE, MINERAL, 0, , , 1, , , 2, , , , Summoning, 5120, , Fire Titan, 
 780, Geysir_Titan, WATER, FIRE, PRISM_ARMOR, WATER_ABSORB, , 540, 125, 85, 70, 125, 90, 45, , -, -, 167, fluctuating, Genderless, 90, 70, 20, HUMAN_LIKE, MINERAL, 0, , , , 2, 1, , , , , Summoning, 5120, , GysirTitan, 
 781, Dark_Core, DARK, -, PRESSURE, PRESSURE, , 360, 60, 60, 60, 60, 60, 60, , -, -, 54, slow, 50, 35, 30, 20, MONSTER, , 0, , , 1, , , , , , , Quest, 5120, , Dark Core, 
-782, Corporeal_Beast, NORMAL, -, PRESSURE, PRESSURE, , 785, 110, 200, 90, 120, 185, 80, , -, -, 246, slow, 50, 3, 30, 20, MONSTER, , 0, , , 3, , , , , , , Summoning, 5120, , Corp. Beast, 
+782, Corporeal_Beast, NORMAL, -, PRESSURE, PRESSURE, , 785, 110, 200, 90, 120, 185, 80, , -, -, 246, slow, 50, 3, 30, 20, MONSTER, , 0, , , 3, , , , , , , Summoning, 5120, , Corp.Beast, 
 783, Corporeal_Beast_Zanik_Form, NORMAL, -, UNNERVE, UNNERVE, , 785, 110, 120, 90, 200, 185, 80, , -, -, 246, slow, 50, 3, 30, 20, MONSTER, , 0, , , , , 3, , , , , Quest, 5120, , Zanik, 
 784, Compost_Mound, GRASS, GROUND, STENCH, STICKY_HOLD, , 520, 135, 90, 65, 105, 90, 35, , -, -, 101, fluctuating, 50, 90, 70, 20, GRASS, , 0, , 2, , , , , , , , Farming, 5120, , Compost, 
 785, Ent, GRASS, FAIRY, LEAF_GUARD, REGENERATOR, , 520, 110, 80, 75, 105, 105, 45, , -, -, 140, fluctuating, 50, 90, 70, 20, GRASS, , 0, , , , , 1, 1, , , , Farming, 5120, , Ent, 

@@ -1,0 +1,6 @@
+
+		.evolutions = EVOLUTION({EVO_FEMALE_LEVEL, 19, Cow},
+		.evolutions = EVOLUTION({EVO_MALE_LEVEL, 19, Bull},
+		.evolutions = EVOLUTION({EVO_ITEM, ITEM_VANILLA_MILK, Cow_Vanilla_Form},
+		.evolutions = EVOLUTION({EVO_ITEM, ITEM_STRAWBERRY_MILK, Cow_Strawberry_Form},
+		.evolutions = EVOLUTION({EVO_ITEM, ITEM_CHOCOLATE_MILK, Cow_Chocolate_Form},
