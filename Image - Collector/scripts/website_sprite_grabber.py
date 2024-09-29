@@ -8,7 +8,8 @@ from pathlib import Path
 
 
 # Variables
-mon_amount = 918  # Set the last (sprite) ID of the stats sheet here (column A)
+#Set MON ID number below here.
+mon_amount = 946  # Set the last (sprite) ID of the stats sheet here (column A)
 sheet_id = "17rpJqvN_AHTA463Q9S8k2ONGBEZvNM47DWqR6RTqy1w"
 download_outdated = False  # Set this to True when you need to (re)download the spreadsheet (FileNotFoundError: [Errno 2] No such file or directory: 'stats_sheet.csv')
 

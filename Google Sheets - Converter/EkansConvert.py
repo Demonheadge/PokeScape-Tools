@@ -11,8 +11,8 @@ initialEvolutionFile = "tsv folder/PokeScape Main Sheet - EVOLUTION"
 initialTMHMFile = "tsv folder/PokeScape Main Sheet - TM_HM"
 initialDexEntriesFile = "tsv folder/PokeScape Main Sheet - Dex Entries"
 initialMovesFile = "tsv folder/PokeScape Main Sheet - MOVES"
-
 initialTMFile = "tsv folder/PokeScape Main Sheet - TM LIST"
+
 
 #File names for the converted output files. (Include extensions)
 finalLevelFile = "js folder/PokeScape_LevelUp_Moves.js"

@@ -36,6 +36,19 @@ const PokeScapeEvolutions = require('./js folder/' + './PokeScape_Evolution.js')
 const Evolution_List = Object.keys(PokeScapeEvolutions);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* for (i = 0; i < Object.keys(level_up_moves).length; i++) {
 	console.log(Object.keys(level_up_moves[Object.keys(level_up_moves)[i]]) + '\n' + util.inspect(level_up_moves[Object.keys(level_up_moves)[i]][Object.keys(level_up_moves[Object.keys(level_up_moves)[i]])]))
 } */
@@ -54,7 +67,7 @@ TYPE2 = 3;
 ABILITY1 = 4;
 ABILITY2 = 5;
 ABILITY3 = 39;
-TOTALSTATS = 8;
+TOTALSTATS = 7;
 HP = 8;
 ATTACK = 9;
 DEFENSE = 10;
@@ -168,7 +181,7 @@ fs.readFile('./tsv folder/' + 'PokeScape Main Sheet - EVOLUTION.tsv', 'utf8', (e
 		//ConvertTrainers();
 
 		//BuildGameCode();
-		EXPANSION_BaseStats();
+	//EXPANSION_BaseStats();
 		//MOVES();
 		//EXPANSION_frontpicAnims();
 		//EXPANSION_learnset_pointers();
@@ -3352,3 +3365,54 @@ if (MultipleEvolutions > 1) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+//const fs = require('fs');
+const evolutions_inputFilePath = 'PokeScape Main Sheet - Evolutions.tsv';
+const outputFilePath = 'TestA.txt';
+
+function TestA() {
+	// Read the TSV file
+	fs.readFile(evolutions_inputFilePath, 'utf8', (err, data) => {
+		if (err) {
+		console.error(`Error reading the file: ${err}`);
+		return;
+		}
+
+		//initiate print
+		let TestA_print = "";
+		TestA_print += 'I hope this works.\n' + data.toUpperCase().replace(/\t/g, '@') + ',\n'
+
+		// Write the data to a new file
+		fs.writeFile(outputFilePath, TestA_print, (err) => {
+		if (err) {
+			console.error(`Error writing the file: ${err}`);
+			return;
+		}
+		console.log(`File has been saved to ${outputFilePath}`);
+		});
+	});
+}
+
+//EVOLUTIONS TEST
+/*
+function TestA() {
+	let TestA_print = "Test printing an output.";
+	console.log(TestA_print)
+	fs.writeFile('TestA.txt', TestA_print, function (err) {
+  	if (err) throw err;
+	});
+}
+*/
+//Run the function.
+TestA();
