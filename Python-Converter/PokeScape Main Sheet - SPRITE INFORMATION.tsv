@@ -1,0 +1,1039 @@
+ID	NAME	ICON PAL	HEIGHT (FRONT)	HEIGHT (BACK)	ELEVATION	SPRITE AJUSTMENT (for dex, and stats screen) (estamated)	MISSING SHINES	ANIMATION (Front)	ANIMATION (Back)
+1	Guthling	1	8		0		x		
+2	Guthbird	1	0		0	Needs to be higher, I think 3 pixels would do the trick			
+3	Guthraptor	1	0		1				
+4	Zamling	0	8		0				
+5	Zambird	0	6		0				
+6	Zamohawk	0	0		0				
+7	Saraling	2	10		0				
+8	Sarabird	2	7		0				
+9	Saraowl	2	0		4				
+10	Chick	2	0		0	Needs to be like 4 pixels higher, and 1 to 2 pixel to the left			
+11	Chicken_Normal_Form	1	2		0				
+12	Dreadfowl	2	0		0				
+13	Chicken_Varrock_Form	0	0		0				
+14	Chicken_Diving_Form	2	0		0				
+15	Chicken_Karamja_Form	0	0		0				
+16	Chicken_Death_Form	1	5		0				
+17	Chicken_Bandosian_Form	2	0		0				
+18	Chicken_War_Form	0	2		0				
+19	Rooster_Normal_Form	1	1		0				
+20	Ernest	0	3		0				
+21	Rooster_Karamja_Form	0	0		0				
+22	Oomlie	2	0		0				
+23	Rooster_Bandosian_Form	2	2		0				
+24	Chicken_Famine_Form	0	2		0				
+25	Rooster_Varrock_Form	1	1		0				
+26	Chicken_Pestilence_Form	1	8		0				
+27	Chicken_Lizard_Form	1	6		0				
+28	Chicken_Undead_Form	1	8		0				
+29	Chicken_Mystery_Form	0	3		0				
+30	EvilChicken	2	0		0				
+31	Swordchick	2	0		0				
+32	Newtroost	2	3		0				
+33	Calf	2	0		0	5 pixels higher			
+34	Cow	2	1		0				
+35	Super_Cow	2	1		0		Bugged normal sprite		
+36	Cow_Dairy_Form	2	2		0				
+37	Cow_Undead_Form	2	0		0				
+38	Cow_Chocolate_Form	2	3		0				
+39	Cow_Strawberry_Form	0	3		0				
+40	Cow_Vanilla_Form	2	3		0				
+41	Cow_Harlequin_Form	2	4		0				
+42	SkeletalOx_Female_Form	0	1		0				
+43	Bull	0	1		0				
+44	Bull_Elder_Form	2	2		0				
+45	SkeletalOx_Male_Form	0	0		0				
+46	Trojan_Cow	2	3		0				
+47	Cow_Plague_Form	1	10		0				
+48	Minotaur_Normal_Form	0	0		0	1-3 pixels higher			
+49	Minotaur_Rune_Form	0	2		0				
+50	Unicow	2	0		0				
+51	Rat_Normal_Form	0	0		0	3-4 pixels higher			
+52	Giant_Rat_Normal_Form	2	0		0	3 pixels higher			
+53	Brine_Rat	0	7		0				
+54	Giant_Rat_Blessed_Form	1	0		0	4 pixels higher			
+55	Rat_Hell_Form	0	13		0	2 pixels lower			
+56	Giant_Rat_Hell_Form	0	5		0				
+57	Shell_Rat	0	11		0				
+58	Rat_Crypt_Form	0	0		0	3-5 pixels higher			
+59	Giant_Rat_Crypt_Form	0	0		0	2-3 pixels higher			
+60	Warped_Rat	2	1		0				
+61	Zombie_Rat	1	0		0	2 pixels higher			
+62	Giant_Rat_Dungeon_Form	0	0		0	2 pixels higher			
+63	Rat_King_Form	2	0		0	3 pixels higher			
+64	Giant_Rat_King_Form	2	5		0				
+65	Albino_Rat	2	2		0				
+66	Angry_Rat	0	2		0				
+67	Experiment_2_Form	2	0		0				
+68	Lamb	0	0		0	4 pixels higher			
+69	Sheep_White_Form	2	0		0	2 pixels higher			
+70	Sheep_Plague_Form	1	8		0				
+71	Sheep_Black_Form	0	5		0				
+72	Ram_Fluffy_Form	2	0		0	2 pixels higher			
+73	Ram_Shaggy_Form	2	7		0				
+74	Ram_Golden_Form	2	1		0				
+75	Sheep_Pirate_Form	2	0		0				
+76	Goat_Billy_Form	2	0		0	2 pixels higher			
+77	Goat_Desert_Form	2	1		0				
+78	Goat_Mountain_Form	2	0		0				
+79	Gorak	0	0		0				
+80	Sardine	1	0		2	5 pixels higher			
+81	Herring	0	0		1	3 pixels higher			
+82	Trout_Normal_Form	0	3		1	3 pixels higher			
+83	Swordfish	0	2		1				
+84	Trout_Leaping_Form	0	8		1				
+85	Sturgeon	0	10		1				
+86	Trout_Tropical_Form	0	2		1	3-5 pixels higher			
+87	Sailfish	0	2		1				
+88	Thallasus	0	0		1				
+89	Bass	0	0		1	4 pixels higher			
+90	Salmon_Normal_Form	0	0		1	3 pixels higher			
+91	Shark_Normal_Form	0	8		6				
+92	Fury_Shark	0	7		6				
+93	Salmon_Leaping_Form	0	11		1	1 pixel higher			
+94	Shark_GreatWhite_Form	0	3		4				
+95	Shark_Tiger_Form	0	4		6				
+96	Mackerel	2	0		3	4 pixels higher			
+97	Catfish	0	9		1				
+98	Shark_Baron_Form	0	0		4				
+99	Tarpon	0	10		1				
+100	Seerfish	0	2		1	3 pixels higher			
+101	DesertSole	2	17		0				
+102	Sillago	2	10		1				
+103	Wobbegong	0	7		1				
+104	Karambwanj	1	10		1				
+105	Karambwan	1	3		1				
+106	Whitefish	0	7		1				
+107	Beltfish	0	0		1				
+108	Manta_Ray	0	0		3				
+109	Cod	0	1		1	2 pixels higher			
+110	Rainbow	0	2		1				
+111	Shark_Golden_Form	0	4		1				
+112	Pike	1	0		1	3 pixels higher			
+113	Monkfish_Normal_Form	2	10		4				
+114	AnglerFish	1	5		3				
+115	Giant_Carp	0	7		1	2 pixels higher			
+116	Monkfish_Fresh_Form	2	2		1	1 pixel higher			
+117	Monkfish_Golden_Form	0	2		1				
+118	GoblinFish	1	1		1				
+119	Pet_Fish	2	10		0				
+120	Gilbert	2	1		1				
+121	Cavefish	0	7		1				
+122	Rocktail	0	1		1				
+123	Eel_Slimy_Form	1	0		5	2 pixels higher			
+124	Eel_Cave_Form	1	1		1				
+125	Eel_Sacred_Form	2	0		3				
+126	Eel_Lava_Form	0	5		1				
+127	Eel_Infernal_Form	0	0		5				
+128	Eel_Mottled_Form	1	1		1				
+129	Eel_Short_Finned_Form	2	1		1				
+130	Eel_Salve_Form	0	0		1				
+131	Eel_Dusk_Form	2	4		1				
+132	Cave_Moray	2	0		6			>	>
+133	Vile_Fish	2	6		1				
+134	Piglet	0	0		0	Needs to be 5 Pixels higher			
+135	Pig	0	0		0	Needs to be 3 pixels higher			
+136	Pigzilla	0	5		0				
+137	Puppy_Pup_Form	2	0		0	Needs to be 3 pixels higher			
+138	Puppy_Mutt_Form	2	0		0	3 pixels higher			
+139	Terrier	2	0		0	1 pixel higher			
+140	Sheepdog	0	0		0	2 pixels higher			
+141	Dalmatian	0	0		0	2 pixels higher			
+142	Greyhound	2	7		0				
+143	Bulldog	2	0		0	3 pixels higher			
+144	Labrador	2	2		0				
+145	Corgi	2	8		0				
+146	Terror_Dog	1	4		0				
+147	Stray_Dog	0	8		0				
+148	Muncher	0	11		0				
+149	Hellpuppy	0	0		0	3 pixels higher			
+150	Hellhound	2	1		0				
+151	Cerberus	0	2		0				
+152	Kitten	0	0		0	4 pixels higher			
+153	Cat_Normal_Form	0	1		0				
+154	Cat_Overgrown_Form	0	0		0	3 pixels higher			
+155	Cat_Lazy_Form	0	0		0	2 pixels higher			
+156	Cat_Wily_Form	2	4		0				
+157	Cat_Purple_Form	2	5		0				
+158	Cat_Hell_Form	0	11		0				
+159	Cat_Post_Form	0	8		0	white pixel near leg			
+160	Cat_Sunken_Form	0	14		0				
+161	Bob	0	7		0				
+162	Evil_Bob	0	7		0				
+163	Pet_Rock	2	0		0	3 pixels higher			
+164	Rock_Polished_Form	0	15		0				
+165	Pillar	0	2		0				
+166	Rock_Soup	2	0		0	2-3 pixels higher			
+167	Slagilith	2	1		1				
+168	Rock_Strange_Form	0	15		0				
+169	Rock_Golden_Form	2	14		0				
+170	Party_Rock	2	12		0				
+171	Strykewyrm_Freezy_Form	0	0		0				
+172	Strykewyrm_Leafy_Form	1	0		0				
+173	Strykewyrm_Sandy_Form	2	0		0				
+174	Strykewyrm_Wildy_Form	0	2		0				
+175	Scorpling	2	2		0	2 pixels higher			
+176	Scorpion_Normal_Form	2	2		0	1 pixel higher			
+177	Scorpion_Pit_Form	2	1		0	2 pixels higher			
+178	Scorpion_Poison_Form	2	2		0				
+179	Scorpion_King_Form	2	4		0				
+180	Scorpion_Grave_Form	2	4		0				
+181	Scorpion_Corrupted_Form	1	2		0				
+182	Scorpion_Reanimated_Form	0	5		0				
+183	Scorpion_Gauntlet_Crystalline_Form	1	6		0				
+184	Scorpion_Gauntlet_Corrupted_Form	0	6		0				
+185	Scorpion_Khazard_Form	2	2		0				
+186	Scorpion_Spirit_Form	0	6		0				
+187	Scorpia	2	7		0				
+188	Dreadnip	0	11		0				
+189	Peepling	2	0		1	3-4 pixels higher			
+190	Sneakrpeep	2	0		2				
+191	Runtstable	2	7		0				
+192	Basilisk	0	3		0	2 pixels higher			
+193	Baby_Mole	0	4		0	2 pixels higher			
+194	Giant_Mole	2	4		0				
+195	Squirrel	2	2		0	3 pixels higher			
+196	Ravenling	0	1		0	2 pixels higher			
+197	Raven_Normal_Form	2	0		2				
+198	Raven_Nevermore_Form	2	2		0				
+199	Raven_Spooky_Form	2	0		3	1 pixel higher			
+200	Raven_Crystal_Form	0	6		0	1 pixel higher			
+201	Crow	0	0		0	4 pixels higher			
+202	Magpie	0	7		0				
+203	Chinchompa_Grey_Form	0	0		0	2 pixels higher			
+204	Chinchompa_Red_Form	0	0		0	2 pixels higher			
+205	Chinchompa_Gold_Form	2	0		0				
+206	Vultling	0	6		0	1 pixel higher			
+207	Vulture	2	0		1				
+208	Pengling	0	0		0				
+209	Penguin	0	2		0	4 pixels higher			
+210	Penguin_Clockwork_Form	0	9		0				
+211	The_Thing	2	2		0	2 pixels higher			
+212	Ping	2	6		0				
+213	Pong	2	2		0				
+214	Penguin_McGraw_Form	0	13		0				
+215	Penguin_Spy_Form	0	2		0	1 pixel higher			
+216	Penguin_Agent_Form	2	2		0	1 pixel higher			
+217	Penguin_Disguise_Cactus_Form	1	1		0	1 pixel higher			
+218	Penguin_Disguise_Rock_Form	2	10		0	2 pixels higher, 1-2 to the left			
+219	Penguin_Disguise_Bush_Form	1	3		0				
+220	Penguin_Disguise_Box_Form	2	11		0	2 pixels higher			
+221	ExExParrot	2	8		0				
+222	Broav	2	3		0	1 pixel higher			
+223	Tooths	2	7		0				
+224	Rune_Guardian	1	7		0				
+225	Gnomey	2	8		0				
+226	Sparkles	2	0		0	1 pixel higher			
+227	Bat	2	3		1				
+228	Giant_Bat	2	0		2				
+229	Warped_Bat	2	0		1				
+230	Albino_Bat	2	0		6				
+231	Bat_Box_Form	2	0		0	3 pixels higher			
+232	Fruit_Bat	2	2		0				
+233	VampyreBat	2	0		3				
+234	Deathwing	2	3		1				
+235	Shaikah	2	0		0				
+236	Growler	0	0		0				
+237	Phoenling_Rebirth_Form	0	9		0				
+238	Phoenling_Reborn_Form	0	9		0				
+239	Phoenix_Rebirth_Form	0	2		0				
+240	Phoenix_Reborn_Form	0	2		6				
+241	Plant_Strange_Form	1	4		0				
+242	Plant_Stranger_Form	1	4		0				
+243	EvilTurnip	2	9		0				
+244	Creature_Cute_Form	0	11		0				
+245	Creature_Evil_Form	0	9		0				
+246	Baby_Yak	2	0		0	2 pixels higher			
+247	Yak_Normal_Form	2	6		0				
+248	Yak_Pack_Form	2	1		0				
+249	Yak_Sacred_Form	2	3		0				
+250	Yak_ClueScroll_Form	0	0		0				
+251	Yak_Undead_Form	1	5		0				
+252	Yak_Snack_Form	2	2		0				
+253	Minitrice	1	0		0	2 pixels higher			
+254	Cockatrice	1	0		0				
+255	Guthatrice	1	0		2				
+256	Zamatrice	0	0		0				
+257	Saratrice	0	2		0				
+258	Corxatrice	2	2		0				
+259	Vulatrice	2	0		0				
+260	Pengatrice	2	1		0				
+261	Chocatrice	2	0		0				
+262	Sproutling_Summer_Form	1	1		0				
+263	Sproutling_Spring_Form	0	1		0				
+264	Sproutling_Winter_Form	1	0		0	1 pixel to the right, to match the other ones			
+265	Sproutling_Autumn_Form	0	0		0				
+266	Rue	2	0		1				
+267	Monty	0	6		0				
+268	Zygomite	0	12		0	2 pixels higher			
+269	Abyssaling	2	0		0	3 pixels higher			
+270	Abyssal_Minion_Form	2	2		0	2 pixels higher			
+271	Abyssal_Demon_Form	2	3		0				
+272	Abyssal_Sire_Form	0	2		0				
+273	Abyssal_Leech_Form	0	5		0	2 pixels higher			
+274	Abyssal_Parasite_Form	0	4		0	1 pixel higher			
+275	Abyssal_Lurker_Form	0	2		0	3 pixels higher			
+276	Abyssal_Walker_Form	0	1		0				
+277	Abyssal_Titan_Form	2	0		0				
+278	Tz_Kih	0	0		1	1 pixel higher			
+279	Tz_Kek	0	10		0				
+280	Tok_Xil	0	4		0	palette			
+281	Tz_Kih_Spirit_Form	0	0		1				
+282	Ket_Dill	2	3		0				
+283	Ket_Zek	0	2		0				
+284	Yt_HurKot	0	7		0				
+285	Yt_MejKot	2	1		0				
+286	TzRek_Jad	0	9		0				
+287	TzTok_Jad	0	3		0				
+288	JalTok_Jad	0	8		0				
+289	Jal_MejRah	0	3		1				
+290	Jal_Ak	0	14		0				
+291	Jal_Xil	0	3		0				
+292	Jal_Nib	0	15		0				
+293	Jal_ImKot	0	7		0				
+294	Jal_Zek	0	5		0				
+295	TzKal_Zuk	0	2		1				
+296	Duckling	2	0		0	4 pixels higher			
+297	Swan	0	5		0				
+298	Duck_Normal_Form	1	0		0	3 pixels higher			
+299	Mega_Duck	1	5		0				
+300	Duck_Cart_Form	1	4		0				
+301	Platypode	2	2		0	4 pixels higher			
+302	Platypus	2	14		0				
+303	Fledgling	2	0		0	2 pixels higher			
+304	Dagannoth_Normal_Form	2	4		0				
+305	Dagannoth_Guardian_Form	2	3		0				
+306	Dagannoth_King_Range_Form	0	4		0				
+307	Dagannoth_King_Magic_Form	1	3		0				
+308	Dagannoth_King_Melee_Form	0	4		0				
+309	Dagannoth_King_Range_Mega_Form	1	2		0				
+310	Dagannoth_King_Magic_Mega_Form	2	3		0				
+311	Dagannoth_King_Melee_Mega_Form	0	2		0				
+312	Chaos_Ele	0	0		6				
+313	Chaos_Ele_Mega_Form	0	0		7				
+314	Bandling	2	0		0	3 pixels higher to match the other birb babies			
+315	Bandbird	2	2		0	3 pixels higher			
+316	Bandeagle	1	2		0				
+317	Zaroling	2	1		0	3 pixels higher to match the other birb babies			
+318	Zarobird	2	1		0	2 pixels higher			
+319	Zaraven	2	0		4				
+320	Sereling	0	11		0	1 pixel to the left to match the birb babies			
+321	Serebird	0	11		0				
+322	Serepea	0	2		0				
+323	Frogspawn	0	0		0	5 pixels higher			
+324	Frog_Normal_Form	1	0		0	5 pixels higher			
+325	Giant_Frog_Normal_Form	1	0		0	3 pixels higher			
+326	Giant_Frog_Royal_Form	1	0		0	2 pixels higher			
+327	Frog_Bloated_Form	1	10		0				
+328	Frog_Balloon_Form	1	0		2				
+329	Toad_Barker_Form	2	12		0	1 pixel higher			
+330	Frogeel	1	0		0	4 pixels higher			
+331	Spiderling	2	0		0	4 pixels higher			
+332	Spider_Giant_Form	2	1		0	2 pixels higher			
+333	Spider_DeadlyRed_Form	0	6		0				
+334	Spider_Jungle_Form	1	9		0				
+335	Spider_Blessed_Form	2	13		0				
+336	Spider_Huge_Form	2	2		0	2 pixels higher			
+337	Spider_Night_Form	0	11		0				
+338	Spider_Ice_Form	0	15		0				
+339	Spider_Spirit_Form	0	13		0				
+340	Eek	0	9		0				
+341	MinstrlWeb	0	6		0				
+342	Sarachnis	0	5		0				
+343	Venenatis	0	8		0				
+344	Spidine	1	2		0	3 pixels higher			
+345	Crayfish	2	2		1	3 pixels higher			
+346	Shrimp	2	5		1				
+347	Lobster_Normal_Form	0	6		0	2 pixels higher			
+348	Lobster_Golden_Form	0	7		0				
+349	Lobster_Giant_Form	0	7		0				
+350	Lobster_Heim_Form	1	8		0				
+351	Lobster_Obsidian_Form	2	15		0				
+352	Crab_Red_Form	0	0		0	2 pixels higher			
+353	Giant_Crab_Red_Form	0	9		0				
+354	Crab_Moss_Form	0	0		0	2 pixels higher			
+355	Giant_Crab_Moss_Form	0	9		0				
+356	Crab_RumPumped_Form	0	0		0	2 pixels higher			
+357	Giant_Crab_RumPumped_Form	2	13		0				
+358	Crab_Dark_Form	1	0		0	2 pixels higher			
+359	Giant_Crab_Dark_Form	1	13		0				
+360	Crab_Grey_Form	0	0		0	2 pixels higher			
+361	Giant_Crab_Grey_Form	0	12		0				
+362	Knife_Crab	0	15		0				
+363	Heim_Crab	1	2		0	3 pixels higher			
+364	WebSnipper	2	15		0				
+365	Blue_Crab	0	14		0				
+366	Crablet_First_Form	0	0		0	1 pixel higher			
+367	Crablet_Second_Form	0	0		0	1 pixel higher			
+368	Crablet_Third_Form	0	0		0	1 pixel higher			
+369	Crablet_Forth_Form	0	0		0	1 pixel higher			
+370	Crablet_Fifth_Form	0	0		0	1 pixel higher and to the right, to match the other ones		The one with gold statue on back needs to be slightly adjusted, to match the other ones	The one with gold statue on back needs to be slightly adjusted, to match the other ones
+371	Crawler_Cave_Form	1	0		0	2 pixels higher			
+372	Crawler_Chasm_Form	1	0		0	2 pixels higher			
+373	Crawler_Monstrous_Form	1	3		0	1 pixel higher			
+374	Winston	2	0		0	4 pixels higher			
+375	Tortoise_Normal_Form	2	2		0	2 pixels higher			
+376	Tortoise_Warped_Form	1	7		0				
+377	Tortoise_War_Form	0	3		0	2 pixels higher			
+378	Valluta	0	9		0				
+379	Sea_Turtle	0	12		0				
+380	Sea_Turtle_Treasure_Form	1	0		3				
+381	Herbert	1	5		0	1 pixel higher			
+382	Xinachto	2	0		0				
+383	Cave_Slime	1	0		0	3 pixels higher			
+384	Jelly_Normal_Form	1	9		0				
+385	Jelly_Warped_Form	2	8		0				
+386	Jelly_Spirit_Form	0	8		0				
+387	AbbySpectr	1	5		0				
+388	Salamander_Green_Form	1	0		0	4 pixels higher			
+389	Salamander_Orange_Form	2	0		0	4 pixels higher			
+390	Salamander_Red_Form	0	15		0	These tree may need to be ajusted, so they all match in dex			
+391	Salamander_Black_Form	0	15		0	2 pixels to the left to match the other ones			
+392	Salamander_Augmented_Form	0	18		0				
+393	Gecko	0	13		0				
+394	Chameleon	1	14		0				
+395	Bloodveld	0	3		0	2 pixels higher			
+396	Bloodveld_Insatiable_Physical_Form	0	9		0				
+397	Bloodveld_Insatiable_Special_Form	0	7		0				
+398	Bloodveld_Mutated_Physical_Form	1	8		0				
+399	Bloodveld_Mutated_Special_Form	0	14		0				
+400	Reaver	1	7		0				
+401	Armaling	2	13		0	I think some to the left to match the other birb babies			
+402	Armabird	2	12		0				
+403	Armafalcon	2	0		6				
+404	Ungodling	0	12		0	I think some to the left to match the other birb babies			
+405	Ungodbird	0	12		0				
+406	Ungodgeon	0	0		4				
+407	Tumekling	0	14		0				
+408	Tumekbird	0	11		1				
+409	Tumekibis	0	4		0				
+410	Kerrit	1	0		3				
+411	Snuffle	2	5		0				
+412	Popoca	1	5		0				
+413	Choloa	0	9		0				
+414	Durzag	0	0		0				
+415	Yakamaru	2	3		0				
+416	Chompy	2	11		0				
+417	Jubbly	2	0		0				
+418	Jubster	2	0		0				
+419	Terrorbird_Normal_Form	1	3		0				
+420	Terrorbird_Warped_Form	2	7		0				
+421	Terrorbird_Spirit_Form	0	0		0				
+422	Wolf_Juvenile_Form	2	0		0	3 pixels up			
+423	Wolf_Normal_Form	2	0		0	2 pixels up			
+424	Wolf_Fenris_Form	2	0		0	1-2 pixels up			
+425	Wolf_White_Form	2	0		0	1-2 pixels up			
+426	Rover	0	9		0				
+427	Wolf_Dire_Form	2	2		0				
+428	Wolf_Jungle_Form	2	0		0				
+429	Wolf_Skoll_Form	2	2		0				
+430	Wolf_Desert_Form	2	2		0				
+431	Wolf_Hati_Hati	2	3		0				
+432	Wolf_Spirit_Form	0	3		0				
+433	Fox	0	6		0				
+434	Inari	0	6		0				
+435	Helwyr	2	0		0				
+436	Bird_Nest	2	16		0	4 pixels up			
+437	Birds_Nest_God_Form	2	18		0				
+438	Pigeon	2	0		0	2 pixels up			
+439	Pheasant	1	0		0	2 pixels up			
+440	Rocling	2	7		0				
+441	Roc	2	0		6				
+442	Foal	2	0		0	2 pixels up			
+443	Unicorn_White_Form	2	2		0				
+444	Unicorn_Stallion_Form	2	0		0				
+445	Unicorn_Black_Form	0	2		0				
+446	Unicorn_Angry_Form	0	0		0				
+447	Unicorn_Reanimated_Form	2	0		0				
+448	Starlight	2	0		0				
+449	Pawya	2	0		0	3 pixels up			
+450	Grenwall	2	0		0	2 pixels up			
+451	Bear_Cub	2	0		0	2 pixels up			
+452	Bear_Normal_Form	2	0		0	1 pixel up			
+453	Bear_Reanimated_Form	2	6		0				
+454	Bear_Gauntlet_Crystalline_Form	1	6		0				
+455	Callisto	0	6		0				
+456	Polar_Bear_Normal_Form	0	6		0				
+457	Polar_Bear_PBJ_Agent_Form	1	0		0				
+458	Polar_Bear_Arctic_Form	0	4		0				
+459	Polar_Bear_Nanuq_Form	2	5		0				
+460	Bear_Grizzly_Form	2	2		0	1 pixel up			
+461	Kendall	0	0		0				
+462	Bear_Gauntlet_Corrupted_Form	0	4		0				
+463	Bear_Angry_Form	0	3		0				
+464	Graahk_Normal_Form	0	0		0				
+465	Graahk_Spirit_Form	2	0		0				
+466	Dust_Devil	0	3		1				
+467	SmokeDevil	2	0		1				
+468	SmokeDevil_Nuclear_Form	0	0		3				
+469	ChokeDevil	0	0		2				
+470	SmokeDevil_Thermonuclear_Form	0	0		3				
+471	Hatchling	2	0		0	3 pixels up, color pallete may be broken			
+472	Dragonling_Green_Form	1	13		0				
+473	Dragon_Green_Form	1	5		0				
+474	Dragon_Brutal_Green_Form	1	5		0				
+475	Dragonling_Blue_Form	0	11		0				
+476	Dragon_Blue_Form	0	7		0				
+477	Dragon_Brutal_Blue_Form	0	6		0				
+478	Dragonling_Red_Form	0	0		0	2-3 pixels up			
+479	Dragon_Red_Form	0	3		0				
+480	Dragon_Brutal_Red_Form	0	3		0				
+481	Dragonling_Black_Form	0	0		0	1 pixel up			
+482	Dragon_Black_Form	0	0		0				
+483	Dragon_Brutal_Black_Form	0	0		0				
+484	Dragon_ThreeHeaded_Form	1	6		0				
+485	Elvarg	1	0		0				
+486	Dragon_King_Black_Form	0	0		0				
+487	Dragon_Queen_Black_Form	0	0		0				
+488	Hand_Creeping_Form	0	15		0	4 pixels up			
+489	Hand_Crawling_Form	0	0		0	3 pixels up			
+490	Hand_Skeletal_Form	0	10		0				
+491	Hand_Crushing_Form	0	11		0				
+492	Hand_Zombie_Form	1	8		0				
+493	Turoth	0	0		0	2 pixels up			
+494	Turoth_Mightiest_Form	0	8		0				
+495	Big_Turoth	2	7		0				
+496	Sockroth	2	10		0				
+497	Lilrask	1	12		0				
+498	Kurask	1	0		0	1-2 pixels up			
+499	Kurask_King_Form	1	0		0				
+500	Kurask_Overlord_Form	1	0		0				
+501	Kebbit	2	0		0	4 pixels up			
+502	Kebbit_Polar_Form	0	0		0	4 pixels up			
+503	Kebbit_Sabre_Form	0	0		0	3 pixels up			
+504	Kebbit_Spotted_Form	2	0		0	3 pixels up			
+505	Kebbit_Dark_Form	0	0		0	3 pixels up			
+506	Kebbit_Dashing_Form	2	0		0	3 pixels up			
+507	Kebbit_Wild_Form	2	14		0				
+508	Kebbit_Prickly_Form	2	13		0				
+509	Kebbit_Razor_Form	2	10		0				
+510	Kebbit_Big_Form	2	3		0				
+511	Kebbit_DesertDevil_Form	2	0		0	2 pixels up			
+512	Kebbit_Feldip_Weasel_Form	0	15		0				
+513	Kebbit_Barbed_Form	2	0		0	2 pixels up			
+514	Kebbit_Diseased_Form	1	10		0				
+515	Kebbit_Chocolate_Form	2	10		0				
+516	Monkey_Normal_Form	2	8		0				
+517	Monkey_Ninja_Form	0	10		0				
+518	Gorilla_Normal_Form	2	5		0				
+519	Monkey_Zombie_Form	1	11		0				
+520	Gorilla_Ancient_Form	0	7		0				
+521	Monkey_Harmless_Form	2	7		0	1 pixel up			
+522	Monkey_Ghost_Form	0	5		1	1 pixel to the left, to match the other monkeys			
+523	Gorilla_Ayuni_Form	1	0		0				
+524	Gorilla_Leeuni_Form	0	0		0				
+525	Gorilla_Eruni_Form	0	0		0				
+526	Monkey_Karamja_Baby_Form	2	7		0				
+527	Monkey_Karamja_Adult_Form	2	3		0				
+528	Larupia_Normal_Form	0	6		0				
+529	Larupia_Spirit_Form	2	6		0				
+530	Kyatt_Normal_Form	2	10		0				
+531	Kyatt_Spirit_Form	0	9		0				
+532	Crabling	0	0		0	3 pixels up			
+533	Rock_Crab_Normal_Form	2	0		0	2 pixels up			
+534	Rock_Crab_Giant_Normal_Form	2	3		0				
+535	Rock_Crab_Ammonite_Form	0	9		0	2 pixels up			
+536	Rock_Crab_Giant_Ammonite_Form	0	3		0				
+537	Rock_Crab_Sand_Form	2	0		0	2 pixels up			
+538	Rock_Crab_Giant_Sand_Form	2	4		0				
+539	Rock_Crab_Swamp_Form	1	0		0	1 pixel up			
+540	Rock_Crab_Giant_Swamp_Form	1	2		0				
+541	Crab_Granite_Form	1	0		0	2 pixels up			
+542	Lobster_Granite_Form	2	10		0				
+543	Lobster_Rock_Form	2	8		0				
+544	Rabbit	0	0		0	4 pixels up			
+545	Wolperting	0	8		0				
+546	Bunyip	1	0		0	2 pixels up			
+547	TalonBeast_Talon_Form	2	4		0				
+548	TalonBeast_Nail_Form	2	3		0	white pixel on leg.			
+549	Ferret	2	0		0	4 pixels up			
+550	Toy_Mouse	0	0		0	5 pixels up			
+551	Toy_Doll	0	10	0	0				
+552	Toy_Soldier	0	0		0	3 pixels up			
+553	Cat_Clockwork_Form	2	5	0	0				
+554	Magicarpet	2	4		1				
+555	Anichair	2	0		1	2 pixels up			
+556	Exoraxe	2	5		1				
+557	Spookaxe	2	7		1				
+558	Dobbin	2	0		0	5 pixels up			
+559	Marionette	2	9		1				
+560	DragonKite	0	0		1				
+561	Animour	0	0		3				
+562	Dead_Tree	2	0		0	1-2 pixels up			
+563	Jadinko	1	11		0				
+564	Killerwatt	0	4		1				
+565	Mackers	2	7		0				
+566	Turkey_Female_Form	2	0		0				
+567	Turkey_Male_Form	2	0		0				
+568	Turkey_Protestor_Form	2	0		0				
+569	Toucan_Tenacious_Male_Form	2	0		1				
+570	Toucan_Tenacious_Female_Form	2	0		1				
+571	Toucan_Tuai_Leit_Form	0	8		0				
+572	Jellyfish_Blubber_Form	0	0		1				
+573	Jellyfish	0	0		1				
+574	Pure	0	0		1				
+575	Rune	0	0		1				
+576	Essence	0	0		1				
+577	Seagull_Normal_Form	0	0		0	2 pixels up			
+578	Pelican	0	5		0				
+579	Albatross	2	0		1				
+580	Seagull_Hattenkrapper_Form	0	0		6				
+581	Seagull_Koppenploppen_Form	0	9		0				
+582	Seagull_Steven_Form	0	0		0	2 pixels up			
+583	Ibis	0	0		0				
+584	DesertWyrm	0	8		0				
+585	Wyrm	0	0		4				
+586	Snake_Normal_Form	1	0		0	3 pixels up			
+587	Cobra_Normal_Form	1	7		0				
+588	Cobra_Spirit_Form	1	5		0				
+589	Juna	1	0		0				
+590	Snake_Sea_Form	2	15		0				
+591	Big_Snake_Sea_Form	0	8		0				
+592	Thingumwut	0	0		1	LOL WUT			
+593	Experiment_3_Form	2	7		0				
+594	Cabbage	1	0		0	4 pixels up			
+595	Ughtanki	0	0		0				
+596	Camel	0	5		0				
+597	Camel_Warrior_Form	1	0		0				
+598	BalanceEle	2	0		0				
+599	Kalphite_Larva_Form	1	0		0	3 pixels up			
+600	Kalphite_Worker_Form	1	10		0				
+601	Kalphite_Soldier_Form	1	3		0	1 pixel up			
+602	Kalphite_Spirit_Form	2	2		0				
+603	Kalphite_Guardian_Form	1	6		0				
+604	Kalphite_Queen_Form	1	0		0				
+605	Kalphite_Queen_Mega_Form	0	0		4				
+606	Kalphite_Paragon_Form	0	4		0				
+607	Kalphite_Corrupted_Form	0	3		0				
+608	Kalphite_Marauder_Form	0	1		0				
+609	Kalphite_King_Form	0	1		0				
+610	Kalphite_Dung_Form	1	5		0	2 pixels up			
+611	Kalphite_Reanimated_Form	0	4		0				
+612	Abyssal_Demon_Reanimated_Form	0	2		0				
+613	Bat_Gauntlet_Corrupted_Form	2	0		1				
+614	Bat_Gauntlet_Crystalline_Form	1	0		1				
+615	Bloodveld_Reanimated_Form	0	5		0	2 pixels up			
+616	Dark_Beast_Gauntlet_Corrupted_Form	2	0		0				
+617	Dark_Beast_Gauntlet_Crystalline_Form	1	0		0	1-2 To the left to match other dark beast form			
+618	Dark_Beast_Pup_Form	2	0		0	1 pixel up			
+619	Dark_Beast_Normal_Form	2	0		0				
+620	Dark_Beast_Sotetseg_Form	0	4		0				
+621	Experiment_4_Form	2	0		0				
+622	Experiment_5_Form	2	7		0				
+623	Ganodermic_Beast	2	0		0				
+624	Grifolapine	2	0		0	1-2 pixels up			
+625	Grifolaroo	2	0		0				
+626	Sporaxe	1	0		1				
+627	Headless_Beast	2	6		0				
+628	Behemoth_Normal_Form	0	4		0	2 pixels up			
+629	Behemoth_Adolscent_Form	0	7		0				
+630	Siege_Beast	0	0		0				
+631	Bulwark_Beast	2	9		0				
+632	Behemoth_Gluttonous_Form	0	5		0				
+633	Behemoth_Runebound_Form	1	0		0				
+634	Stomp	1	0		5				
+635	Hope_Devourer	1	4		0				
+636	Karamthulu_Overlord	2	0		0				
+637	Light_Creature	0	0		1				
+638	Minotaur_Reanimated_Form	0	0		0	1-2 pixels up			
+639	Monkey_Reanimated_Form	0	0		0				
+640	Rat_Gauntlet_Corrupted_Form	2	5		0	To the right to match Crystal form,			
+641	Rat_Gauntlet_Crystalline_Form	1	5		0				
+642	Rat_Fungal_Form	1	2		0	2 pixels up			
+643	Sparky	1	10		0				
+644	Spider_Corpse_Form	2	6		0	1 pixel up			
+645	Spider_Fever_Form	0	3		0	2 pixels up			
+646	Spider_Lava_Form	0	7		0				
+647	Spider_Shadow_Form	0	6		0				
+648	Stalker	1	4		1				
+649	Soulgazer	2	0		1				
+650	Stalker_Sentinel_Form	2	6		1				
+651	Night_Gazer	2	0		0				
+652	Plane_Freezer	0	0		1				
+653	World_Gorger	0	0		7				
+654	Flesh_Spoiler_Covered_Form	1	0		4	1 pixel up			
+655	Shadow_Forger	0	0		7				
+656	Veil_Ripper	2	0		5				
+657	Unicorn_Gauntlet_Corrupted_Form	2	0		0				
+658	Unicorn_Gauntlet_Crystalline_Form	1	0		0				
+659	Wolf_Cave_Form	2	4		0				
+660	Wolf_Dragon_Form	1	7		0				
+661	Shadow_Hound	0	0		0	1-2 pixels up			
+662	Border_Collie	0	8		0	2 pixels up			
+663	Bloodhound	1	3		0				
+664	Guard_Dog	2	5		0				
+665	Lycurgus	0	3		0				
+666	Yak_Moorrissey_Form	0	0		0	2 pixels up			
+667	Yak_Robin_Form	2	0		0				
+668	Yak_Yaktrick_Form	2	0		0				
+669	Cabbage_Sister_Form	1	0		0				
+670	Cabbage_Crispy_Form	1	12		0				
+671	Strykewyrm_Mini_Form	2	0		0	2 pixels up			
+672	Crocodile_Normal_Form	1	0		0	3 pixels up			
+673	Crocodile_Mutadile_Form	1	2		0	2 pixels up			
+674	Crocodile_Ankh_Form	2	13		0				
+675	Crocodile_Ukunduka_Form	1	1		0				
+676	Bloodveld_Insatiable_Mutated_Form	0	8		0				
+677	Bloodveld_Acidic_Form	2	13		0				
+678	Bloodveld_Vampiric_Form	0	3		0				
+679	Bloodveld_RS3_Form	0	5		0				
+680	Beaver	2	0		0	3 pixels up			
+681	Giant_Beaver	2	9		0				
+682	Racoon	0	0		0	2 pixels up			
+683	Ralph	2	0		0	1 pixel up			
+684	Rocky	2	5		0	1 pixel up			
+685	Honey_Badger	2	3		0				
+686	Squirrel_Giant_Form	0	2		0				
+687	Squirrel_Australian_Form	0	8		0				
+688	Jade_Vine	1	0		0				
+689	Klik	2	0		1				
+690	Jackalope	0	5		0				
+691	Imp	0	0		0	2 pixels up			
+692	Demon_Lesser_RS3_Form	0	0		0				
+693	Demon_Greater_RS3_Form	2	1		0				
+694	Demon_Kalgerion_Form	0	0		0				
+695	Demon_Thundereous_Form	2	0		0				
+696	Demon_Ripper_Form	2	4		0				
+697	Demon_Lesser_OSRS_Form	0	4		0				
+698	Demon_Greater_OSRS_Form	0	0		0				
+699	Demon_Tstanon_Form	0	0		0				
+700	Demon_Tormented_Form	0	0		0				
+701	Delrith	0	4		0				
+702	Demon_Lesser_Tongue_Form	0	0		0				
+703	Demon_Greater_Tongue_Form	0	0		0				
+704	Demon_Zakln_Form	0	0		0				
+705	Demon_Pummeler_Form	0	0		0				
+706	Demon_Chocolate_Form	2	0		0				
+707	Demon_Lesser_Black_Form	1	4		0				
+708	Demon_Greater_Black_Form	2	0		0				
+709	Demon_Balfrug_Form	1	0		0				
+710	Demon_Jungle_Form	1	0		0				
+711	Demon_Riftsplitter_Form	1	0		0				
+712	Snow_Imp	0	4		0				
+713	Demon_Ice_OSRS_Form	0	0		0				
+714	Demon_Ice_RS3_Form	0	0		0				
+715	Demon_Bloodchiller_Form	0	0		0				
+716	Demon_Reanimated_Form	0	0		0				
+717	Kril_Tsutsaroth	0	0		0				
+718	Pyrefiend	0	0		0				
+719	Pyrelord	0	0		0				
+720	Waterfiend	0	0		0				
+721	Waterlord	0	0		0				
+722	Icefiend	0	0		0				
+723	Icelord	0	0		0				
+724	Impling_Baby_Form	2	0		1	1 pixel DOWN			
+725	Impling_Magpie_Form	2	0		1	1 pixel to the right			
+726	Impling_Dragon_Form	0	0		1	2 pixels down			
+727	Impling_Kingly_Form	0	0		1				
+728	Impling_Lucky_Form	2	0		1	1 pixel down			
+729	Penance_Spawn	2	9		0	2 pixels up			
+730	Penance_Healer	2	0		0				
+731	Penance_Ranger	2	0		5				
+732	Penance_Runner	2	0		0				
+733	Penance_Fighter	2	0		0				
+734	Penance_Queen	2	0		0				
+735	Penance_King	2	5		0	2 pixels up			
+736	Void_Leech	1	7		0	1 pixel up			
+737	Void_Torcher	0	0		1				
+738	Void_Shifter	0	7		0				
+739	Void_Brawler	1	0		0				
+740	Void_Defiler	2	2		0				
+741	Void_Splatter	0	6		0	1 pixel up			
+742	Void_Ravager	2	6		0	1 pixel up			
+743	Void_Spinner	2	0		1				
+744	Void_Drone	2	0		3				
+745	Void_Queen	0	3		0				
+746	Anchovy	0	0		1				
+747	Anchovy_Pizza_Form	0	0		1				
+748	Red_Eye	1	5		1				
+749	Flatfish	1	0		1				
+750	Bouldabass	1	0		1				
+751	Mudskipper	0	0		4	2 pixels up			
+752	Basilisk_Baby_Form	0	0		0	2 pixels up			
+753	Basilisk_RS3_Form	0	2		0	2 pixels up			
+754	Basilisk_OSRS_Form	1	3		0	1 pixel up			
+755	Basilisk_Knight_Form	2	1		0	2 pixels up			
+756	Spider_Ungael_Form	2	14		0				
+757	Spider_Crypt_Form	1	4		0				
+758	Spider_Temple_Form	0	4		0				
+759	Spider_ApeAtoll_Form	1	2		0	1 pixel up			
+760	Catablepon	1	0		0				
+761	Protomastyx		2		0				
+762	Tyrannomastyx		0		0				
+763	Pig_War_Form	0	3		0	1 pixel up			
+764	Pig_Prayer_Form	0	0		0				
+765	Pig_Pack_Form	1	3		0				
+766	Herbiboar	1	4		0				
+767	Goat_Clay_Form	1	6		0	1 pixel up			
+768	Goat_SacredClay_Form	1	3		0				
+769	Goat_PrimordialClay_Form	0	0		0				
+770	Shadeel	1	0		0				
+771	Golem_Titan	2	2		0	1 pixel up			
+772	Moss_Titan	1	0		0				
+773	Iron_Titan	0	0		0				
+774	Steel_Titan	2	0		0				
+775	Lava_Titan	0	0		0				
+776	Obsidian_Golem	2	0		0				
+777	Swamp_Titan	1	0		0				
+778	Ice_Titan	0	0		0				
+779	Fire_Titan	0	0		0				
+780	Geysir_Titan	0	0		0				
+781	Dark_Core	2	0		0	1 pixel up			
+782	Corporeal_Beast	2	0		0				
+783	Corporeal_Beast_Zanik_Form	1	0		0				
+784	Compost_Mound	2	3		0	1 pixel up			
+785	Ent	1	0		0				
+786	Derwen	1	0		0				
+787	Cockroach_Drone	1	11		0	3 pixels up			
+788	Cockroach_Worker	1	4		0	1 pixel up			
+789	Cockroach_Soldier	1	0		0				
+790	Cockroach_Warped_Form	2	4		0	2 pixels up			
+791	Fiara	0	0		0				
+792	Cave_Bug	2	4		0	1 pixel up			
+793	Malcolm	0	0		4				
+794	Meerkats	2	3		0	1 pixel up			
+795	Origami_Balloon	2	0		8				
+796	Krill_Balloon	1	0		3				
+797	Balloon_Goat	2	0		1				
+798	Dagannoth_Mother	0	0		0				
+799	Gelatinnoth	0	0		0				
+800	Dagannoth_Daughter	2	0		0				
+801	Dagannoth_Reanimated_Form	0	0		0				
+802	Dagannoth_Spirit_Form	2	0		0				
+803	Flambeed	2	0		0				
+804	AgrithNaNa	1	0		0				
+805	Karamel	1	0		0				
+806	Dessourt	2	0		0				
+807	Sharkizard		2		0				
+808	Basstoise		4		0	1 pixel up			
+809	Raventzhaar		6		0				
+810	Wall_Beast	1	0		1				
+811	Wall_Beast_Mega_Form	1	0		0				
+812	Sourhog	2	0		0				
+813	Hand_Farmhand_Form	0	5		0				
+814	Hand_Stuffed_Form	2	6		0				
+815	Hand_BrokenFingers_Form	2	5		0	1 pixel up			
+816	Hand_DeadHand_Form	0	5		0				
+817	Hand_Dungeoneering_Form	2	5		0	1 pixel up			
+818	Snake_Desert_Form	0	5		0	2 pixels up			
+819	Snake_Poison_Form	0	0		0	2 pixels up			
+820	Snake_Swamp_Form	2	0		0	2 pixels up			
+821	Icxan	0	3		0				
+822	Skeletal_Wyvern	0	0		0				
+823	Wyvern		0		0				
+824	Impling_Gourmet_Form	1	0		1				
+825	Impling_Earth_Form	1	0		1				
+826	Impling_Young_Form	1	0		1				
+827	Impling_Pirate_Form	2	0		1				
+828	Impling_Ninja_Form	1	0		1				
+829	Impling_Zombie_Form	2	0		1	1 pixel up			
+830	Impling_Eclectic_Form	0	0		1				
+831	Impling_Crystal_Form	0	0		1				
+832	Impling_Nature_Form	1	0		1				
+833	Impling_Essence_Form	0	0		1				
+834	Impling_Divine_Form	0	0		1				
+835	Impling_Spirit_Form	0	0		7				
+836	Araxyte_Baby	2	0		0	2 pixels up			
+837	Araxyte_Acidic		0		0				
+838	Araxyte_Mirrorback		0		0				
+839	Araxyte_Pulsing		0		0				
+840	Araxxor		0		0				
+841	Araxxi		0		0				
+842	Glacor_Enduring_Form	0	0		6	2 pixels up			
+843	Glacor_Sapping_Form	1	0		5				
+844	Glacor_Unstable_Form	0	0		6	1 pixel up			
+845	Glacor	0	0		6				
+846	Glacor_Arch_Form		0		0				
+847	Jadinko_Common_Form	1	8		0				
+848	Jadinko_Male_Form	2	0		0				
+849	Jadinko_Queen	1	0		0				
+850	Ruby_Harvest	0	0		1	1 pixel up			
+851	Sapphire_Glacialis	2	0		1	1 pixel up, 2 to the left			
+852	Snow_Knight	0	0		1				
+853	Black_Warlock	0	0		1				
+854	Forge_Regent	0	0		1				
+855	Guthixian_Butterfly	1	0		1				
+856	Charming_Moth	0	0		1				
+857	Treborn	0	0		1				
+858	Draugen	0	0		1				
+859	Macaw	0	0		0				
+860	The_Illusive	1	0		0	3 pixels up			
+861	Doubt	2	0		0	1-2 pixels up			
+862	Everlasting	0	0		0				
+863	Untouchable	2	0		0				
+864	Inadequancy	0	0		0				
+865	Chinchompa_Baby	0	0		0	3 pixels up			
+866	Chinchompa_Grey_Baby	2	0		0	3 pixels up			
+867	Chinchompa_Red_Baby	0	0		0	3 pixels up			
+868	Chinchompa_Cobalt	0	0		0	2 pixels up			
+869	Chinchompa_Viridian	1	0		0	2 pixels up			
+870	Chinchompa_Crystal	0	0		0	2 pixels up			
+871	Chinchompa_Plutonial	0	0		0				
+872	Chinchompa_Mechanized	2	0		0	1 pixel up			
+873	Chinchompa_Crimson	0	0		0	2 pixels up			
+874	Chinchompa_Black	0	0		0	1-2 pixels up			
+875	Chinchompa_Giant	0	0		0	1 pixel up			
+876	Vulture_RSHD_Form	2	0		0				
+877	Vulture_Pink_Form	2	0		0	2 pixels up			
+878	Vulture_OSRS_Form	2	0		4				
+879	Vulture_RS3_Form	1	0		0	1 pixel up			
+880	Beagle	2	8		0				
+881	Pug	2	8		0				
+882	Huskie	1	2		0				
+883	Shiba	0	7		0				
+884	Polar_Bear_Punished	0	0		0				
+885	Lobstrocity	0	0		0	1 pixel up			
+886	Salamander_Yellow_Form	2	0		0	3 pixels up			
+887	Abyssal_DeepSea_Walker	2	0		0				
+888	Abyssal_DeepSea_Leech	2	3		0	1 pixel up			
+889	Abyssal_DeepSea_Guardian	2	0		0				
+890	Rift_Guardian	0	0		0				
+891	Coral_Guardian	1	0		0				
+892	Rewards_Guardian	2	0		0				
+893	Baboon_Normal_Form		0		0				
+894	Baboon_Mage_Form		0		0				
+895	Baboon_Shaman_Form		0		0				
+896	Baboon_Thrower_Form		0		0				
+897	Baboon_Cursed_Form		0		0				
+898	Baboon_Thrall_Form		0		0				
+899	Baboon_Volatile_Form		0		0				
+900	Baboon_BaBa_Form		0		0				
+901	Scarab_Spitting_Form		0		0				
+902	Scarab_Soldier_Form		0		0				
+903	Scarab_Arcane_Form		0		0				
+904	Scarab_Kephri_Form		0		0				
+905	Crocodile_Red_Form	1	3		0	2 pixels up			
+906	Zebak	0	5		0				
+907	Camel_Bank_Form		0		0				
+908	Slime_LilGloop	1	0		0	3 pixels up			
+909	Slime_King	1	0		0				
+910	Graahk_Forsaken_Form		0		0				
+911	Zygomite_Magical_Form	2	2		0				
+912	Zygomite_Zanarian_Form	2	4		0				
+913	Zygomite_Arcspore_Form	2	5		0				
+914	Zygomite_Daemoncap_Form	2	8		0				
+915	Zygomite_Ancient_Form	1	8		0				
+916	Zulrah_Serpentine_Form		0		0				
+917	Zulrah_Magma_Form		0		0				
+918	Zulrah_Tanzanite_Form		0		0				
+919	Pig_Summoning_Form	2	0		0	1-2 pixels up			
+920	TzTok_Jad_HD_Mega_Form	0	0		0				
+921	TzTok_Jad_RS3_Mega_Form	0	0		0				
+922	Abyssal_Guardian	0	0		0				
+923	Slime_Queen	2	0		0				
+924	Airut		0		0				
+925	Skotizo		0		0				
+926	Scurrius_Melee_Form	2	0		0				
+927	Scurrius_Ranged_Form	1	0		0				
+928	Scurrius_Magic_Form	0	0		0				
+929	Broav_Zombie_Form	1	0		0	2 pixels up			
+930	Impling_Easter_Form	2	0		1				
+931	Impling_Snow_Form	0	0		1				
+932	Impling_Wandering_Form	0	0		8				
+933	Impling_Ghost_Form	0	0		1				
+934	Vorkath	0	0		0				
+935	Fox_Pyre	2	0		0	1-2 pixels up			
+936	Fox_RecruitmentDrive	0	0		0	1 pixel up			
+937	Fox_Fennec	2	0		0	2 pixels up			
+938	Salamander_Tecu	1	0		0	3 pixels up			
+939	Jerboa	1	0		0	2 pixels up			
+940	Jerboa_Embertail	0	0		0	1 pixel up			
+941	Antelope_Sunlight_Form	2	0		0				
+942	Antelope_Moonlight_Form	2	0		0				
+943	Capybara	2	0		0	3 pixels up			
+944	Capybara_Orange	2	0		0	1 pixel up			
+945	Entling	1	5		0	2 pixels up			
+946	Piggles	0	0		1	1 pixel down			
+947	Wolpertinger_Mega_Form		0		0				
+948	Flesh_Spoiler_Naked_Form	0	0		0				
+949	Flesh_Spoiler_Spawnling	1	0		0				
+950	Caustic_Gazer	1	0		3				
+951	Iris_Stalker	1	0		2				
+952	Animated_Book	1	0		10				
+953	Tome_of_Strength	0	0		10				
+954	Tome_of_Ranged	0	0		10				
+955	Tome_of_Magic	0	0		10				
+956	Luminescent_Icefiend	0	0		0				
+957	Warped_Galuga	2	0		0				
+958	Submastyx		0		0				
+959	Paramastyx		0		0				
+960	Archaemastyx		0		0				
+961	Dromomastyx		0		0				
+962	Spinomastyx		0		0				
+963	Gallimastyx		0		0				
+964	Stegomastyx		0		0				
+965	Megamastyx		0		0				
+966	Jelly_Alternate_Form	0	0		0				
+967	Jelly_Dungeoneering_Form	2	0		0				
+968	Jelly_Trollweiss_Form	2	0		0				
+969	Jelly_Vitreous_Form	1	0		0				
+970	Jelly_Warped_Vitreous_Form	0	0		0				
+971	Moth_Sunlight_Form	0	0		4				
+972	Moth_Moonlight_Form	0	0		4				
+973	Stone_of_Jas_Mega_Form	2	2		0				
+974	Spirit_Warrior	0	0		5				
+975	Spirit_Ranger	0	0		1				
+976	Spirit_Mage	1	0		5				
+977	Essling	0	0		0				
+978	Esshound	2	2		0				
+979	Esswraith	0	0		0				
+980	Harpy_Eagle	2	1		0				
+981	Reborn_Warrior	0	1		0				
+982	Reborn_Ranger	0	0		0				
+983	Reborn_Mage	0	0		0				
+984	Jaguar_Orange_Form	2	0		0				
+985	Jaguar_Black_Form	2	1		0				
+986	Tortle	2	0		0				
+987	Cockatrice_OSRS_Form	1	0		0				
+988	Cockathrice	2	0		0				
+989	Cockatrice_Moonlight	0	0		0				
+990	Revenant_Imp	0	0		4				
+991	Revenant_Dragon	0	0		5				
+992	Maledictus	0	4		0				
+993	Kalrag	0	3		0				
+994	Animawhal	0	0		8				
+995	Animasaurus		0		0				
+996	Sea_Troll_Queen	0	0		0				
+997	Yak_Lumber_Form	2	0		0				
+998	Cabbage_Shattered_World_Form	1	0		0				
+999	Vulture_Bearded_Form	0	0		5				
+1000	Kryket_Bat	1	0		4				
+1001	Har_Aken		0		0				
+1002	Har_Aken_Tentacle		0		0				
+1003	Spirit_Fighter	1	0		5				
+1004	Spirit_Archer	0	0		5				
+1005	Spirit_Mystic	2	0		5				
+1006	Spirit_Knight	2	0		4				
+1007	Spirit_Scout	0	0		6				
+1008	Spirit_Warmage	1	0		6				
+1009	Pomapoo	2	7		0				
+1010	Jadinko_Mutated	0	0		0				
+1011	Jadinko_Ferocious	0	2		0				
+1012	Jadinko_Draconic	0	5		0				
+1013	Jadinko_Carrion	2	0		0				
+1014	Jadinko_Shadow	2	7		0				
+1015	Jadinko_Guthix	1	2		0				
+1016	Jadinko_Zamorak	0	2		0				
+1017	Jadinko_Saradomin	0	5		0				
+1018	Max_Golem	2	0		0				
+1019	Flesh_Crawler	2	9		0				
+1020	Zygomite_OSRS	1	6		0				
+1021	Zygomite_OSRS_Ancient	0	0		0				
+1022	Zygomite_RSHD_Mutated	1	0		0				
+1023	Zygomite_Gloomshroom	0	8		0				
+1024	Snail	1	13		0				
+1025	Rockslug_RSHD	1	13		0				
+1026	Rockslug_OSRS	2	10		0				
+1027	Seaslug	0	14		0				
+1028	Seaslug_Prince	0	5		0				
+1029	Snail_Giant_OSRS	1	7		0				
+1030	Snail_Giant_RS3	1	11		0				
+1031	Snail_Thorny	0	4		0				
+1032	Snail_Ravenous	2	5		0				
+1033	Snail_Bruise_OSRS	2	2		0				
+1034	Snail_Bark_OSRS	0	6		0				
+1035	Snail_Blood_RS3	0	5		0				
+1036	Snail_Ochre_RS3	1	7		0				
+1037	Snail_Myre_RS3	1	7		0				
+1038	Mother_Mallum		0		0				

@@ -20,11 +20,13 @@ Cow_Undead_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_RSHD_Form	SkeletalOx_Female_Fo
 Cow_Undead_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_OSRS_Form	SkeletalOx_Female_Form		
 Cow_Undead_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_RS3_Form	SkeletalOx_Female_Form		
 Cow_Undead_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_Pink_Form	SkeletalOx_Female_Form		
+Cow_Undead_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulatrice	SkeletalOx_Female_Form		
 Cow_Strawberry_Form	EVO_MOVE	RAPID_SPIN	Cow_Harlequin_Form		//RAPID_SPIN learn at level 34
 Cow_Vanilla_Form	EVO_MOVE	RAPID_SPIN	Cow_Harlequin_Form		//RAPID_SPIN learn at level 34
 Cow_Chocolate_Form	EVO_MOVE	RAPID_SPIN	Cow_Harlequin_Form		//RAPID_SPIN learn at level 34
 Bull	EVO_ITEM	CHAOS_RUNE	Catablepon		
 Bull	EVO_LEVEL	32	Bull_Elder_Form		//JUMP_KICK learn at level 35
+Bull	EVO_ITEM	BODY_RUNE			
 Bull	EVO_LEVEL_MALE_DEATH	32	SkeletalOx_Male_Form		//Multiple Methods.
 Bull	EVO_ITEM	DEATH_RUNE	SkeletalOx_Male_Form		//Multiple Methods.
 					
@@ -47,6 +49,7 @@ Chick	EVO_LEVEL_MAP_MORYTANIA	17	Chicken_Undead_Form
 Chick	EVO_LEVEL_MAP_DESERT	17	Chicken_Lizard_Form		
 Chick	EVO_SPECIFIC_MON_IN_PARTY	Gecko	Newtroost		
 Chick	EVO_SPECIFIC_MON_IN_PARTY	Swordfish	Swordchick		
+Chick	EVO_SPECIFIC_MON_IN_PARTY	Cobra_Spirit_Form	Minitrice		
 Chick	EVO_ITEM	BAD_EGG	EvilChicken		
 Chicken_Normal_Form	EVO_LEVEL	28	Dreadfowl		
 Chicken_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Gilbert	Chicken_Diving_Form		
@@ -62,7 +65,6 @@ Rooster_Varrock_Form	EVO_ITEM	DEATH_RUNE	Chicken_Death_Form
 Rooster_Karamja_Form	EVO_MOVE	HIGH_JUMP_KICK	Oomlie		//Learns at level 28
 Rooster_Bandosian_Form	EVO_LEVEL	28	Chicken_War_Form		
 					
-Scorpling	EVO_FRIENDSHIP_DAY	200	Dreadnip		
 Scorpling	EVO_ITEM	LIFE_RUNE	Scorpia		
 Scorpling	EVO_LEVEL_DAY	26	Scorpion_Pit_Form		
 Scorpling	EVO_LEVEL_NIGHT	26	Scorpion_Normal_Form		
@@ -75,6 +77,7 @@ Scorpling	EVO_SPECIFIC_MON_IN_PARTY	Lobster_Golden_Form	Lobstrocity
 Scorpling	EVO_SPECIFIC_MON_IN_PARTY	Lobster_Giant_Form	Lobstrocity		
 Scorpling	EVO_SPECIFIC_MON_IN_PARTY	Lobster_Heim_Form	Lobstrocity		
 Scorpling	EVO_SPECIFIC_MON_IN_PARTY	Lobster_Obsidian_Form	Lobstrocity		
+Scorpling	EVO_FRIENDSHIP_DAY	200	Dreadnip		
 Scorpion_Pit_Form	EVO_LEVEL	41	Scorpion_Poison_Form		
 Scorpion_Pit_Form	EVO_ITEM	SPIRIT CHARM	Scorpion_Spirit_Form		
 Scorpion_Pit_Form	EVO_ITEM	CHAOS_RUNE	Scorpion_Corrupted_Form		
@@ -82,14 +85,18 @@ Scorpion_Normal_Form	EVO_LEVEL	41	Scorpion_Grave_Form
 Scorpion_Normal_Form	EVO_ITEM	DEATH_RUNE	Scorpion_Reanimated_Form		
 Scorpion_Normal_Form	EVO_ITEM	ASTRAL_RUNE	Scorpion_Gauntlet_Crystalline_Form		
 					
-Hatchling	EVO_ITEM_HOLD	GREEN SCALE	Dragonling_Green_Form		//All Dragons are commonly found with held item scales.
-Hatchling	EVO_ITEM_HOLD	BLUE SCALE	Dragonling_Blue_Form		//All Dragons are commonly found with held item scales.
-Hatchling	EVO_ITEM_HOLD	RED SCALE	Dragonling_Red_Form		//All Dragons are commonly found with held item scales.
-Hatchling	EVO_ITEM_HOLD	BLACK SCALE	Dragonling_Black_Form		//All Dragons are commonly found with held item scales.
+Hatchling	EVO_ITEM_HOLD	GREEN SCALE	Dragonling_Green_Form		
+Hatchling	EVO_ITEM_HOLD	BLUE SCALE	Dragonling_Blue_Form		
+Hatchling	EVO_ITEM_HOLD	RED SCALE	Dragonling_Red_Form		
+Hatchling	EVO_ITEM_HOLD	BLACK SCALE	Dragonling_Black_Form		
+Hatchling	EVO_ITEM	NATURE_RUNE	Dragonling_Green_Form		//All Dragons are commonly found with held item scales.
+Hatchling	EVO_ITEM	BODY_RUNE	Dragonling_Blue_Form		//All Dragons are commonly found with held item scales.
+Hatchling	EVO_ITEM	CHAOS_RUNE	Dragonling_Red_Form		//All Dragons are commonly found with held item scales.
+Hatchling	EVO_ITEM	MIND_RUNE	Dragonling_Black_Form		//All Dragons are commonly found with held item scales.
 Hatchling	EVO_SPECIFIC_MON_IN_PARTY	Maledictus	Revenant_Dragon		
 Dragonling_Green_Form	EVO_LEVEL	45	Dragon_Green_Form		
 Dragon_Green_Form	EVO_LEVEL	65	Dragon_Brutal_Green_Form		
-Dragon_Green_Form	EVO_ITEM	NATURE_RUNE	Dragon_ThreeHeaded_Form		
+Dragon_Green_Form	EVO_ITEM	SOUL_RUNE	Dragon_ThreeHeaded_Form		
 Dragon_Brutal_Green_Form	EVO_ITEM	LIFE_RUNE	Elvarg		//Item currently does not exist.
 Dragonling_Blue_Form	EVO_LEVEL	45	Dragon_Blue_Form		
 Dragon_Blue_Form	EVO_LEVEL	65	Dragon_Brutal_Blue_Form		
@@ -97,33 +104,42 @@ Dragon_Blue_Form	EVO_LEVEL_FAIRY_TYPE_MON_IN_PARTY	65	Klik
 Dragon_Blue_Form	EVO_ITEM	LIFE_RUNE	Vorkath		
 Dragonling_Red_Form	EVO_LEVEL	45	Dragon_Red_Form		
 Dragon_Red_Form	EVO_LEVEL	65	Dragon_Brutal_Red_Form		
-Dragonling_Black_Form	EVO_LEVEL	45	Dragon_Black_Form		
 Dragonling_Black_Form	EVO_ITEM	DEATH_RUNE	Revenant_Dragon		
+Dragonling_Black_Form	EVO_LEVEL	45	Dragon_Black_Form		
 Dragon_Black_Form	EVO_LEVEL	65	Dragon_Brutal_Black_Form		
 Dragon_Brutal_Black_Form	EVO_ITEM_HOLD_MALE	LIFE_RUNE	DRAGON_KING_BLACK_FORM		
 Dragon_Brutal_Black_Form	EVO_ITEM_HOLD_FEMALE	LIFE_RUNE	DRAGON_QUEEN_BLACK_FORM		
+DragonKite	EVO_LEVEL	44	Dragonling_Red_Form		
 					
 Skeletal_Wyvern	EVO_LEVEL	65	Wyvern		
 					
 Crayfish	EVO_LEVEL	11	Shrimp		
-Shrimp	EVO_LEVEL	19	Lobster_Normal_Form		
-Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite	Lobstrocity		
-Lobster_Normal_Form	EVO_LEVEL_WEATHER_HOT	28	Lobster_Golden_Form	consider making one lobster evolve through levelup without weather	//Unnatural Weather located in Random Routes.
-Lobster_Normal_Form	EVO_LEVEL_WEATHER_DUSTY	28	Lobster_Giant_Form		//Unnatural Weather located in Random Routes.
-Lobster_Normal_Form	EVO_LEVEL_FOG	28	Lobster_Heim_Form		//Unnatural Weather located in Wilderness / Trollheim
-Lobster_Normal_Form	EVO_LEVEL_WEATHER_ABNORMAL	28	Lobster_Obsidian_Form		//Unnatural Weather located in Wilderness.
-Lobster_Normal_Form	EVO_LEVEL_RAIN	28	Lobstrocity	//Dungeoneering location	//Unnatural Weather located in Random Routes.
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_Magical_Form	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_Zanarian_Form	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_Arcspore_Form	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_Daemoncap_Form	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_Ancient_Form	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_OSRS	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_OSRS_Ancient	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_RSHD_Mutated	Lobstrocity		
+Shrimp	EVO_SPECIFIC_MON_IN_PARTY	Zygomite_Gloomshroom	Lobstrocity		
+Shrimp	EVO_ITEM	NATURE_RUNE	Lobstrocity		
+Shrimp	EVO_LEVEL_WEATHER_HOT	28	Lobster_Golden_Form		//Unnatural Weather located in Random Routes.
+Shrimp	EVO_LEVEL_WEATHER_DUSTY	28	Lobster_Giant_Form		//Unnatural Weather located in Random Routes.
+Shrimp	EVO_LEVEL_FOG	28	Lobster_Heim_Form		//Unnatural Weather located in Wilderness / Trollheim
+Shrimp	EVO_LEVEL_WEATHER_ABNORMAL	28	Lobster_Obsidian_Form		//Unnatural Weather located in Wilderness.
+Shrimp	EVO_LEVEL_RAIN	28	Lobster_Normal_Form	//Dungeoneering location	//Unnatural Weather located in Random Routes.
 					
 Anchovy	EVO_SPECIFIC_MON_IN_PARTY	Yak_Snack_Form	Anchovy_Pizza_Form		
 Anchovy	EVO_ITEM	FIRE_RUNE	Anchovy_Pizza_Form		
 					
 Imp	EVO_LEVEL_RANDOM	20	DEMON_LESSER_BLACK_FORM		
-Imp	EVO_LEVEL_RANDOM	20	DEMON_LESSER_RS3_FORM		
+Imp	EVO_LEVEL_RANDOM	20	Demon_Lesser_RS3_Form		
 Imp	EVO_LEVEL_RANDOM	20	DEMON_LESSER_OSRS_FORM		
 Imp	EVO_LEVEL_RANDOM	20	DEMON_LESSER_TONGUE_FORM		
 Imp	EVO_ITEM	DEATH_RUNE	Revenant_Imp		
 					
-DEMON_LESSER_RS3_FORM	EVO_LEVEL	35	DEMON_GREATER_RS3_FORM		
+Demon_Lesser_RS3_Form	EVO_LEVEL	35	DEMON_GREATER_RS3_FORM		
 					
 DEMON_GREATER_RS3_FORM	EVO_LEVEL_DAY	50	DEMON_KALGERION_FORM		
 DEMON_GREATER_RS3_FORM	EVO_LEVEL_NIGHT	50	DEMON_RIPPER_FORM		
@@ -139,7 +155,10 @@ DEMON_LESSER_TONGUE_FORM	EVO_LEVEL	35	DEMON_GREATER_TONGUE_FORM
 					
 DEMON_GREATER_TONGUE_FORM	EVO_LEVEL_DAY	50	DEMON_ZAKLN_FORM		
 DEMON_GREATER_TONGUE_FORM	EVO_LEVEL_NIGHT	50	DEMON_PUMMELER_FORM		
-DEMON_GREATER_TONGUE_FORM	EVO_ITEM	CHOCOLATE_CAKE	DEMON_CHOCOLATE_FORM		
+DEMON_GREATER_TONGUE_FORM	EVO_ITEM_HOLD	CHOCOLATE_CAKE	DEMON_CHOCOLATE_FORM		
+DEMON_GREATER_TONGUE_FORM	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	DEMON_CHOCOLATE_FORM		
+DEMON_GREATER_TONGUE_FORM	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	DEMON_CHOCOLATE_FORM		
+DEMON_GREATER_TONGUE_FORM	EVO_ITEM_HOLD	CHOCOLATE_MILK	DEMON_CHOCOLATE_FORM		
 					
 DEMON_LESSER_BLACK_FORM	EVO_LEVEL	35	DEMON_GREATER_BLACK_FORM		
 					
@@ -177,12 +196,21 @@ Cat_Normal_Form	EVO_LEVEL_FIGHTING_TYPE_MON_IN_PARTY	20	Cat_Wily_Form
 Cat_Normal_Form	EVO_ITEM	WATER_RUNE	Cat_Sunken_Form		
 Cat_Normal_Form	EVO_ITEM	LOVELETTER	Cat_Post_Form		
 Cat_Normal_Form	EVO_FRIENDSHIP	190	Cat_Overgrown_Form		
-Cat_Normal_Form	EVO_ITEM	CHOCOLATE_CAKE	Cat_Overgrown_Form		
+Cat_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Cat_Overgrown_Form		
+Cat_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Cat_Overgrown_Form		
+Cat_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Cat_Overgrown_Form		
+Cat_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Cat_Overgrown_Form		
 Cat_Normal_Form	EVO_ITEM	LIFE_RUNE	Bob		
 Cat_Normal_Form	EVO_ITEM	CHAOS_RUNE	Evil_Bob		
 Cat_Normal_Form	EVO_MOVE	BULK_UP	Cat_Wily_Form		
-Cat_Wily_Form	EVO_ITEM	CHOCOLATE_CAKE	Cat_Lazy_Form		
-Cat_Overgrown_Form	EVO_ITEM	CHOCOLATE_CAKE	Cat_Lazy_Form		
+Cat_Wily_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Cat_Lazy_Form		
+Cat_Wily_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Cat_Lazy_Form		
+Cat_Wily_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Cat_Lazy_Form		
+Cat_Wily_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Cat_Lazy_Form		
+Cat_Overgrown_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Cat_Lazy_Form		
+Cat_Overgrown_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Cat_Lazy_Form		
+Cat_Overgrown_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Cat_Lazy_Form		
+Cat_Overgrown_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Cat_Lazy_Form		
 					
 Duckling	EVO_FRIENDSHIP	220	Swan		
 Duckling	EVO_LEVEL	21	Duck_Normal_Form		
@@ -194,25 +222,25 @@ Rat_Normal_Form	EVO_LEVEL	17	Giant_Rat_Normal_Form
 Rat_Normal_Form	EVO_ITEM	FIRE_RUNE	Rat_Hell_Form		
 Giant_Rat_Normal_Form	EVO_ITEM	AIR_RUNE	Giant_Rat_Blessed_Form		
 Giant_Rat_Normal_Form	EVO_ITEM	WATER_RUNE	Brine_Rat		
-Giant_Rat_Normal_Form	EVO_LEVEL	28	Albino_Rat		
+Giant_Rat_Normal_Form	EVO_LEVEL	29	Albino_Rat		
 Giant_Rat_Normal_Form	EVO_ITEM	NATURE_RUNE	Rat_Fungal_Form		
 Giant_Rat_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Plant_Strange_Form	Experiment_2_Form		
 Giant_Rat_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Plant_Stranger_Form	Experiment_2_Form		
 Giant_Rat_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	EvilTurnip	Experiment_2_Form		
 Giant_Rat_Normal_Form	EVO_ITEM	LIFE_RUNE	Scurrius_Magic_Form		
-Rat_Crypt_Form	EVO_LEVEL	23	Giant_Rat_Crypt_Form		
+Rat_Crypt_Form	EVO_LEVEL	17	Giant_Rat_Crypt_Form		
 Rat_Crypt_Form	EVO_ITEM	FIRE_RUNE	Rat_Hell_Form		
-Giant_Rat_Crypt_Form	EVO_LEVEL_DAY	32	Giant_Rat_Dungeon_Form		
-Giant_Rat_Crypt_Form	EVO_LEVEL_NIGHT	32	Zombie_Rat		
+Giant_Rat_Crypt_Form	EVO_LEVEL_DAY	29	Giant_Rat_Dungeon_Form		
+Giant_Rat_Crypt_Form	EVO_LEVEL_NIGHT	29	Zombie_Rat		
 Giant_Rat_Crypt_Form	EVO_ITEM	ASTRAL_RUNE	Rat_Gauntlet_Crystalline_Form		
 Giant_Rat_Crypt_Form	EVO_SPECIFIC_MON_IN_PARTY	Plant_Strange_Form	Experiment_2_Form		
 Giant_Rat_Crypt_Form	EVO_SPECIFIC_MON_IN_PARTY	Plant_Stranger_Form	Experiment_2_Form		
 Giant_Rat_Crypt_Form	EVO_SPECIFIC_MON_IN_PARTY	EvilTurnip	Experiment_2_Form		
 Giant_Rat_Crypt_Form	EVO_ITEM	LIFE_RUNE	Scurrius_Ranged_Form		
-Rat_King_Form	EVO_LEVEL	23	Giant_Rat_King_Form		
+Rat_King_Form	EVO_LEVEL	17	Giant_Rat_King_Form		
 Rat_King_Form	EVO_ITEM	FIRE_RUNE	Rat_Hell_Form		
-Giant_Rat_King_Form	EVO_LEVEL_DAY	32	Warped_Rat		
-Giant_Rat_King_Form	EVO_LEVEL_NIGHT	32	Angry_Rat		
+Giant_Rat_King_Form	EVO_LEVEL_DAY	29	Warped_Rat		
+Giant_Rat_King_Form	EVO_LEVEL_NIGHT	29	Angry_Rat		
 Giant_Rat_King_Form	EVO_ITEM	CHAOS_RUNE	Rat_Gauntlet_Corrupted_Form		
 Giant_Rat_King_Form	EVO_SPECIFIC_MON_IN_PARTY	Plant_Strange_Form	Experiment_2_Form		
 Giant_Rat_King_Form	EVO_SPECIFIC_MON_IN_PARTY	Plant_Stranger_Form	Experiment_2_Form		
@@ -231,6 +259,8 @@ Ram_Fluffy_Form	EVO_LEVEL_DAY	30	Ram_Shaggy_Form
 Ram_Fluffy_Form	EVO_LEVEL_NIGHT	30	Ram_Golden_Form		
 Ram_Fluffy_Form	EVO_ITEM	WATER_RUNE	Sheep_Pirate_Form		
 Ram_Fluffy_Form	EVO_SPECIFIC_MON_IN_PARTY	Wolf_Juvenile_Form	Experiment_3_Form		
+Ram_Fluffy_Form	EVO_SPECIFIC_MON_IN_PARTY	Impling_Pirate_Form	Sheep_Pirate_Form		
+Sheep_White_Form	EVO_SPECIFIC_MON_IN_PARTY	Impling_Pirate_Form	Sheep_Pirate_Form		
 					
 Goat_Billy_Form	EVO_LEVEL	28	Goat_Desert_Form		
 Goat_Billy_Form	EVO_ITEM	SPIRIT_CHARM	Goat_Clay_Form		
@@ -294,18 +324,17 @@ Monkfish_Fresh_Form	EVO_LEVEL	40	Monkfish_Golden_Form
 					
 Eel_Slimy_Form	EVO_ITEM	EARTH_RUNE	Eel_Cave_Form		
 Eel_Slimy_Form	EVO_ITEM	FIRE_RUNE	Eel_Lava_Form		
-Eel_Slimy_Form	EVO_LEVEL	26	Eel_Mottled_Form		
-Eel_Slimy_Form	EVO_LEVEL_UNDERGROUND	33	Vile_Fish	//33 - CAVES	
+Eel_Slimy_Form	EVO_ITEM	WATER_RUNE	Eel_Mottled_Form		
+Eel_Slimy_Form	EVO_LEVEL_NIGHT	26	Vile_Fish	//33 - CAVES	
 Eel_Cave_Form	EVO_LEVEL	37	Eel_Sacred_Form		
 Eel_Lava_Form	EVO_LEVEL	37	Eel_Infernal_Form		
-Eel_Slimy_Form	EVO_ITEM	WATER_RUNE	Eel_Short_Finned_Form		
+Eel_Slimy_Form	EVO_LEVEL_DAY	26	Eel_Short_Finned_Form		
 Vile_Fish	EVO_LEVEL	37	Cave_Moray		
-Eel_Short_Finned_Form	EVO_LEVEL	37	Eel_Dusk_Form		
-Eel_Short_Finned_Form	EVO_LEVEL	37	Eel_Salve_Form		
+Eel_Short_Finned_Form	EVO_LEVEL_DAY	37	Eel_Salve_Form		
+Eel_Short_Finned_Form	EVO_LEVEL_NIGHT	37	Eel_Dusk_Form		
 					
 Piglet	EVO_LEVEL_DAY	21	Pig		
-Piglet	EVO_FRIENDSHIP	220	Pigzilla		
-Piglet	EVO_LEVEL_NIGHT	32	Broav		
+Piglet	EVO_LEVEL_NIGHT	21	Broav		
 Pig	EVO_FRIENDSHIP	220	Pigzilla		
 Pig	EVO_ITEM	DEATH_RUNE	Pig_War_Form		
 Pig	EVO_ITEM	MIND_RUNE	Pig_Prayer_Form		
@@ -317,7 +346,7 @@ Broav	EVO_FRIENDSHIP	220	Herbiboar
 					
 Puppy_Pup_Form	EVO_ITEM	FIRE_RUNE	Hellpuppy		
 Puppy_Pup_Form	EVO_ITEM	DEATH_RUNE	Muncher		
-Puppy_Pup_Form	EVO_LEVEL_DEATH	1	Muncher		
+Puppy_Pup_Form	EVO_LEVEL_DEATH	18	Muncher		
 Puppy_Pup_Form	EVO_ITEM	WATER RUNE	Dalmatian		
 Puppy_Pup_Form	EVO_ITEM	AIR RUNE	Labrador		
 Puppy_Pup_Form	EVO_ITEM	EARTH RUNE	Terrier		
@@ -327,21 +356,22 @@ Puppy_Pup_Form	EVO_LEVEL_WEATHER_HOT	18	Pug
 Puppy_Pup_Form	EVO_LEVEL_WEATHER_COLD	18	Shiba		
 Puppy_Pup_Form	EVO_ITEM	NATURE_RUNE	Border_Collie		
 Puppy_Pup_Form	EVO_ITEM	BODY_RUNE	Guard_Dog		
+Puppy_Pup_Form	EVO_LEVEL_WEATHER_WET	18	Pomapoo		
 Puppy_Mutt_Form	EVO_ITEM	FIRE RUNE	Hellpuppy		
 Puppy_Mutt_Form	EVO_ITEM	DEATH_RUNE	Muncher		
-Puppy_Mutt_Form	EVO_LEVEL_DEATH	1	Muncher		
+Puppy_Mutt_Form	EVO_LEVEL_DEATH	18	Muncher		
 Puppy_Mutt_Form	EVO_ITEM	AIR RUNE	Greyhound		
 Puppy_Mutt_Form	EVO_ITEM	EARTH RUNE	Bulldog		
 Puppy_Mutt_Form	EVO_FRIENDSHIP	220	Sheepdog		
 Puppy_Mutt_Form	EVO_ITEM	CHAOS_RUNE	Terror_dog		
-Puppy_Mutt_Form	EVO_LEVEL_RAIN	1	Stray_Dog		
+Puppy_Mutt_Form	EVO_LEVEL_WEATHER_WET	18	Stray_Dog		
 Puppy_Mutt_Form	EVO_ITEM	BLOOD_RUNE	Bloodhound		
 Puppy_Mutt_Form	EVO_LEVEL_WEATHER_HOT	18	Beagle		
 Puppy_Mutt_Form	EVO_LEVEL_WEATHER_COLD	18	Huskie		
 Puppy_Mutt_Form	EVO_ITEM	MIND_RUNE	Lycurgus		
 Hellpuppy	EVO_LEVEL	45	Hellhound		
 Hellpuppy	EVO_ITEM	DEATH_RUNE	Shadow_Hound		
-Hellpuppy	EVO_LEVEL_DEATH	1	Shadow_Hound		
+Hellpuppy	EVO_LEVEL_DEATH	30	Shadow_Hound		
 					
 					
 Pet_Rock	EVO_ITEM	AIR_RUNE	Rock_Polished_Form		
@@ -350,7 +380,17 @@ Pet_Rock	EVO_ITEM	WATER_RUNE	Rock_Soup
 Pet_Rock	EVO_ITEM	MIND_RUNE	Slagilith		
 Pet_Rock	EVO_ITEM	EARTH_RUNE	Rock_Strange_Form		
 Pet_Rock	EVO_ITEM	FIRE_RUNE	Rock_Golden_Form		
+Pet_Rock	EVO_ITEM_HOLD	PARTY_HAT	Party_Rock		
 Pet_Rock	EVO_ITEM	LAW_RUNE	Party_Rock		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Impling_Lucky_Form	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Demon_Kalgerion_Form	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Steel_Titan	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Esswraith	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Megamastyx	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Soulgazer	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	TzRek_Jad	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Tortle	Max_Golem		
+Pet_Rock	EVO_SPECIFIC_MON_IN_PARTY	Sailfish	Max_Golem		
 					
 Bird_Nest	EVO_LEVEL_PERSONALITY_ONE	10	Pigeon		
 Bird_Nest	EVO_LEVEL_PERSONALITY_TWO	10	Pheasant		
@@ -361,11 +401,13 @@ Bird_Nest	EVO_LEVEL_PERSONALITY_SIX	10	Vultling
 Bird_Nest	EVO_LEVEL_PERSONALITY_SEVEN	10	Seagull_Normal_Form		
 Bird_Nest	EVO_LEVEL_PERSONALITY_EIGHT	10	Phoenling_Rebirth_Form		
 Bird_Nest	EVO_LEVEL_PERSONALITY_NINE	10	Phoenling_Reborn_Form		
+Bird_Nest	EVO_SPECIFIC_MON_IN_PARTY	Cobra_Spirit_Form	Minitrice		
 					
 Ravenling	EVO_LEVEL_DAY	25	Raven_Normal_Form		
 Ravenling	EVO_LEVEL_NIGHT	25	Raven_Nevermore_Form		
 Ravenling	EVO_ITEM	DEATH_RUNE	Raven_Spooky_Form		
 Ravenling	EVO_ITEM	ASTRAL_RUNE	Raven_Crystal_Form		
+Ravenling	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Corxatrice		
 Ravenling	EVO_SPECIFIC_MON_IN_PARTY	Tz_Kih	Raventzhaar		
 					
 Pheasant	EVO_LEVEL_RAIN	34	Harpy_Eagle		
@@ -390,13 +432,16 @@ Vultling	EVO_SPECIFIC_MON_IN_PARTY	Hand_Zombie_Form	Vulture_RS3_Form
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	Zombie_Rat	Vulture_RS3_Form		
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	Broav_Zombie_Form	Vulture_RS3_Form		
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	Impling_Zombie_Form	Vulture_RS3_Form		
+Vultling	EVO_ITEM	DEATH_RUNE	Vulture_Bearded_Form		
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	SkeletalOx_Female_Form	Vulture_Bearded_Form		
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	Skeletal_Wyvern	Vulture_Bearded_Form		
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	Hand_Skeletal_Form	Vulture_Bearded_Form		
 Vultling	EVO_SPECIFIC_MON_IN_PARTY	SkeletalOx_Male_Form	Vulture_Bearded_Form		
+Vultling	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Vulatrice		
 					
-Chompy	EVO_LEVEL_SPE_LT_SPDEF	26	Jubbly		
-Chompy	EVO_LEVEL_SPE_GT_SPDEF	26	Terrorbird_Normal_Form		
+Chompy	EVO_LEVEL	26	Jubbly		
+Chompy	EVO_ITEM	AIR_RUNE	Terrorbird_Normal_Form		
+Chompy	EVO_ITEM	BODY_RUNE	Terrorbird_Normal_Form		
 Jubbly	EVO_SPECIFIC_MON_IN_PARTY	Lobster_Normal_Form	Jubster		
 Terrorbird_Normal_Form	EVO_ITEM	SPIRIT CHARM	Terrorbird_Spirit_Form		
 Terrorbird_Normal_Form	EVO_LEVEL	44	Terrorbird_Warped_Form		
@@ -427,7 +472,7 @@ Snake_Sea_Form	EVO_ITEM	SPIRIT_CHARM	Icxan
 					
 					
 					
-Camel	EVO_LEVEL	30	Ughtanki		
+Camel	EVO_LEVEL	35	Ughtanki		
 Ughtanki	EVO_ITEM	MIND_RUNE	Camel_Warrior_Form		
 Ughtanki	EVO_ITEM	LAW_RUNE	Camel_Bank_Form		
 					
@@ -446,17 +491,17 @@ Kalphite_Guardian_Form	EVO_ITEM	LIFE_RUNE	Kalphite_Queen_Form
 					
 ABYSSALING	EVO_MOVE	TELEPORT	ABYSSAL_MINION_FORM		
 ABYSSAL_MINION_FORM	EVO_LEVEL	36	ABYSSAL_DEMON_FORM		
-ABYSSAL_MINION_FORM	EVO_ITEM	DEATH_RUNE	SPECIES_ABYSSAL_DEMON_REANIMATED_FORM		
+ABYSSAL_MINION_FORM	EVO_ITEM	DEATH_RUNE	ABYSSAL_DEMON_REANIMATED_FORM		
 					
 ABYSSAL_LEECH_FORM	EVO_LEVEL	34	ABYSSAL_WALKER_FORM		
 ABYSSAL_LEECH_FORM	EVO_SPECIFIC_MON_IN_PARTY	Abyssal_DeepSea_Leech	Abyssal_DeepSea_Leech		
 ABYSSAL_LEECH_FORM	EVO_ITEM	WATER_RUNE	Abyssal_DeepSea_Leech		
-ABYSSAL_WALKER_FORM	EVO_LEVEL	48	ABYSSAL_GUARDIAN_FORM		
+ABYSSAL_WALKER_FORM	EVO_LEVEL	48	Abyssal_Guardian		
 					
 Abyssal_DeepSea_Leech	EVO_LEVEL	34	Abyssal_DeepSea_Walker		
 Abyssal_DeepSea_Walker	EVO_LEVEL	48	Abyssal_DeepSea_Guardian		
 					
-SPECIES_ABYSSAL_LURKER_FORM	EVO_LEVEL	42	SPECIES_ABYSSAL_PARASITE_FORM		
+ABYSSAL_LURKER_FORM	EVO_LEVEL	42	ABYSSAL_PARASITE_FORM		
 					
 Golem_Titan	EVO_LEVEL_ATK_GT_DEF	45	Iron_Titan		
 Golem_Titan	EVO_LEVEL_ATK_LT_DEF	45	Steel_Titan		
@@ -472,6 +517,18 @@ Golem_Titan	EVO_ITEM	NATURE_RUNE	Moss_Titan
 Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Phoenix_Reborn_Form	Reborn_Warrior		
 Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Phoenix_Rebirth_Form	Reborn_Ranger		
 Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Phoenling_Rebirth_Form	Reborn_Mage		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Impling_Lucky_Form	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Demon_Kalgerion_Form	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Steel_Titan	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Esswraith	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Megamastyx	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Soulgazer	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	TzRek_Jad	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Tortle	Max_Golem		
+Golem_Titan	EVO_SPECIFIC_MON_IN_PARTY	Sailfish	Max_Golem		
+Ice_Titan	EVO_ITEM	FIRE_RUNE	Geysir_Titan		
+Lava_Titan	EVO_ITEM	WATER_RUNE	Obsidian_Golem		
+Moss_Titan	EVO_ITEM	FIRE_RUNE	Fire_Titan		
 					
 Behemoth_Normal_Form	EVO_LEVEL	30	Behemoth_Adolscent_Form		
 Behemoth_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Yak_Snack_Form	Behemoth_Gluttonous_Form		
@@ -496,16 +553,16 @@ Spiderling	EVO_ITEM	COSMIC_RUNE	Eek
 Spiderling	EVO_SPECIFIC_MON_IN_PARTY	Sardine	Spidine		
 Spiderling	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Normal_Form	Experiment_5_Form		
 Spider_Giant_Form	EVO_LEVEL_DAY	28	Spider_DeadlyRed_Form		
-Spider_Giant_Form	EVO_MOVE	THUNDER_FANG	Spider_Blessed_Form		
+Spider_Giant_Form	EVO_MOVE	THUNDER_FANG	Spider_Blessed_Form		// Learns at level 28.
 Spider_Blessed_Form	EVO_LEVEL_NIGHT	42	kalrag		
 Spider_Giant_Form	EVO_ITEM	NATURE RUNE	Spider_Jungle_Form		
 Spider_Giant_Form	EVO_ITEM	LIFE_RUNE	Venenatis		
 Spider_Huge_Form	EVO_LEVEL_NIGHT	28	Spider_Night_Form		
-Spider_Huge_Form	EVO_MOVE	ICE_FANG	Spider_Ice_Form		
+Spider_Huge_Form	EVO_MOVE	ICE_FANG	Spider_Ice_Form		// Learns at level 28.
 Spider_Huge_Form	EVO_ITEM	SPIRIT CHARM	Spider_Spirit_Form		
 Spider_Huge_Form	EVO_ITEM	LIFE_RUNE	Sarachnis		
 Spider_Fever_Form	EVO_LEVEL	28	Spider_Shadow_Form		
-Spider_Fever_Form	EVO_MOVE	FIRE_FANG	Spider_Lava_Form		
+Spider_Fever_Form	EVO_MOVE	FIRE_FANG	Spider_Lava_Form		// Learns at level 28.
 Spider_Fever_Form	EVO_ITEM	MIND_RUNE	Spider_Corpse_Form		
 Spider_Fever_Form	EVO_ITEM	LIFE_RUNE	Venenatis		
 Spider_Ungael_Form	EVO_LEVEL	28	Spider_Crypt_Form		
@@ -515,8 +572,8 @@ Spider_Ungael_Form	EVO_ITEM	LIFE_RUNE	Sarachnis
 Araxyte_Baby	EVO_LEVEL_ATK_EQ_SPATK	28	Araxyte_Acidic		
 Araxyte_Baby	EVO_LEVEL_ATK_LT_SPATK	28	Araxyte_Mirrorback		
 Araxyte_Baby	EVO_LEVEL_ATK_GT_SPATK	28	Araxyte_Pulsing		
-Araxyte_Baby	EVO_LEVEL_MALE	80	Araxxor		
-Araxyte_Baby	EVO_LEVEL_FEMALE	80	Araxxi		
+Araxyte_Baby	EVO_LEVEL_MALE	90	Araxxor		
+Araxyte_Baby	EVO_LEVEL_FEMALE	90	Araxxi		
 Eek	EVO_SPECIFIC_MON_IN_PARTY	Ping	MinstrlWeb		
 Eek	EVO_SPECIFIC_MON_IN_PARTY	Pong	MinstrlWeb		
 Eek	EVO_SPECIFIC_MON_IN_PARTY	Duckling	MinstrlWeb		
@@ -525,7 +582,6 @@ Impling_Baby_Form	EVO_LEVEL_RANDOM	17	Impling_Magpie_Form
 Impling_Baby_Form	EVO_LEVEL_RANDOM	17	Impling_Gourmet_Form		
 Impling_Baby_Form	EVO_LEVEL_RANDOM	17	Impling_Young_Form		
 Impling_Baby_Form	EVO_LEVEL_RANDOM	17	Impling_Earth_Form		
-Impling_Baby_Form	EVO_SPECIFIC_MON_IN_PARTY	Yak_Snack_Form	Impling_Gourmet_Form		
 Impling_Magpie_Form	EVO_LEVEL_NATURE_LOW_KEY	35	Impling_Kingly_Form		
 Impling_Magpie_Form	EVO_LEVEL_NATURE_AMPED	35	Impling_Snow_Form		
 Impling_Magpie_Form	EVO_LEVEL_DRAGON_TYPE_MON_IN_PARTY	35	Impling_Dragon_Form		
@@ -539,9 +595,19 @@ Impling_Young_Form	EVO_LEVEL_NATURE_LOW_KEY	35	Impling_Easter_Form
 Impling_Young_Form	EVO_ITEM	BODY_RUNE	Impling_Ninja_Form		
 Impling_Young_Form	EVO_ITEM	DEATH_RUNE	Impling_Zombie_Form		
 Impling_Earth_Form	EVO_LEVEL_NATURE_AMPED	35	Impling_Nature_Form		
+Impling_Earth_Form	EVO_LEVEL_NATURE_LOW_KEY	35	Impling_Eclectic_Form		
 Impling_Earth_Form	EVO_ITEM	ASTRAL_RUNE	Impling_Crystal_Form		
 Impling_Earth_Form	EVO_ITEM	COSMIC_RUNE	Impling_Wandering_Form		
-Impling_Earth_Form	EVO_LEVEL_NATURE_LOW_KEY	35	Impling_Eclectic_Form		
+Impling_Baby_Form	EVO_SPECIFIC_MON_IN_PARTY	Sheep_Pirate_Form	Impling_Pirate_Form		
+Impling_Magpie_Form	EVO_SPECIFIC_MON_IN_PARTY	Sheep_Pirate_Form	Impling_Pirate_Form		
+Impling_Gourmet_Form	EVO_SPECIFIC_MON_IN_PARTY	Sheep_Pirate_Form	Impling_Pirate_Form		
+Impling_Young_Form	EVO_SPECIFIC_MON_IN_PARTY	Sheep_Pirate_Form	Impling_Pirate_Form		
+Impling_Earth_Form	EVO_SPECIFIC_MON_IN_PARTY	Sheep_Pirate_Form	Impling_Pirate_Form		
+Impling_Baby_Form	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Ninja_Form	Impling_Ninja_Form		
+Impling_Magpie_Form	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Ninja_Form	Impling_Ninja_Form		
+Impling_Gourmet_Form	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Ninja_Form	Impling_Ninja_Form		
+Impling_Young_Form	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Ninja_Form	Impling_Ninja_Form		
+Impling_Earth_Form	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Ninja_Form	Impling_Ninja_Form		
 					
 					
 Crabling	EVO_LEVEL_MAP_ASGARNIA	12	Rock_Crab_Normal_Form		
@@ -557,7 +623,7 @@ Rock_Crab_Ammonite_Form	EVO_LEVEL	38	Rock_Crab_Giant_Ammonite_Form
 Rock_Crab_Sand_Form	EVO_LEVEL	38	Rock_Crab_Giant_Sand_Form		
 Rock_Crab_Swamp_Form	EVO_LEVEL	38	Rock_Crab_Giant_Swamp_Form		
 Crab_Granite_Form	EVO_LEVEL	38	Lobster_Granite_Form		
-Crab_Granite_Form	EVO_MOVE	CRABHAMMER	Lobster_Rock_Form		
+Crab_Granite_Form	EVO_MOVE	CRABHAMMER	Lobster_Rock_Form		// Learns at level 38.
 Crab_Red_Form	EVO_LEVEL_DAY	33	Giant_Crab_Red_Form		
 Crab_Red_Form	EVO_ITEM	LIFE_RUNE	Knife_Crab		
 Crab_Moss_Form	EVO_LEVEL_DAY	33	Giant_Crab_Moss_Form		
@@ -569,10 +635,8 @@ Heim_Crab	EVO_LEVEL_NIGHT	33	Blue_Crab
 					
 Mackers	EVO_LEVEL_FEMALE	27	Turkey_Female_Form		
 Mackers	EVO_LEVEL_MALE	27	Turkey_Male_Form		
-Turkey_Male_Form	EVO_ITEM	CHOCOLATE_CAKE	Turkey_Protestor_Form		
-Turkey_Male_Form	EVO_ITEM	CUPHOLDER	Turkey_Protestor_Form		
-Turkey_Female_Form	EVO_ITEM	CHOCOLATE_CAKE	Turkey_Protestor_Form		
-Turkey_Female_Form	EVO_ITEM	CUPHOLDER	Turkey_Protestor_Form		
+Turkey_Male_Form	EVO_ITEM	LAW_RUNE	Turkey_Protestor_Form		
+Turkey_Female_Form	EVO_ITEM	LAW_RUNE	Turkey_Protestor_Form		
 					
 Toy_Mouse	EVO_LEVEL_FEMALE	20	Toy_Doll		
 Toy_Mouse	EVO_LEVEL_MALE	20	Toy_Soldier		
@@ -580,8 +644,8 @@ Toy_Mouse	EVO_ITEM	LAW_RUNE	Marionette
 Toy_Mouse	EVO_SPECIFIC_MON_IN_PARTY	Penguin	Penguin_Clockwork_Form		
 Toy_Mouse	EVO_SPECIFIC_MON_IN_PARTY	Cat_Normal_Form	Cat_Clockwork_Form		
 					
-Rabbit	EVO_LEVEL_DAY	27	Wolperting		
-Rabbit	EVO_LEVEL_NIGHT	27	Jackalope		
+Rabbit	EVO_LEVEL_DAY	25	Wolperting		
+Rabbit	EVO_LEVEL_NIGHT	25	Jackalope		
 					
 					
 Dust_Devil	EVO_LEVEL_DAY	35	SmokeDevil		
@@ -604,53 +668,70 @@ Dagannoth_Normal_Form	EVO_ITEM_HOLD_MALE	Shrivelled Dagannoth Claw	Dagannoth_Kin
 					
 					
 					
-Glacor Enduring Form	EVO_LEVEL	30	Glacor		
-Glacor Sapping Form	EVO_ITEM	SOUL_RUNE	Glacor Sapping Form		
-Glacor Unstable Form	EVO_ITEM	ASTRAL_RUNE	Glacor Unstable Form		
-					
+Glacor Enduring Form	EVO_LEVEL	36	Glacor		
+Glacor Enduring Form	EVO_ITEM	SOUL_RUNE	Glacor Sapping Form		
+Glacor Enduring Form	EVO_ITEM	ASTRAL_RUNE	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Grey_Baby	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Red_Baby	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	CHINCHOMPA_GIANT	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Grey_Form	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Red_Form	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Cobalt	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Plutonial	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Viridian	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Crystal	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Black	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Gold_Form	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Mechanized	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Crimson	Glacor Unstable Form		
+Glacor Enduring Form	EVO_SPECIFIC_MON_IN_PARTY	Chinchompa_Baby	Glacor Unstable Form		
 					
 The_Illusive	EVO_MOVE	NIGHTMARE	Everlasting		
-Everlasting	EVO_LEVEL	30	Untouchable		
-Untouchable	EVO_FRIENDSHIP_NIGHT	200	Inadequancy		
-Untouchable	EVO_LEVEL_NINJASK	40	Doubt		
+Everlasting	EVO_LEVEL_NIGHT	30	Untouchable		
+Untouchable	EVO_ITEM	ASTRAL_RUNE	Inadequancy		
+Untouchable	EVO_LEVEL_NINJASK	30	Doubt		
 					
-Butterfly_Ruby_Harvest_Form	EVO_LEVEL	18	Black_Warlock		
+Butterfly_Ruby_Harvest_Form	EVO_LEVEL_NIGHT	18	Black_Warlock		
+Butterfly_Ruby_Harvest_Form	EVO_LEVEL_DAY	18	Butterfly_Sapphire_Glacialis_Form		
 Butterfly_Ruby_Harvest_Form	EVO_ITEM	NATURE_RUNE	Guthixian_Butterfly		
-Butterfly_Sapphire_Glacialis_Form	EVO_LEVEL	18	Snow_Knight		
-Butterfly_Sapphire_Glacialis_Form	EVO_ITEM	ASTRAL_RUNE	Draugen		
-Black_Warlock	EVO_FRIENDSHIP_DAY	200	Forge_Regent		
-Snow_Knight	EVO_FRIENDSHIP_NIGHT	200	Charming_Moth		
+Butterfly_Sapphire_Glacialis_Form	EVO_LEVEL	25	Snow_Knight		
+Black_Warlock	EVO_LEVEL	25	Draugen		
+Black_Warlock	EVO_ITEM	FIRE_RUNE	Forge_Regent		
+Snow_Knight	EVO_ITEM	ASTRAL_RUNE	Charming_Moth		
 Charming_Moth	EVO_LEVEL_NATURE_AMPED	31	Moth_Sunlight_Form		
 Charming_Moth	EVO_LEVEL_NATURE_LOW_KEY	31	Moth_Moonlight_Form		
 					
 Pengling	EVO_FRIENDSHIP	220	Penguin		
 Penguin_McGraw_Form	EVO_SPECIFIC_MON_IN_PARTY	Sheep_White_Form	The_Thing		
-Penguin_McGraw_Form	EVO_MOVE_TYPE	ROCK	Penguin_Spy_Form		
-Penguin_McGraw_Form	EVO_MOVE_TYPE	STEEL	Penguin_Agent_Form		
+Penguin_McGraw_Form	EVO_ITEM	MIND_RUNE	Penguin_Spy_Form		
+Penguin_McGraw_Form	EVO_ITEM	BODY_RUNE	Penguin_Agent_Form		
 Penguin	EVO_LEVEL_NATURE_AMPED	31	Ping		
 Penguin	EVO_LEVEL_NATURE_LOW_KEY	31	Pong	//METAL SOUND	
-Penguin	EVO_ITEM	Fire Rune	Penguin Disguise Cactus Form		
-Penguin	EVO_ITEM	Earth Rune	Penguin Disguise Rock Form		
-Penguin	EVO_ITEM	Nature Rune	Penguin Disguise Bush Form		
-Penguin	EVO_ITEM	Body Rune	Penguin Disguise Box Form		
-Penguin	EVO_LEVEL_MAP_DESERT	50	Penguin Disguise Cactus Form		
-Penguin	EVO_LEVEL_MAP_WILDERNESS	50	Penguin Disguise Rock Form		
-Penguin	EVO_LEVEL_MAP_FREMENNIK	50	Penguin Disguise Rock Form		
-Penguin	EVO_LEVEL_MAP_KANDARIN	50	Penguin Disguise Bush Form		
-Penguin	EVO_LEVEL_MAP_KARAMJA	50	Penguin Disguise Bush Form		
-Penguin	EVO_LEVEL_MAP_MISTHALIN	50	Penguin Disguise Box Form		
-Penguin	EVO_LEVEL_MAP_ASGARNIA	50	Penguin Disguise Box Form		
+Penguin	EVO_ITEM	FIRE_RUNE	Penguin Disguise Cactus Form		
+Penguin	EVO_ITEM	EARTH_RUNE	Penguin Disguise Rock Form		
+Penguin	EVO_ITEM	NATURE_RUNE	Penguin Disguise Bush Form		
+Penguin	EVO_ITEM	BODY_RUNE	Penguin Disguise Box Form		
+Penguin	EVO_LEVEL_MAP_DESERT	33	Penguin Disguise Cactus Form		
+Penguin	EVO_LEVEL_MAP_WILDERNESS	33	Penguin Disguise Rock Form		
+Penguin	EVO_LEVEL_MAP_FREMENNIK	33	Penguin Disguise Rock Form		
+Penguin	EVO_LEVEL_MAP_KANDARIN	33	Penguin Disguise Bush Form		
+Penguin	EVO_LEVEL_MAP_KARAMJA	33	Penguin Disguise Bush Form		
+Penguin	EVO_LEVEL_MAP_MISTHALIN	33	Penguin Disguise Box Form		
+Penguin	EVO_LEVEL_MAP_ASGARNIA	33	Penguin Disguise Box Form		
+Penguin	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Pengatrice		
 					
 Larupia_Normal_Form	EVO_ITEM	SPIRIT_CHARM	Larupia_Spirit_Form		
 					
 Kyatt_Normal_Form	EVO_ITEM	SPIRIT_CHARM	Kyatt_Spirit_Form		
 					
-Monkey_Normal_Form	EVO_MOVE_TYPE	FLYING	Monkey_Ninja_Form		
+Monkey_Normal_Form	EVO_MOVE	MAT_BLOCK	Monkey_Ninja_Form		
 Monkey_Normal_Form	EVO_LEVEL_DAY	40	Gorilla_Normal_Form		
 Monkey_Normal_Form	EVO_LEVEL_NIGHT	40	Gorilla_Ancient_Form		
 Monkey_Normal_Form	EVO_LEVEL_GHOST_TYPE_MON_IN_PARTY	40	Monkey_Zombie_Form		
 Monkey_Normal_Form	EVO_ITEM	DEATH_RUNE	Monkey_Reanimated_Form		
+Monkey_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Impling_Ninja_Form	Monkey_Ninja_Form		
 Monkey_Harmless_Form	EVO_LEVEL_GHOST_TYPE_MON_IN_PARTY	40	Monkey_Ghost_Form		
+Monkey_Harmless_Form	EVO_SPECIFIC_MON_IN_PARTY	Impling_Ninja_Form	Monkey_Ninja_Form		
 Gorilla_Normal_Form	EVO_LEVEL_ATK_EQ_DEF	55	Gorilla_Ayuni_Form		
 Gorilla_Normal_Form	EVO_LEVEL_ATK_LT_DEF	55	Gorilla_Leeuni_Form		
 Gorilla_Normal_Form	EVO_LEVEL_ATK_GT_DEF	55	Gorilla_Eruni_Form		
@@ -691,6 +772,15 @@ Rune	EVO_ITEM	DEATH_RUNE	Essence
 Rune	EVO_ITEM	BLOOD_RUNE	Essence		
 Rune	EVO_ITEM	SOUL_RUNE	Essence		
 Rune	EVO_ITEM	CHAOS_RUNE	Essence		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Impling_Lucky_Form	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Demon_Kalgerion_Form	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Steel_Titan	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Esswraith	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Megamastyx	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Soulgazer	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	TzRek_Jad	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Tortle	Max_Golem		
+Rune	EVO_SPECIFIC_MON_IN_PARTY	Sailfish	Max_Golem		
 					
 Animawhal	EVO_LEVEL	50	Animasaurus		
 					
@@ -703,20 +793,26 @@ Minitrice	EVO_SPECIFIC_MON_IN_PARTY	Saraowl	Saratrice
 Minitrice	EVO_SPECIFIC_MON_IN_PARTY	RAVEN_NORMAL_FORM	Corxatrice		
 Minitrice	EVO_SPECIFIC_MON_IN_PARTY	Vulture	Vulatrice		
 Minitrice	EVO_SPECIFIC_MON_IN_PARTY	Penguin	Pengatrice		
-Minitrice	EVO_ITEM	CHOCOLATE_CAKE	Chocatrice		
+Minitrice	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Chocatrice		
+Minitrice	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Chocatrice		
+Minitrice	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Chocatrice		
+Minitrice	EVO_ITEM_HOLD	CHOCOLATE_MILK	Chocatrice		
 Cockatrice_OSRS_Form	EVO_LEVEL_NIGHT	42	Cockathrice		
 Cockatrice_OSRS_Form	EVO_LEVEL_DAY	42	Cockatrice_Moonlight		
 					
 Bloodveld	EVO_LEVEL_ATK_GT_SPATK	28	Bloodveld_Insatiable_Physical_Form		
 Bloodveld	EVO_LEVEL_ATK_LT_SPATK	28	Bloodveld_Insatiable_Special_Form		
+Bloodveld	EVO_LEVEL_ATK_EQ_SPATK	28	Reaver		
 Bloodveld_Insatiable_Physical_Form	EVO_LEVEL	43	Bloodveld_Mutated_Physical_Form		
 Bloodveld_Insatiable_Physical_Form	EVO_ITEM	BLOOD_RUNE	Bloodveld_Vampiric_Form		
 Bloodveld_Insatiable_Physical_Form	EVO_ITEM	BODY_RUNE	Reaver		
 Bloodveld_Insatiable_Physical_Form	EVO_LEVEL_POISON_TYPE_MON_IN_PARTY	43	Bloodveld_Acidic_Form		
+Bloodveld_Insatiable_Physical_Form	EVO_LEVEL_MAP_MORYTANIA	29	Bloodveld_Vampiric_Form		
 Bloodveld_Insatiable_Special_Form	EVO_LEVEL	43	Bloodveld_Mutated_Special_Form		
 Bloodveld_Insatiable_Special_Form	EVO_ITEM	BLOOD_RUNE	Bloodveld_Rs3_Form		
 Bloodveld_Insatiable_Special_Form	EVO_ITEM	DEATH_RUNE	Bloodveld_Reanimated_Form		
 Bloodveld_Insatiable_Special_Form	EVO_LEVEL_BUG_TYPE_MON_IN_PARTY	43	Bloodveld_Insatiable_Mutated_Form		
+Bloodveld_Insatiable_Special_Form	EVO_LEVEL_MAP_MORYTANIA	29	Bloodveld_Vampiric_Form		
 					
 Tz_Kih	EVO_LEVEL	22	Tz_Kek		
 Tz_Kih	EVO_ITEM	SPIRIT CHARM	Tz_Kih_Spirit_Form		
@@ -746,7 +842,10 @@ Yak_Normal_Form	EVO_ITEM	LAW_RUNE	Yak_ClueScroll_Form
 Yak_Normal_Form	EVO_ITEM	DEATH_RUNE	Yak_Undead_Form		
 Yak_Normal_Form	EVO_ITEM	CHAOS_RUNE	Yak_Moorrissey_Form		
 Yak_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Abyssal_Demon_Form	Yak_Moorrissey_Form		
-Yak_Normal_Form	EVO_ITEM	CHOCOLATE_CAKE	Yak_Robin_Form		
+Yak_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Yak_Robin_Form		
+Yak_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Yak_Robin_Form		
+Yak_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Yak_Robin_Form		
+Yak_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Yak_Robin_Form		
 Yak_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Snow_Imp	Yak_Robin_Form		
 Yak_Normal_Form	EVO_ITEM	COSMIC_RUNE	Yak_Yaktrick_Form		
 Yak_Normal_Form	EVO_ITEM	NATURE_RUNE	Yak_Lumber_Form		
@@ -784,11 +883,11 @@ Phoenling_Reborn_Form	EVO_SPECIFIC_MON_IN_PARTY	Reborn_Mage	Phoenix_Reborn_Form
 Peepling	EVO_LEVEL	30	Sneakrpeep		
 Peepling	EVO_ITEM	MIND_RUNE	Stalker		
 Peepling	EVO_SPECIFIC_MON_IN_PARTY	Flesh_Spoiler_Naked_Form	Flesh_Spoiler_Spawnling		
-Stalker	EVO_LEVEL_DAY	38	Soulseeker		
+Stalker	EVO_LEVEL_DAY	38	Soulgazer		
 Stalker	EVO_LEVEL_NIGHT	38	Stalker_Sentinel_Form		
-Soulseeker	EVO_ITEM	AIR_RUNE	Plane_Freezer		
-Soulseeker	EVO_LEVEL	46	World_Gorger		
-Soulseeker	EVO_ITEM	FIRE_RUNE	Veil_Ripper		
+Soulgazer	EVO_ITEM	AIR_RUNE	Plane_Freezer		
+Soulgazer	EVO_LEVEL	46	World_Gorger		
+Soulgazer	EVO_ITEM	FIRE_RUNE	Veil_Ripper		
 Stalker_Sentinel_Form	EVO_LEVEL	46	Night_Gazer		
 Stalker_Sentinel_Form	EVO_ITEM	BODY_RUNE	Shadow_Forger		
 Stalker_Sentinel_Form	EVO_ITEM	BLOOD_RUNE	Flesh_Spoiler_Covered_Form		
@@ -814,6 +913,7 @@ Chinchompa_Red_Form	EVO_LEVEL	42	Chinchompa_Crimson
 Foal	EVO_LEVEL_DAY	25	Unicorn_White_Form		
 Foal	EVO_LEVEL_NIGHT	25	Unicorn_Black_Form		
 Foal	EVO_SPECIFIC_MON_IN_PARTY	Sheep_Black_Form	Unicorn_Black_Form		
+Foal	EVO_SPECIFIC_MON_IN_PARTY	Cow	Unicow		
 Unicorn_White_Form	EVO_ITEM	SPIRIT_CHARM	Unicorn_Stallion_Form		
 Unicorn_White_Form	EVO_LEVEL	40	Starlight		
 Unicorn_White_Form	EVO_ITEM	CHAOS_RUNE	Unicorn_Gauntlet_Corrupted_Form		
@@ -826,15 +926,17 @@ Bat	EVO_LEVEL_DAY	24	Bat_Box_Form
 Bat	EVO_ITEM	BLOOD_RUNE	VampyreBat		
 Bat	EVO_SPECIFIC_MON_IN_PARTY	Bloodveld	VampyreBat		
 Giant_Bat	EVO_LEVEL_NIGHT	32	Albino_Bat		
-Giant_Bat	EVO_ITEM	SPIRIT_SHARD	Fruit_Bat		
 Giant_Bat	EVO_LEVEL_DAY	32	Deathwing		
+Giant_Bat	EVO_ITEM	BANANA	Fruit_Bat		
 Giant_Bat	EVO_ITEM	CHAOS_RUNE	Bat_Gauntlet_Corrupted_Form		
 Giant_Bat	EVO_ITEM	BLOOD_RUNE	VampyreBat		
+Giant_Bat	EVO_LEVEL_MAP_MORYTANIA	19	VampyreBat		
 Bat_Box_Form	EVO_LEVEL_DAY	32	Warped_Bat		
 Bat_Box_Form	EVO_LEVEL_NIGHT	32	VampyreBat		
 Bat_Box_Form	EVO_ITEM	ASTRAL_RUNE	Kryket_Bat		
 Bat_Box_Form	EVO_ITEM	BLOOD_RUNE	VampyreBat		
 Bat_Box_Form	EVO_ITEM	ASTRAL_RUNE	Bat_Gauntlet_Crystalline_Form		
+Bat_Box_Form	EVO_LEVEL_MAP_MORYTANIA	19	VampyreBat		
 					
 Wolf_Juvenile_Form	EVO_LEVEL_ATK_EQ_SPATK	20	Wolf_Normal_Form		
 Wolf_Juvenile_Form	EVO_LEVEL_ATK_LT_SPATK	20	Wolf_Fenris_Form		
@@ -853,11 +955,8 @@ Rover	EVO_ITEM	BODY_RUNE	Wolf_Dragon_Form
 					
 					
 Fox	EVO_MOVE	HEX	Inari		
-Fox	EVO_SPECIFIC_MON_IN_PARTY	Chicken_Varrock_Form	Fox_RecruitmentDrive		//I probably could code it to check to see if a specific species / family group
-Fox	EVO_SPECIFIC_MON_IN_PARTY	Chicken_Normal_Form	Fox_RecruitmentDrive		
-Fox	EVO_SPECIFIC_MON_IN_PARTY	Chicken_Karamja_Form	Fox_RecruitmentDrive		
-Fox	EVO_SPECIFIC_MON_IN_PARTY	Chicken_Bandosian_Form	Fox_RecruitmentDrive		
-Fox	EVO_SPECIFIC_MON_IN_PARTY	Rooster_Normal_Form	Fox_RecruitmentDrive		
+Fox	EVO_LEVEL	30	Fox_RecruitmentDrive		
+Fox	EVO_SPECIFIC_MON_IN_PARTY	Rooster_Normal_Form	Fox_RecruitmentDrive		//I probably could code it to check to see if a specific species / family group
 Fox	EVO_SPECIFIC_MON_IN_PARTY	Rooster_Karamja_Form	Fox_RecruitmentDrive		
 Fox	EVO_SPECIFIC_MON_IN_PARTY	Rooster_Bandosian_Form	Fox_RecruitmentDrive		
 Fox	EVO_SPECIFIC_MON_IN_PARTY	Rooster_Varrock_Form	Fox_RecruitmentDrive		
@@ -879,16 +978,25 @@ Sea_Turtle	EVO_LEVEL	38	Sea_Turtle_Treasure_Form
 Herbert	EVO_LEVEL	38	Xinachto		
 					
 Cave_Slime	EVO_LEVEL_DAY	24	Jelly_Normal_Form		
-Cave_Slime	EVO_LEVEL_GHOST_TYPE_MON_IN_PARTY	24	AbbySpectr		
-Cave_Slime	EVO_LEVEL_DARK_TYPE_MON_IN_PARTY	24	Slime_LilGloop		
-Cave_Slime	EVO_ITEM	CHOCOLATE_CAKE	Karamel		
 Cave_Slime	EVO_LEVEL_NIGHT	24	Jelly_Alternate_Form		
+Cave_Slime	EVO_ITEM	DEATH_RUNE	AbbySpectr		
+Cave_Slime	EVO_ITEM	CHAOS_RUNE	Slime_LilGloop		
+Cave_Slime	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Karamel		
+Cave_Slime	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Karamel		
+Cave_Slime	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Karamel		
+Cave_Slime	EVO_ITEM_HOLD	CHOCOLATE_MILK	Karamel		
 Jelly_Normal_Form	EVO_LEVEL	38	Jelly_Warped_Form		
 Jelly_Normal_Form	EVO_ITEM	SPIRIT CHARM	Jelly_Spirit_Form		
-Jelly_Normal_Form	EVO_ITEM	CHOCOLATE_CAKE	Jelly_Warped_Vitreous_Form		
+Jelly_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Jelly_Warped_Vitreous_Form		
+Jelly_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Jelly_Warped_Vitreous_Form		
+Jelly_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Jelly_Warped_Vitreous_Form		
+Jelly_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Jelly_Warped_Vitreous_Form		
 Jelly_Alternate_Form	EVO_LEVEL_DAY	38	Jelly_Trollweiss_Form		
 Jelly_Alternate_Form	EVO_LEVEL_NIGHT	38	Jelly_Dungeoneering_Form		
-Jelly_Alternate_Form	EVO_ITEM	CHOCOLATE_CAKE	Jelly_Vitreous_Form		
+Jelly_Alternate_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Jelly_Vitreous_Form		
+Jelly_Alternate_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Jelly_Vitreous_Form		
+Jelly_Alternate_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Jelly_Vitreous_Form		
+Jelly_Alternate_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Jelly_Vitreous_Form		
 Slime_LilGloop	EVO_LEVEL_MALE	38	Slime_King		
 Slime_LilGloop	EVO_LEVEL_FEMALE	38	Slime_Queen		
 					
@@ -916,9 +1024,9 @@ Bear_Cub	EVO_LEVEL_MAP_KARAMJA	25	Bear_Grizzly_Form
 Bear_Cub	EVO_LEVEL_MAP_KANDARIN	25	Bear_Grizzly_Form		
 Bear_Cub	EVO_LEVEL_MAP_DESERT	25	Bear_Grizzly_Form		
 Bear_Cub	EVO_LEVEL_MAP_FREMENNIK	25	Polar_Bear_Normal_Form		
-Bear_Cub	EVO_ITEM	MIND_RUNE	Bear_Normal_Form		
-Bear_Cub	EVO_ITEM	MUD_RUNE	Bear_Grizzly_Form		
-Bear_Cub	EVO_ITEM	MIST_RUNE	Polar_Bear_Normal_Form		
+Bear_Cub	EVO_ITEM	BODY_RUNE	Bear_Normal_Form		
+Bear_Cub	EVO_ITEM	EARTH_RUNE	Bear_Grizzly_Form		
+Bear_Cub	EVO_ITEM	AIR_RUNE	Polar_Bear_Normal_Form		
 Bear_Normal_Form	EVO_LEVEL	41	Kendall		
 Bear_Normal_Form	EVO_ITEM	ASTRAL_RUNE	Bear_Gauntlet_Crystalline_Form		
 Bear_Normal_Form	EVO_ITEM	LIFE_RUNE	Callisto		
@@ -944,7 +1052,9 @@ Kurask	EVO_LEVEL_NIGHT	50	Kurask_Overlord_Form
 Jellyfish_Blubber_Form	EVO_LEVEL	40	Jellyfish		
 					
 Toucan_Tenacious_Male_Form	EVO_LEVEL	32	Toucan_Tuai_Leit_Form		
+Toucan_Tenacious_Male_Form	EVO_ITEM	NATURE_RUNE	Macaw		
 Toucan_Tenacious_Female_Form	EVO_LEVEL	32	Toucan_Tuai_Leit_Form		
+Toucan_Tenacious_Female_Form	EVO_ITEM	NATURE_RUNE	Macaw		
 					
 Kebbit	EVO_LEVEL_DEF_EQ_SPE	15	Kebbit_Polar_Form		
 Kebbit	EVO_LEVEL_DEF_GT_SPE	15	Kebbit_Spotted_Form		
@@ -956,8 +1066,12 @@ Kebbit_Wild_Form	EVO_LEVEL	25	Kebbit_Prickly_Form
 Kebbit_Prickly_Form	EVO_LEVEL_DAY	32	Kebbit_Razor_Form		
 Kebbit_Prickly_Form	EVO_LEVEL_NIGHT	32	Kebbit_Big_Form		
 Kebbit_DesertDevil_Form	EVO_LEVEL	15	Kebbit_Feldip_Weasel_Form		
-Kebbit_DesertDevil_Form	EVO_ITEM	CHOCOLATE_CAKE	Kebbit_Chocolate_Form		
+Kebbit_DesertDevil_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Kebbit_Chocolate_Form		
+Kebbit_DesertDevil_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Kebbit_Chocolate_Form		
+Kebbit_DesertDevil_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Kebbit_Chocolate_Form		
+Kebbit_DesertDevil_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Kebbit_Chocolate_Form		
 Kebbit_Feldip_Weasel_Form	EVO_LEVEL	23	Kebbit_Barbed_Form		
+Kebbit_Chocolate_Form	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Chocatrice		
 Kebbit_Barbed_Form	EVO_MOVE_TYPE	POISON	Kebbit_Diseased_Form		
 					
 Salamander_Green_Form	EVO_LEVEL	15	Salamander_Orange_Form		
@@ -972,6 +1086,8 @@ Gecko	EVO_LEVEL	35	Chameleon
 Gecko	EVO_SPECIFIC_MON_IN_PARTY	Shark_Normal_Form	Sharkizard		
 					
 Baby_Mole	EVO_ITEM	LIFE_RUNE	Giant_Mole		
+Baby_Mole	EVO_ITEM	CHAOS_RUNE	Void_Ravager		
+Baby_Mole	EVO_SPECIFIC_MON_IN_PARTY	Void_Leech	Void_Ravager		
 					
 					
 					
@@ -979,12 +1095,15 @@ Cabbage	EVO_LEVEL	23	Cabbage_Sister_Form
 Cabbage	EVO_ITEM	FIRE_RUNE	Cabbage_Crispy_Form		
 Cabbage	EVO_ITEM	CHAOS_RUNE	Cabbage_Shattered_World_Form		
 Cabbage	EVO_ITEM	TEAR_OF_GUTHIX	BalanceEle		
-Cabbage	EVO_ITEM	CHOCOLATE_CAKE	Dessourt		
+Cabbage	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Dessourt		
+Cabbage	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Dessourt		
+Cabbage	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Dessourt		
+Cabbage	EVO_ITEM_HOLD	CHOCOLATE_MILK	Dessourt		
 					
 Light_Creature	EVO_LEVEL	30	Killerwatt		
 Light_Creature	EVO_ITEM	TEAR_OF_GUTHIX	BalanceEle		
 					
-Dark_Beast_Pup_Form	EVO_LEVEL	40	Dark_Beast_Normal_Form		
+Dark_Beast_Pup_Form	EVO_LEVEL	55	Dark_Beast_Normal_Form		
 Dark_Beast_Normal_Form	EVO_ITEM	BLOOD_RUNE	Dark_Beast_Sotetseg_Form		
 Dark_Beast_Normal_Form	EVO_ITEM	CHAOS_RUNE	Dark_Beast_Gauntlet_Corrupted_Form		
 Dark_Beast_Normal_Form	EVO_ITEM	ASTRAL_RUNE	Dark_Beast_Gauntlet_Crystalline_Form		
@@ -1002,6 +1121,10 @@ Squirrel	EVO_ITEM	EARTH_RUNE	Squirrel_Australian_Form
 					
 Crocodile_Normal_Form	EVO_LEVEL	38	Crocodile_Mutadile_Form		
 Crocodile_Normal_Form	EVO_ITEM	SOUL_RUNE	Crocodile_Ankh_Form		
+Crocodile_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Crocodile_Ukunduka_Form		
+Crocodile_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Crocodile_Ukunduka_Form		
+Crocodile_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Crocodile_Ukunduka_Form		
+Crocodile_Normal_Form	EVO_ITEM_HOLD	CHOCOLATE_MILK	Crocodile_Ukunduka_Form		
 Crocodile_Normal_Form	EVO_SPECIFIC_MON_IN_PARTY	Behemoth_Gluttonous_Form	Crocodile_Ukunduka_Form		
 Crocodile_Normal_Form	EVO_ITEM	WATER RUNE	Crocodile_Red_Form		
 Crocodile_Normal_Form	EVO_ITEM	CHAOS_RUNE	Zebak		
@@ -1017,12 +1140,27 @@ Dobbin	EVO_LEVEL	25	Animour
 Animour	EVO_LEVEL_ATK_GT_SPATK	40	Spirit_Warrior		
 Animour	EVO_LEVEL_ATK_LT_SPATK	40	Spirit_Mage		
 Animour	EVO_LEVEL_ATK_EQ_SPATK	40	Spirit_Ranger		
-Animour	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Strength	Spirit_Warrior		
-Animour	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Ranged	Spirit_Ranger		
-Animour	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Magic	Spirit_Mage		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Strength	Spirit_Fighter		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Ranged	Spirit_Archer		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Magic	Spirit_Mystic		
+Animour	EVO_ITEM	LAW_RUNE	Spirit_Warrior		
+Animour	EVO_ITEM	CHAOS_RUNE	Spirit_Mage		
+Animour	EVO_ITEM	NATURE_RUNE	Spirit_Ranger		
+Animour	EVO_ITEM	DEATH_RUNE	Spirit_Fighter		
+Animour	EVO_ITEM	ASTRAL_RUNE	Spirit_Archer		
+Animour	EVO_ITEM	EARTH_RUNE	Spirit_Mystic		
+Animour	EVO_ITEM	SOUL_RUNE	Spirit_Knight		
+Animour	EVO_ITEM	BODY_RUNE	Spirit_Scout		
+Animour	EVO_ITEM	AIR_RUNE	Spirit_Warmage		
 Animour	EVO_SPECIFIC_MON_IN_PARTY	Saraowl	Spirit_Warrior		
 Animour	EVO_SPECIFIC_MON_IN_PARTY	Zamohawk	Spirit_Ranger		
-Animour	EVO_SPECIFIC_MON_IN_PARTY	Armafalcon	Spirit_Mage		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Guthraptor	Spirit_Mage		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Bandeagle	Spirit_Fighter		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Serepea	Spirit_Archer		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Tumekibis	Spirit_Mystic		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Zaraven	Spirit_Knight		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Ungodgeon	Spirit_Scout		
+Animour	EVO_SPECIFIC_MON_IN_PARTY	Armafalcon	Spirit_Warmage		
 					
 Basilisk_Baby_Form	EVO_LEVEL_DAY	30	Basilisk_RS3_Form		
 Basilisk_Baby_Form	EVO_LEVEL_NIGHT	30	Basilisk_OSRS_Form		
@@ -1030,15 +1168,17 @@ Basilisk_RS3_Form	EVO_LEVEL	42	Basilisk
 Basilisk_OSRS_Form	EVO_LEVEL	42	Basilisk_Knight_Form		
 					
 Protomastyx	EVO_LEVEL_ATK_EQ_SPATK	23	submastyx		
-Protomastyx	EVO_ITEM	CHOCOLATE_CAKE	Tyrannomastyx		
 Protomastyx	EVO_LEVEL_ATK_LT_SPATK	23	paramastyx		
 Protomastyx	EVO_LEVEL_ATK_GT_SPATK	23	archaemastyx		
 Protomastyx	EVO_ITEM	BODY_RUNE	dromomastyx		
+Protomastyx	EVO_ITEM_HOLD	CHOCOLATE_CAKE	Tyrannomastyx		
+Protomastyx	EVO_ITEM_HOLD	CHOCOLATE_BAR_SANDWICH	Tyrannomastyx		
+Protomastyx	EVO_ITEM_HOLD	CHOCOLATE_SUNDAY	Tyrannomastyx		
+Protomastyx	EVO_ITEM_HOLD	CHOCOLATE_MILK	Tyrannomastyx		
 submastyx	EVO_LEVEL	32	spinomastyx		
 paramastyx	EVO_LEVEL	32	gallimastyx		
 archaemastyx	EVO_LEVEL	32	stegomastyx		
 dromomastyx	EVO_LEVEL	32	megamastyx		
-Protomastyx	EVO_ITEM	CHOCOLATE_CAKE	Tyrannomastyx		
 					
 Penance_Spawn	EVO_LEVEL_ATK_EQ_SPATK	30	Penance_Healer		
 Penance_Spawn	EVO_SPECIFIC_MON_IN_PARTY	Tome_of_Ranged	Penance_Ranger		
@@ -1062,52 +1202,91 @@ Red_Eye	EVO_LEVEL	25	Flatfish
 Flatfish	EVO_LEVEL	35	Bouldabass		
 					
 Dark_Core	EVO_LEVEL	70	Corporeal_Beast		
-	EVO_ITEM	LIFE_RUNE	Corporeal_Beast_Zanik_Form		
+Dark_Core	EVO_ITEM	LIFE_RUNE	Corporeal_Beast_Zanik_Form		
 					
 Origami_Balloon	EVO_SPECIFIC_MON_IN_PARTY	Kril_Tsutsaroth	Krill_Balloon		
 Origami_Balloon	EVO_SPECIFIC_MON_IN_PARTY	Spirit_Ranger	Krill_Balloon		
 Origami_Balloon	EVO_LEVEL	30	Balloon_Goat		
 Origami_Balloon	EVO_SPECIFIC_MON_IN_PARTY	Evil_Bob	Balloon_Goat		
 					
-Cockroach_Drone	EVO_LEVEL	25	Cockroach_Worker		
+Cockroach_Drone	EVO_LEVEL_DAY	23	Cockroach_Worker		
+Cockroach_Drone	EVO_LEVEL_NIGHT	23	CAVE_BUG		
 Cockroach_Worker	EVO_LEVEL	37	Cockroach_Soldier		
 Cockroach_Worker	EVO_ITEM	MIND_RUNE	Cockroach_Warped_Form		
 Cockroach_Worker	EVO_ITEM	TEAR_OF_GUTHIX	Fiara		
-Cockroach_Worker	EVO_ITEM	SPIRIT_SHARD	CAVE_BUG		
-Cockroach_Worker	EVO_ITEM	AIR_RUNE	Malcolm		
+CAVE_BUG	EVO_LEVEL	37	Flesh_Crawler		
+CAVE_BUG	EVO_ITEM	TEAR_OF_GUTHIX	Fiara		
+CAVE_BUG	EVO_ITEM	AIR_RUNE	Malcolm		
 					
 					
 					
-Dead_Tree	EVO_LEVEL_DAY	30	Compost_Mound		
 Entling	EVO_LEVEL	30	Ent		
-Ent	EVO_SPECIFIC_MON_IN_PARTY	Monkey_Normal_Form	AgrithNaNa		
-Ent	EVO_ITEM	CHOCOLATE_CAKE	AgrithNaNa		
-Ent	EVO_SPECIFIC_MON_IN_PARTY	Yak_Lumber_Form	Dead_Tree		
+Entling	EVO_LEVEL_DEATH	20	Dead_Tree		
+Entling	EVO_ITEM	DEATH_RUNE	Dead_Tree		
+Dead_Tree	EVO_SPECIFIC_MON_IN_PARTY	Yak_Lumber_Form	Compost_Mound		
+Dead_Tree	EVO_SPECIFIC_MON_IN_PARTY	Beaver	Compost_Mound		
+Dead_Tree	EVO_SPECIFIC_MON_IN_PARTY	Giant_Beaver	Compost_Mound		
+Dead_Tree	EVO_LEVEL_DEATH	35	Compost_Mound		
+Dead_Tree	EVO_ITEM	TEAR_OF_GUTHIX	Derwen		
+Dead_Tree	EVO_ITEM	NATURE_RUNE	Ent		
+Dead_Tree	EVO_LEVEL_WEATHER_HOT	30	Sproutling_Summer_Form		
+Dead_Tree	EVO_LEVEL_WEATHER_WET	30	Sproutling_Spring_Form		
+Dead_Tree	EVO_LEVEL_WEATHER_COLD	30	Sproutling_Winter_Form		
+Dead_Tree	EVO_LEVEL_WEATHER_DUSTY	30	Sproutling_Autumn_Form		
+Compost_Mound	EVO_ITEM	NATURE_RUNE	EvilTurnip		
 Ent	EVO_ITEM	TEAR_OF_GUTHIX	Derwen		
+Ent	EVO_ITEM	DEATH_RUNE	Dead_Tree		
 					
-Jadinko	EVO_LEVEL	20	Jadinko_Common_Form		
-Jadinko_Common_Form	EVO_LEVEL	35	Jadinko_Male_Form		
-Jadinko_Common_Form	EVO_ITEM	LIFE_RUNE	Jadinko_Queen		
+Jadinko	EVO_LEVEL_DAY	20	Jadinko_Common_Form		
+Jadinko	EVO_LEVEL_NIGHT	20	Jadinko_Male_Form		
+Jadinko_Common_Form	EVO_LEVEL_DAY	35	Jadinko_Draconic		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vultling	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_RSHD_Form	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_OSRS_Form	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_RS3_Form	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulture_Pink_Form	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Vulatrice	Jadinko_Carrion		
+Jadinko_Common_Form	EVO_LEVEL_NIGHT	35	Jadinko_Shadow		
+Jadinko_Common_Form	EVO_ITEM	NATURE_RUNE	Jadinko_Guthix		
+Jadinko_Common_Form	EVO_ITEM	CHAOS_RUNE	Jadinko_Zamorak		
+Jadinko_Common_Form	EVO_ITEM	LAW_RUNE	Jadinko_Saradomin		
+Jadinko_Common_Form	EVO_ITEM	EARTH_RUNE	Jadinko_Guthix		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Guthraptor	Jadinko_Guthix		
+Jadinko_Common_Form	EVO_ITEM	FIRE_RUNE	Jadinko_Zamorak		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Zamohawk	Jadinko_Zamorak		
+Jadinko_Common_Form	EVO_ITEM	WATER_RUNE	Jadinko_Saradomin		
+Jadinko_Common_Form	EVO_SPECIFIC_MON_IN_PARTY	Saraowl	Jadinko_Saradomin		
+Jadinko_Male_Form	EVO_LEVEL_DAY	35	Jadinko_Ferocious		
+Jadinko_Male_Form	EVO_LEVEL_POISON_TYPE_MON_IN_PARTY	30	Jadinko_Mutated		
+Jadinko_Male_Form	EVO_SPECIFIC_MON_IN_PARTY	Jadinko_Ferocious	Jadinko_Queen		
 					
-Zygomite	EVO_LEVEL_DAY	41	Zygomite_Magical_Form		
-Zygomite	EVO_LEVEL_NIGHT	41	Zygomite_Zanarian_Form		
-Zygomite	EVO_ITEM	ASTRAL_RUNE	Zygomite_Arcspore_Form		
-Zygomite	EVO_ITEM	EARTH_RUNE	Zygomite_Daemoncap_Form		
-Zygomite	EVO_ITEM	NATURE_RUNE	Zygomite_Ancient_Form		
+Zygomite	EVO_LEVEL_DAY	28	Zygomite_Gloomshroom		
+Zygomite	EVO_LEVEL_NIGHT	28	Zygomite_OSRS		
+Zygomite_Gloomshroom	EVO_LEVEL_DAY	41	Zygomite_Magical_Form		
+Zygomite_Gloomshroom	EVO_LEVEL_NIGHT	41	Zygomite_Zanarian_Form		
+Zygomite_Gloomshroom	EVO_ITEM	ASTRAL_RUNE	Zygomite_Arcspore_Form		
+Zygomite_Gloomshroom	EVO_ITEM	EARTH_RUNE	Zygomite_Daemoncap_Form		
+Zygomite_OSRS	EVO_LEVEL_DAY	41	Zygomite_RSHD_Mutated		
+Zygomite_OSRS	EVO_LEVEL_NIGHT	41	Zygomite_OSRS_Ancient		
+Zygomite_Gloomshroom	EVO_ITEM	NATURE_RUNE	Zygomite_Ancient_Form		
 					
-Animated_Book	EVO_LEVEL_ATK_EQ_SPATK	35	Tome_of_Ranged		
-Animated_Book	EVO_LEVEL_ATK_LT_SPATK	35	Tome_of_Magic		
-Animated_Book	EVO_LEVEL_ATK_GT_SPATK	35	Tome_of_Strength		
+Animated_Book	EVO_LEVEL_ATK_EQ_SPATK	28	Tome_of_Ranged		
+Animated_Book	EVO_LEVEL_ATK_LT_SPATK	28	Tome_of_Magic		
+Animated_Book	EVO_LEVEL_ATK_GT_SPATK	28	Tome_of_Strength		
 					
 Karambwanj	EVO_LEVEL	36	Karambwan		
 Karambwan	EVO_LEVEL	45	Sea_Troll_Queen		
 Pet_Fish	EVO_SPECIFIC_MON_IN_PARTY	Karambwan	Karamthulu_Overlord		
 					
 Guthling	EVO_LEVEL	16	Guthbird		
+Guthling	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Guthatrice		
 Guthbird	EVO_LEVEL	36	Guthraptor		
 Zamling	EVO_LEVEL	16	Zambird		
+Zamling	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Zamatrice		
 Zambird	EVO_LEVEL	36	Zamohawk		
 Saraling	EVO_LEVEL	16	Sarabird		
+Saraling	EVO_SPECIFIC_MON_IN_PARTY	Cockatrice	Saratrice		
 Sarabird	EVO_LEVEL	36	Saraowl		
 Bandling	EVO_LEVEL	16	Bandbird		
 Bandbird	EVO_LEVEL	36	Bandeagle		
@@ -1131,8 +1310,23 @@ Birds_Nest_God_Form	EVO_ITEM	ASTRAL_RUNE	Sereling
 Birds_Nest_God_Form	EVO_ITEM	BODY_RUNE	Ungodling		
 Birds_Nest_God_Form	EVO_ITEM	SOUL_RUNE	Tumekling		
 					
+Mudskipper	EVO_LEVEL	43	Bunyip		
 					
-					
+Snail	EVO_ITEM	EARTH_RUNE	Rockslug_RSHD		
+Snail	EVO_ITEM	WATER_RUNE	Seaslug		
+Snail	EVO_LEVEL_DAY	16	Snail_Giant_RS3		
+Snail	EVO_LEVEL_NIGHT	16	Snail_Giant_OSRS		
+Seaslug	EVO_LEVEL	32	Seaslug_Prince		
+Seaslug	EVO_ITEM	LIFE_RUNE	Mother_Mallum		
+Rockslug_RSHD	EVO_LEVEL	32	Rockslug_OSRS		
+Snail_Giant_OSRS	EVO_ITEM	ASTRAL_RUNE	Snail_Ravenous		
+Snail_Giant_OSRS	EVO_LEVEL_DAY	32	Snail_Bruise_OSRS		
+Snail_Giant_OSRS	EVO_LEVEL_NIGHT	32	Snail_Bark_OSRS		
+Snail_Giant_OSRS	EVO_ITEM	SPIRIT_CHARM	Snail_Thorny		
+Snail_Giant_RS3	EVO_ITEM	BLOOD_RUNE	Snail_Ochre_RS3		
+Snail_Giant_RS3	EVO_LEVEL_DAY	32	Snail_Myre_RS3		
+Snail_Giant_RS3	EVO_LEVEL_NIGHT	32	Snail_Blood_RS3		
+Snail_Giant_RS3	EVO_ITEM	SPIRIT_CHARM	Snail_Thorny		
 					
 					
 					
@@ -1150,4 +1344,25 @@ TzTok_Jad	EVO_MEGA	FRAGMENT_OF_JAS	TzTok_Jad_HD_Mega_Form	TzTokJad
 TzTok_Jad	EVO_MEGA	FRAGMENT_OF_JAS	TzTok_Jad_RS3_Mega_Form	TzTokJad	
 Wolf_Spirit_Form	EVO_MEGA	FRAGMENT_OF_JAS	Helwyr	Wolf	
 Chaos_Ele	EVO_MEGA	FRAGMENT_OF_JAS	Chaos_Ele_Mega_Form	ChaosElemental	
+Pet_Rock	EVO_MEGA	FRAGMENT_OF_JAS	Stone_of_Jas_Mega_Form	Cabbage of Jas	
 Wall_Beast	EVO_MEGA	FRAGMENT_OF_JAS	Wall_Beast_Mega_Form	WallBeast	
+					
+FORM CHANGES					
+Creature_Cute_Form	EVO_FORM_CHANGE		Mean_Creature	CuteCreature	
+Flesh_Spoiler_Covered_Form	EVO_FORM_CHANGE		Flesh_Spoiler_Naked_Form	FleshSpoiler	
+Tome_of_Strength	EVO_FORM_CHANGE		Tome_of_Magic	Tome	
+Tome_of_Strength	EVO_FORM_CHANGE		Tome_of_Ranged	Tome	
+Tome_of_Ranged	EVO_FORM_CHANGE		Tome_of_Strength	Tome	
+Tome_of_Ranged	EVO_FORM_CHANGE		Tome_of_Magic	Tome	
+Tome_of_Magic	EVO_FORM_CHANGE		Tome_of_Strength	Tome	
+Tome_of_Magic	EVO_FORM_CHANGE		Tome_of_Ranged	Tome	
+Strykewyrm_Freezy_Form	EVO_FORM_CHANGE			Strykewyrm	
+Strykewyrm_Leafy_Form	EVO_FORM_CHANGE			Strykewyrm	
+Strykewyrm_Sandy_Form	EVO_FORM_CHANGE			Strykewyrm	
+Strykewyrm_Wildy_Form	EVO_FORM_CHANGE			Strykewyrm	
+Zulrah_Serpentine_Form	EVO_FORM_CHANGE		Zulrah_Magma_Form		
+Zulrah_Serpentine_Form	EVO_FORM_CHANGE		Zulrah_Tanzanite_Form		
+Zulrah_Magma_Form	EVO_FORM_CHANGE		Zulrah_Serpentine_Form		
+Zulrah_Magma_Form	EVO_FORM_CHANGE		Zulrah_Tanzanite_Form		
+Zulrah_Tanzanite_Form	EVO_FORM_CHANGE		Zulrah_Serpentine_Form		
+Zulrah_Tanzanite_Form	EVO_FORM_CHANGE		Zulrah_Magma_Form		
