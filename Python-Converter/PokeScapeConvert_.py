@@ -2,7 +2,7 @@ import json
 import textwrap
 
 stats = open('PokeScape Main Sheet - Stats.tsv', encoding='utf8')
-icons = open('PokeScape Main Sheet - ICONS.tsv', encoding='utf8')
+icons = open('PokeScape Main Sheet - SPRITE INFORMATION.tsv', encoding='utf8')
 evos = open('PokeScape Main Sheet - Evolutions.tsv', encoding='utf8')
 lvlupmoves = open('PokeScape Main Sheet - LevelUp Moves.tsv', encoding='utf8')
 eggmoves = open('PokeScape Main Sheet - Egg Moves.tsv', encoding='utf8')
@@ -28,13 +28,18 @@ Graphicsbuffer = []
 # #(Double check all of these on next implementation. )
     
 
+
+
+
+
 for i in range(len(stats_lines)):
     ENABLE_EVOLUTIONS = True #set to TRUE if you want evolutions.
-    ENABLE_WEBSITE_CONVERT = True 
+    ENABLE_WEBSITE_CONVERT = False 
     ENABLE_REVERSE_EVOLUTIONS = False #set to TRUE if you want reverse evolutions.
     evo = False
-    megas = False
-    megaevo = False
+    HasAltForm = False      #Does this monster have an alternate form?
+    CanMegaEvolve = False   #Can this monster MEGA EVOLVE?
+    IsMega = False          #Is this monster a MEGA?
     ID = 0
     NAME = 1
     Type1 = 2
@@ -88,8 +93,10 @@ for i in range(len(stats_lines)):
         HiddenAbility_ = 'NONE'
     if HiddenAbility_ == '':
         HiddenAbility_ = 'NONE'
-    if 'Mega_Form' in stats_line_json[NAME]:
-        megaevo = True
+    #if 'Mega_Form' in stats_line_json[NAME]:
+    #    CanMegaEvolve = True
+    
+
     buffer.append('\n')    
     buffer.append('\n[SPECIES_' + stats_line_json[NAME].upper() + '] =')
     buffer.append('\n\t{')
@@ -212,6 +219,21 @@ for i in range(len(stats_lines)):
     buffer.append('\n\t\t.frontPicYOffset = ' + icons_line_json[FRONT_HEIGHT] + ',') # Cupholder ------------------
     buffer.append('\n\t\t.enemyMonElevation = ' + icons_line_json[ELEVATION] + ',') # Cupholder
 
+### ARE THE MONSTERS MEGAS? ###
+    if 'Mega_Form' in stats_line_json[NAME]:
+        IsMega = True
+    if 'Thallasus' in stats_line_json[NAME]:
+        IsMega = True
+    if 'Glacor_Arch_Form' in stats_line_json[NAME]:
+        IsMega = True
+    if 'Treborn' in stats_line_json[NAME]:
+        IsMega = True
+    if 'Helwyr' in stats_line_json[NAME]:
+        IsMega = True
+    if 'Cerberus' in stats_line_json[NAME]:
+        IsMega = True
+### ###
+
     if ENABLE_EVOLUTIONS == True:
         for j in range(len(evos_lines)):
             MONSTER = 0
@@ -221,18 +243,24 @@ for i in range(len(stats_lines)):
             EVOLVESINTO = 4
             evos_line_json_dumps = json.dumps(evos_lines[j].split('\t'))
             evos_line_json = json.loads(evos_line_json_dumps)
-            if evos_line_json[MONSTER] == stats_line_json[NAME]:
+            if evos_line_json[MONSTER].upper() == stats_line_json[NAME].upper():
                 evo = True
                 
                 method = evos_line_json[METHOD]
                 secondary = evos_line_json[SECONDARY]
                 requirement = 'SPECIES_' + evos_line_json[REQUIREMENT].replace(' ', '_').upper()
 
-                if method == 'EVO_MEGA':
-                    megas = True
+                if 'EVO_MEGA' in evos_line_json[METHOD]:
+                    CanMegaEvolve = True
+                if 'EVO_FORM_CHANGE' in evos_line_json[METHOD]:
+                    HasAltForm = True
                     evo = False
 
-                if megas == False:
+                if method == 'EVO_MEGA':
+                    HasAltForm = True
+                    evo = False
+
+                if HasAltForm == False:
                     if method == 'EVO_ITEM':
                         secondary = 'ITEM_' + secondary.replace(' ', '_').upper()
                     if method == 'EVO_ITEM_HOLD':
@@ -255,9 +283,9 @@ for i in range(len(stats_lines)):
         if evo:
             buffer[-1] = buffer[-1].replace('},', '}')
             buffer.append('\n\t\t),')
-        if megaevo:
+        if IsMega:
             buffer.append('\n\t\t.isMegaEvolution = TRUE,')
-        if megas or megaevo:
+        if HasAltForm or CanMegaEvolve or IsMega:
             if stats_line_json[FormName] == '':
                 print("Missing Form Name for: " + stats_line_json[NAME])
                 
@@ -285,10 +313,10 @@ for i in range(len(stats_lines)):
                 requirement = 'SPECIES_' + evos_line_json[MONSTER].replace(' ', '_').upper()
 
                 if method == 'EVO_MEGA':
-                    megas = True
+                    HasAltForm = True
                     evo = False
 
-                if megas == False:
+                if HasAltForm == False:
                     if method == 'EVO_ITEM':
                         secondary = 'ITEM_' + secondary.replace(' ', '_').upper()
                     if method == 'EVO_ITEM_HOLD':
@@ -311,9 +339,9 @@ for i in range(len(stats_lines)):
         if evo:
             buffer[-1] = buffer[-1].replace('},', '}')
             buffer.append('\n\t\t),')
-        if megaevo:
+        if IsMega:
             buffer.append('\n\t\t.isMegaEvolution = TRUE,')
-        if megas or megaevo:
+        if HasAltForm or CanMegaEvolve or IsMega:
             if stats_line_json[FormName] == '':
                 print("Missing Form Name for: " + stats_line_json[NAME])
                 
@@ -400,10 +428,10 @@ outFilenewmons.writelines(Graphicsbuffer)
                 requirement = 'SPECIES_' + evos_line_json[MONSTER].replace(' ', '_').upper()
 
                 if method == 'EVO_MEGA':
-                    megas = True
+                    HasAltForm = True
                     evo = False
 
-                if megas == False:
+                if HasAltForm == False:
                     if method == 'EVO_ITEM':
                         secondary = 'ITEM_' + secondary.replace(' ', '_').upper()
                     if method == 'EVO_ITEM_HOLD':
@@ -426,9 +454,9 @@ outFilenewmons.writelines(Graphicsbuffer)
         if evo:
             buffer[-1] = buffer[-1].replace('},', '}')
             buffer.append('\n\t\t),')
-        if megaevo:
+        if CanMegaEvolve:
             buffer.append('\n\t\t.isMegaEvolution = TRUE,')
-        if megas or megaevo:
+        if HasAltForm or CanMegaEvolve:
             if stats_line_json[FormName] == '':
                 print("Missing Form Name for: " + stats_line_json[NAME])
                 
@@ -478,10 +506,10 @@ if ENABLE_WEBSITE_CONVERT == True:
                 species_evolves_into = 'SPECIES_' + evos_line_json[REQUIREMENT].replace(' ', '_').upper()
 
                 if method == 'EVO_MEGA':
-                    megas = True
+                    HasAltForm = True
                     evo = False
 
-                if megas == False:
+                if HasAltForm == False:
                     if method == 'EVO_ITEM':
                         secondary = 'ITEM_' + secondary.replace(' ', '_').upper()
                     if method == 'EVO_ITEM_HOLD':
@@ -505,9 +533,9 @@ if ENABLE_WEBSITE_CONVERT == True:
             if evo:
                 Websitebuffer[-1] = Websitebuffer[-1].replace('},', '}')
                 Websitebuffer.append('\n\t\t),')
-            if megaevo:
+            if IsMega:
                 Websitebuffer.append('\n\t\t.isMegaEvolution = TRUE,')
-            if megas or megaevo:
+            if HasAltForm or CanMegaEvolve or IsMega:
                 if stats_line_json[FormName] == '':
                     print("Missing Form Name for: " + stats_line_json[NAME])
                     

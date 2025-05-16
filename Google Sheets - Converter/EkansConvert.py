@@ -384,7 +384,7 @@ def Start():
     #ConvertEVs()
     ConvertStats()
     #ConvertLevels()
-    ConvertEvolution()
+    #ConvertEvolution()
     #ConvertTMHM()
     ConvertDexEntries()
     ConvertMoves()

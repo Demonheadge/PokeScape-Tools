@@ -9,9 +9,9 @@ from pathlib import Path
 
 # Variables
 #Set MON ID number below here.
-mon_amount = 946  # Set the last (sprite) ID of the stats sheet here (column A)
+mon_amount = 1038  # Set the last (sprite) ID of the stats sheet here (column A)
 sheet_id = "17rpJqvN_AHTA463Q9S8k2ONGBEZvNM47DWqR6RTqy1w"
-download_outdated = False  # Set this to True when you need to (re)download the spreadsheet (FileNotFoundError: [Errno 2] No such file or directory: 'stats_sheet.csv')
+download_outdated = True  # Set this to True when you need to (re)download the spreadsheet (FileNotFoundError: [Errno 2] No such file or directory: 'stats_sheet.csv')
 
 # Derived variables
 csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&id={sheet_id}&gid=0"

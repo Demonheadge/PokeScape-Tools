@@ -170,7 +170,7 @@ fs.readFile('./tsv folder/' + 'PokeScape Main Sheet - EVOLUTION.tsv', 'utf8', (e
 
 	//WEBSITE
 		//WebsiteJSON();
-		//WebsiteJSON_NEW();
+		WebsiteJSON_NEW();
 		//MOVEStest();
 
 
@@ -182,10 +182,10 @@ fs.readFile('./tsv folder/' + 'PokeScape Main Sheet - EVOLUTION.tsv', 'utf8', (e
 
 		//BuildGameCode();
 	//EXPANSION_BaseStats();
-		//MOVES();
+		//MOVES();								//*current
 		//EXPANSION_frontpicAnims();
 		//EXPANSION_learnset_pointers();
-		//EXPANSION_ConvertTMList();
+		///EXPANSION_ConvertTMList();              //*Current:       EXPANSION_TMListOutput.json
 		//TestingEvolutionPrinting();
 
 	//GBA
@@ -223,7 +223,7 @@ fs.readFile('./tsv folder/' + 'PokeScape Main Sheet - EVOLUTION.tsv', 'utf8', (e
 			speciesToNational();
 			anim_mon_front_pics();
 		
-			ConvertTMList();
+			//ConvertTMList();
 	}
 
 
