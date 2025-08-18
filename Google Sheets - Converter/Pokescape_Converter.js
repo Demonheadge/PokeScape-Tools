@@ -1586,45 +1586,73 @@ function WebsiteJSON_NEW() {
 	TM_72 =	73;
 	TM_73 =	74;
 	TM_74 =	75;
-	MOVE_TUTOR_01 =	76;
-	MOVE_TUTOR_02 =	77;
-	MOVE_TUTOR_03 =	78;
-	MOVE_TUTOR_04 =	79;
-	MOVE_TUTOR_05 =	80;
-	MOVE_TUTOR_06 =	81;
-	MOVE_TUTOR_07 =	82;
-	MOVE_TUTOR_08 =	83;
-	MOVE_TUTOR_09 =	84;
-	MOVE_TUTOR_10 =	85;
-	MOVE_TUTOR_11 =	86;
-	MOVE_TUTOR_12 =	87;
-	MOVE_TUTOR_13 =	88;
-	MOVE_TUTOR_14 =	89;
-	MOVE_TUTOR_15 =	90;
-	MOVE_TUTOR_16 =	91;
-	MOVE_TUTOR_17 =	92;
-	MOVE_TUTOR_18 =	93;
-	MOVE_TUTOR_19 =	94;
-	MOVE_TUTOR_20 =	95;
-	MOVE_TUTOR_21 =	96;
-	MOVE_TUTOR_22 =	97;
-	MOVE_TUTOR_23 =	98;
-	MOVE_TUTOR_24 =	99;
-	MOVE_TUTOR_25 =	100;
-	MOVE_TUTOR_26 =	101;
-	MOVE_TUTOR_27 =	102;
-	MOVE_TUTOR_28 =	103;
-	MOVE_TUTOR_29 =	104;
-	MOVE_TUTOR_30 =	105;
-	MOVE_TUTOR_31 =	106;
-	MOVE_TUTOR_32 =	107;
-	MOVE_TUTOR_33 =	108;
-	MOVE_TUTOR_34 =	109;
+	TM_75 =	76;
+	TM_76 =	77;
+	TM_77 =	78;
+	TM_78 =	79;
+	TM_79 =	80;
+	TM_80 =	81;
+	TM_81 =	82;
+	TM_82 =	83;
+	TM_83 =	84;
+	TM_84 =	85;
+	TM_85 =	86;
+	TM_86 =	87;
+	TM_87 =	88;
+	TM_88 =	89;
+	TM_89 =	90;
+	TM_90 =	91;
+	TM_91 =	92;
+	TM_92 =	93;
+	TM_93 =	94;
+	TM_94 =	95;
+	TM_95 =	96;
+	TM_96 =	97;
+	TM_97 =	98;
+	TM_98 =	99;
+	TM_99 =	100;
+	TM_100 =	101;
+	MOVE_TUTOR_01 =	102;
+	MOVE_TUTOR_02 =	103;
+	MOVE_TUTOR_03 =	104;
+	MOVE_TUTOR_04 =	105;
+	MOVE_TUTOR_05 =	106;
+	MOVE_TUTOR_06 =	107;
+	MOVE_TUTOR_07 =	108;
+	MOVE_TUTOR_08 =	109;
+	MOVE_TUTOR_09 =	110;
+	MOVE_TUTOR_10 =	111;
+	MOVE_TUTOR_11 =	112;
+	MOVE_TUTOR_12 =	113;
+	MOVE_TUTOR_13 =	114;
+	MOVE_TUTOR_14 =	115;
+	MOVE_TUTOR_15 =	116;
+	MOVE_TUTOR_16 =	117;
+	MOVE_TUTOR_17 =	118;
+	MOVE_TUTOR_18 =	119;
+	MOVE_TUTOR_19 =	120;
+	MOVE_TUTOR_20 =	121;
+	MOVE_TUTOR_21 =	122;
+	MOVE_TUTOR_22 =	123;
+	MOVE_TUTOR_23 =	124;
+	MOVE_TUTOR_24 =	125;
+	MOVE_TUTOR_25 =	126;
+	MOVE_TUTOR_26 =	127;
+	MOVE_TUTOR_27 =	128;
+	MOVE_TUTOR_28 =	129;
+	MOVE_TUTOR_29 =	130;
+	MOVE_TUTOR_30 =	131;
+	MOVE_TUTOR_31 =	132;
+	MOVE_TUTOR_32 =	133;
+	MOVE_TUTOR_33 =	134;
+	MOVE_TUTOR_34 =	135;
 
-		for (j = 0; j < (1106 + 1); j++) { //[(1106 + 1)  / pokedexData.length]   //can also change the number to pokedexData.length (IT MUST BE THE SPECIFIC NUMBER + 1)
+	AmountOfMonsters = 1114;
+
+		for (j = 0; j < (AmountOfMonsters + 1); j++) { //[(1106 + 1)  / pokedexData.length]   //can also change the number to pokedexData.length (IT MUST BE THE SPECIFIC NUMBER + 1)
 		if (PokeScapeTMs[TM_List[j]][TM_ID_NUMBER] === stats[base_stats[k]][ID]) {
 		z = 0;
-	
+		v = 0;
 				if (PokeScapeTMs[TM_List[j]][TM_01] == 'TRUE') {
 					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_01].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_01].toUpperCase() + '", '
 					z++
@@ -1928,143 +1956,248 @@ function WebsiteJSON_NEW() {
 					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_74].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_74].toUpperCase() + '", '
 					z++
 				}
-				//MOVE TUTORS
 
-				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_01] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_01].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_01].toUpperCase() + '", '
+				
+				if (PokeScapeTMs[TM_List[j]][TM_75] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_75].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_75].toUpperCase() + '", '
 					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_76] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_76].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_76].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_77] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_77].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_77].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_78] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_78].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_78].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_79] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_79].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_79].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_80] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_80].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_80].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_81] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_81].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_81].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_82] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_82].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_82].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_83] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_83].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_83].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_84] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_84].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_84].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_85] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_85].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_85].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_86] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_86].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_86].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_87] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_87].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_87].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_88] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_88].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_88].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_89] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_89].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_89].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_90] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_90].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_90].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_91] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_91].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_91].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_92] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_92].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_92].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_93] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_93].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_93].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_94] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_94].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_94].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_95] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_95].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_95].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_96] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_96].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_96].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_97] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_97].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_97].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_98] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_98].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_98].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_99] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_99].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_99].toUpperCase() + '", '
+					z++
+				}
+				if (PokeScapeTMs[TM_List[j]][TM_100] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TM_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][TM_100].toUpperCase() + '", "TM_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][TM_100].toUpperCase() + '", '
+					z++
+				}
+				//MOVE TUTORS
+				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_01] == 'TRUE') {
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_01].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_01].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_02] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_02].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_02].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_02].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_02].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_03] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_03].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_03].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_03].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_03].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_04] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_04].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_04].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_04].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_04].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_05] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_05].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_05].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_05].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_05].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_06] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_06].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_06].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_06].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_06].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_07] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_07].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_07].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_07].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_07].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_08] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_08].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_08].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_08].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_08].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_09] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_09].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_09].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_09].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_09].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_10] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_10].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_10].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_10].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_10].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_11] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_11].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_11].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_11].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_11].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_12] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_12].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_12].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_12].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_12].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_13] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_13].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_13].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_13].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_13].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_14] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_14].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_14].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_14].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_14].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_15] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_15].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_15].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_15].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_15].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_16] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_16].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_16].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_16].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_16].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_17] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_17].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_17].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_17].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_17].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_18] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_18].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_18].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_18].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_18].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_19] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_19].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_19].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_19].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_19].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_20] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_20].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_20].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_20].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_20].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_21] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_21].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_21].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_21].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_21].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_22] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_22].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_22].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_22].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_22].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_23] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_23].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_23].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_23].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_23].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_24] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_24].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_24].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_24].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_24].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_25] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_25].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_25].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_25].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_25].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_26] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_26].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_26].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_26].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_26].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_27] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_27].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_27].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_27].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_27].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_28] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_28].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_28].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_28].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_28].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_29] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_29].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_29].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_29].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_29].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_30] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_30].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_30].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_30].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_30].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_31] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_31].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_31].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_31].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_31].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_32] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_32].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_32].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_32].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_32].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_33] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_33].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_33].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_33].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_33].toUpperCase() + '", '
+					v++
 				}
 				if (PokeScapeTMs[TM_List[j]][MOVE_TUTOR_34] == 'TRUE') {
-					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + z + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_34].toUpperCase() + '", "TUTOR_Name_Data_' + z + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_34].toUpperCase() + '", '
-					z++
+					WebsiteJSON_TM_Moves_print += ' "TUTOR_Number_Data_' + v + '": "' + PokeScapeTMs[TM_List[0]][MOVE_TUTOR_34].toUpperCase() + '", "TUTOR_Name_Data_' + v + '": "'+ PokeScapeTMs[TM_List[1]][MOVE_TUTOR_34].toUpperCase() + '", '
+					v++
 				}
 				
 
@@ -2117,15 +2250,15 @@ function WebsiteJSON_NEW() {
 		WebsiteJSON_ExtraInfo_print += "}\n"
 		WebsiteJSON_TM_Moves_print += "}\n"
 
-
-	console.log(WebsiteJSON_MonsterInfo_print)
+		//LUKE SAYS HE DOESNT NEED THESE ANYMORE
+	/*console.log(WebsiteJSON_MonsterInfo_print)
 		fs.writeFile('./output/' + 'WebsiteJSON_MonsterInfo_print.json', WebsiteJSON_MonsterInfo_print, function (err) {
 	if (err) throw err;
 	});
 	console.log(WebsiteJSON_ExtraInfo_print)
 		fs.writeFile('./output/' + 'WebsiteJSON_ExtraInfo_print.json', WebsiteJSON_ExtraInfo_print, function (err) {
 	if (err) throw err;
-	});
+	});*/
 	console.log(WebsiteJSON_TM_Moves_print)
 		fs.writeFile('./output/' + 'WebsiteJSON_TM_Moves_print.json', WebsiteJSON_TM_Moves_print, function (err) {
 	if (err) throw err;
@@ -2525,40 +2658,66 @@ function EXPANSION_ConvertTMList() {
 	TM_72 =	73;
 	TM_73 =	74;
 	TM_74 =	75;
-	MOVE_TUTOR_01 =	76;
-	MOVE_TUTOR_02 =	77;
-	MOVE_TUTOR_03 =	78;
-	MOVE_TUTOR_04 =	79;
-	MOVE_TUTOR_05 =	80;
-	MOVE_TUTOR_06 =	81;
-	MOVE_TUTOR_07 =	82;
-	MOVE_TUTOR_08 =	83;
-	MOVE_TUTOR_09 =	84;
-	MOVE_TUTOR_10 =	85;
-	MOVE_TUTOR_11 =	86;
-	MOVE_TUTOR_12 =	87;
-	MOVE_TUTOR_13 =	88;
-	MOVE_TUTOR_14 =	89;
-	MOVE_TUTOR_15 =	90;
-	MOVE_TUTOR_16 =	91;
-	MOVE_TUTOR_17 =	92;
-	MOVE_TUTOR_18 =	93;
-	MOVE_TUTOR_19 =	94;
-	MOVE_TUTOR_20 =	95;
-	MOVE_TUTOR_21 =	96;
-	MOVE_TUTOR_22 =	97;
-	MOVE_TUTOR_23 =	98;
-	MOVE_TUTOR_24 =	99;
-	MOVE_TUTOR_25 =	100;
-	MOVE_TUTOR_26 =	101;
-	MOVE_TUTOR_27 =	102;
-	MOVE_TUTOR_28 =	103;
-	MOVE_TUTOR_29 =	104;
-	MOVE_TUTOR_30 =	105;
-	MOVE_TUTOR_31 =	106;
-	MOVE_TUTOR_32 =	107;
-	MOVE_TUTOR_33 =	108;
-	MOVE_TUTOR_34 =	109;
+	TM_75 =	76;
+	TM_76 =	77;
+	TM_77 =	78;
+	TM_78 =	79;
+	TM_79 =	80;
+	TM_80 =	81;
+	TM_81 =	82;
+	TM_82 =	83;
+	TM_83 =	84;
+	TM_84 =	85;
+	TM_85 =	86;
+	TM_86 =	87;
+	TM_87 =	88;
+	TM_88 =	89;
+	TM_89 =	90;
+	TM_90 =	91;
+	TM_91 =	92;
+	TM_92 =	93;
+	TM_93 =	94;
+	TM_94 =	95;
+	TM_95 =	96;
+	TM_96 =	97;
+	TM_97 =	98;
+	TM_98 =	99;
+	TM_99 =	100;
+	TM_100 =	101;
+	MOVE_TUTOR_01 =	102;
+	MOVE_TUTOR_02 =	103;
+	MOVE_TUTOR_03 =	104;
+	MOVE_TUTOR_04 =	105;
+	MOVE_TUTOR_05 =	106;
+	MOVE_TUTOR_06 =	107;
+	MOVE_TUTOR_07 =	108;
+	MOVE_TUTOR_08 =	109;
+	MOVE_TUTOR_09 =	110;
+	MOVE_TUTOR_10 =	111;
+	MOVE_TUTOR_11 =	112;
+	MOVE_TUTOR_12 =	113;
+	MOVE_TUTOR_13 =	114;
+	MOVE_TUTOR_14 =	115;
+	MOVE_TUTOR_15 =	116;
+	MOVE_TUTOR_16 =	117;
+	MOVE_TUTOR_17 =	118;
+	MOVE_TUTOR_18 =	119;
+	MOVE_TUTOR_19 =	120;
+	MOVE_TUTOR_20 =	121;
+	MOVE_TUTOR_21 =	122;
+	MOVE_TUTOR_22 =	123;
+	MOVE_TUTOR_23 =	124;
+	MOVE_TUTOR_24 =	125;
+	MOVE_TUTOR_25 =	126;
+	MOVE_TUTOR_26 =	127;
+	MOVE_TUTOR_27 =	128;
+	MOVE_TUTOR_28 =	129;
+	MOVE_TUTOR_29 =	130;
+	MOVE_TUTOR_30 =	131;
+	MOVE_TUTOR_31 =	132;
+	MOVE_TUTOR_32 =	133;
+	MOVE_TUTOR_33 =	134;
+	MOVE_TUTOR_34 =	135;
 
 
 	let EXPANSION_TMListOutput_print = ''
@@ -3768,44 +3927,42 @@ if (MultipleEvolutions > 1) {
 
 
 
+	//const fs = require('fs');
+	const evolutions_inputFilePath = 'PokeScape Main Sheet - Evolutions.tsv';
+	const outputFilePath = 'TestA.txt';
 
-
-//const fs = require('fs');
-const evolutions_inputFilePath = 'PokeScape Main Sheet - Evolutions.tsv';
-const outputFilePath = 'TestA.txt';
-
-function TestA() {
-	// Read the TSV file
-	fs.readFile(evolutions_inputFilePath, 'utf8', (err, data) => {
-		if (err) {
-		console.error(`Error reading the file: ${err}`);
-		return;
-		}
-
-		//initiate print
-		let TestA_print = "";
-		TestA_print += 'I hope this works.\n' + data.toUpperCase().replace(/\t/g, '@') + ',\n'
-
-		// Write the data to a new file
-		fs.writeFile(outputFilePath, TestA_print, (err) => {
-		if (err) {
-			console.error(`Error writing the file: ${err}`);
+	function TestA() {
+		// Read the TSV file
+		fs.readFile(evolutions_inputFilePath, 'utf8', (err, data) => {
+			if (err) {
+			console.error(`Error reading the file: ${err}`);
 			return;
-		}
-		console.log(`File has been saved to ${outputFilePath}`);
-		});
-	});
-}
+			}
 
-//EVOLUTIONS TEST
-/*
-function TestA() {
-	let TestA_print = "Test printing an output.";
-	console.log(TestA_print)
-	fs.writeFile('TestA.txt', TestA_print, function (err) {
-  	if (err) throw err;
-	});
-}
-*/
-//Run the function.
-TestA();
+			//initiate print
+			let TestA_print = "";
+			TestA_print += 'I hope this works.\n' + data.toUpperCase().replace(/\t/g, '@') + ',\n'
+
+			// Write the data to a new file
+			fs.writeFile(outputFilePath, TestA_print, (err) => {
+			if (err) {
+				console.error(`Error writing the file: ${err}`);
+				return;
+			}
+			console.log(`File has been saved to ${outputFilePath}`);
+			});
+		});
+	}
+
+	//EVOLUTIONS TEST
+	/*
+	function TestA() {
+		let TestA_print = "Test printing an output.";
+		console.log(TestA_print)
+		fs.writeFile('TestA.txt', TestA_print, function (err) {
+		if (err) throw err;
+		});
+	}
+	*/
+	//Run the function.
+	//TestA();

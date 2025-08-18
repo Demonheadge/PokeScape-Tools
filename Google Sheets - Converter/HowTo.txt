@@ -1,0 +1,3 @@
+For adding new monsters to the TM list.
+WEBSITE: 
+in WebsiteJSON_NEW change: AmountOfMonsters = 1106;
